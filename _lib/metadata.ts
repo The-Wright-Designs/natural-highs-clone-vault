@@ -131,7 +131,7 @@ export function createPageMetadata(config: {
 export function createStrainMetadata(strain: {
   title: string;
   description: string[];
-  type: string;
+  type?: string;
   images: string[];
   price: number;
   inStock: boolean;
@@ -139,7 +139,7 @@ export function createStrainMetadata(strain: {
   const description = strain.description.join(" ").slice(0, 160);
   const keywords = [
     strain.title.toLowerCase(),
-    ...strain.type.toLowerCase().split(" | "),
+    ...(strain.type ? strain.type.toLowerCase().split(" | ") : []),
     "cannabis strain",
     "cannabis clone",
     `${strain.title} clone`,
