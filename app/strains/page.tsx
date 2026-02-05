@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useMemo, useEffect, Suspense } from "react";
-import { useSearchParams } from "next/navigation";
+import { useSearchParams, useRouter } from "next/navigation";
 import FilterSearchComponent from "@/_components/strains-page/filter-search-component";
 import StrainComponent from "@/_components/strains-page/strain-component";
 import PaginationComponent from "@/_components/strains-page/pagination-component";
@@ -31,6 +31,7 @@ const StrainsPageLoading = () => (
 
 const StrainsContent = () => {
   const searchParams = useSearchParams();
+  const router = useRouter();
   const [filter, setFilter] = useState("Latest");
   const [searchTerm, setSearchTerm] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
@@ -48,7 +49,7 @@ const StrainsContent = () => {
       "filter:",
       filterParam,
       "search:",
-      searchParam
+      searchParam,
     );
 
     if (pageParam) {
@@ -71,6 +72,19 @@ const StrainsContent = () => {
 
     setTimeout(() => setIsInitialized(true), 100);
   }, [searchParams]);
+
+  useEffect(() => {
+    if (!isInitialized) return;
+
+    const params = new URLSearchParams();
+    params.set("page", currentPage.toString());
+    params.set("filter", filter);
+    if (searchTerm) {
+      params.set("search", searchTerm);
+    }
+
+    router.replace(`/strains?${params.toString()}`);
+  }, [isInitialized, currentPage, filter, searchTerm, router]);
 
   const handleFilterChange = (newFilter: string) => {
     if (isInitialized && newFilter !== filter) {
@@ -101,8 +115,8 @@ const StrainsContent = () => {
         (strain) =>
           strain.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
           strain.description.some((desc) =>
-            desc.toLowerCase().includes(searchTerm.toLowerCase())
-          )
+            desc.toLowerCase().includes(searchTerm.toLowerCase()),
+          ),
       );
     }
 
@@ -143,7 +157,7 @@ const StrainsContent = () => {
         item.images[0] !== "" &&
         item.title !== "" &&
         item.price !== null &&
-        item.supplier !== ""
+        item.supplier !== "",
     );
   }, [filteredStrains]);
 
@@ -166,7 +180,7 @@ const StrainsContent = () => {
       console.log("Current search:", searchTerm);
       console.log(
         "Strains on current page:",
-        currentStrains.map((s) => s.title)
+        currentStrains.map((s) => s.title),
       );
 
       setTimeout(() => {
@@ -183,8 +197,8 @@ const StrainsContent = () => {
           console.log(
             "Element not found, available strains:",
             Array.from(document.querySelectorAll('[id^="strain-"]')).map(
-              (el) => el.id
-            )
+              (el) => el.id,
+            ),
           );
         }
       }, 500);
@@ -206,24 +220,34 @@ const StrainsContent = () => {
           onFilterChange={handleFilterChange}
           onSearchChange={handleSearchChange}
           strains={validStrains}
+          currentSearch={searchTerm}
+          currentFilter={filter}
         />
       </div>
-      <ul className="grid gap-10 grid-cols-1 place-items-start tablet:gap-15 tablet:grid-cols-2 min-[1000px]:grid-cols-3">
-        {currentStrains.map((strain) => (
-          <StrainComponent
-            key={strain.title.toLowerCase().replace(/\s+/g, "-")}
-            strainData={strain}
+      {currentStrains.length > 0 ? (
+        <>
+          <ul className="grid gap-10 grid-cols-1 place-items-start tablet:gap-15 tablet:grid-cols-2 min-[1000px]:grid-cols-3">
+            {currentStrains.map((strain) => (
+              <StrainComponent
+                key={strain.title.toLowerCase().replace(/\s+/g, "-")}
+                strainData={strain}
+                currentPage={currentPage}
+                filter={filter}
+                searchTerm={searchTerm}
+              />
+            ))}
+          </ul>
+          <PaginationComponent
             currentPage={currentPage}
-            filter={filter}
-            searchTerm={searchTerm}
+            totalPages={totalPages}
+            onPageChange={handlePageChange}
           />
-        ))}
-      </ul>
-      <PaginationComponent
-        currentPage={currentPage}
-        totalPages={totalPages}
-        onPageChange={handlePageChange}
-      />
+        </>
+      ) : searchTerm ? (
+        <div className="flex w-full h-[250px] justify-center items-center">
+          <p>Sorry, no strains match your search.</p>
+        </div>
+      ) : null}
     </div>
   );
 };

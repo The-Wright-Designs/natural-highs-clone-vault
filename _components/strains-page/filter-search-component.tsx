@@ -6,16 +6,28 @@ interface FilterSearchComponentProps {
   onFilterChange?: (filter: string) => void;
   onSearchChange?: (search: string, filteredResults?: any[]) => void;
   strains?: any[];
+  currentSearch?: string;
+  currentFilter?: string;
 }
 
 const FilterSearchComponent = ({
   onFilterChange,
   onSearchChange,
   strains = [],
+  currentSearch = "",
+  currentFilter = "Latest",
 }: FilterSearchComponentProps) => {
-  const [selectedFilter, setSelectedFilter] = useState("Latest");
-  const [searchTerm, setSearchTerm] = useState("");
+  const [selectedFilter, setSelectedFilter] = useState(currentFilter);
+  const [searchTerm, setSearchTerm] = useState(currentSearch);
   const [isSearching, setIsSearching] = useState(false);
+
+  useEffect(() => {
+    setSearchTerm(currentSearch);
+  }, [currentSearch]);
+
+  useEffect(() => {
+    setSelectedFilter(currentFilter);
+  }, [currentFilter]);
 
   const handleFilterChange = (filter: string) => {
     setSelectedFilter(filter);
@@ -39,14 +51,14 @@ const FilterSearchComponent = ({
         onSearchChange?.(searchTerm, strains);
       } else {
         const titleMatches = strains.filter((strain) =>
-          strain.title.toLowerCase().includes(searchTerm.toLowerCase())
+          strain.title.toLowerCase().includes(searchTerm.toLowerCase()),
         );
         const descriptionMatches = strains.filter(
           (strain) =>
             !strain.title.toLowerCase().includes(searchTerm.toLowerCase()) &&
             strain.description.some((desc: string) =>
-              desc.toLowerCase().includes(searchTerm.toLowerCase())
-            )
+              desc.toLowerCase().includes(searchTerm.toLowerCase()),
+            ),
         );
         const filteredResults = [...titleMatches, ...descriptionMatches];
         onSearchChange?.(searchTerm, filteredResults);
@@ -99,7 +111,7 @@ const FilterSearchComponent = ({
         <div className="absolute border border-yellow border-solid inset-0 pointer-events-none rounded-md" />
       </div>
 
-      <div className="flex flex-col gap-2 w-full tablet:w-[200px] tablet:flex-row tablet:items-center tablet:gap-5">
+      <div className="flex flex-col gap-2 w-full tablet:w-auto tablet:flex-row tablet:items-center tablet:gap-5">
         <div className="relative rounded-md">
           <div className="flex items-center justify-between px-3 py-2.5 relative w-full">
             <input
