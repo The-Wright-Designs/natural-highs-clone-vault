@@ -26,7 +26,7 @@ const ButtonType = ({
         disabled,
         pending,
         colorBlack,
-        yellowStroke
+        yellowStroke,
       )}
       disabled={disabled || pending}
       style={{ fontVariant: "small-caps" }}

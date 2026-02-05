@@ -6,13 +6,13 @@ import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
 
 import { sendEmail } from "@/_actions/send-email-actions";
 import ButtonType from "@/_components/ui/buttons/button-type";
+import Link from "next/link";
 
 const ContactFormComponent = () => {
   const { executeRecaptcha } = useGoogleReCaptcha();
   const [showEmailSubmitted, setShowEmailSubmitted] = useState(false);
   const [showMessage, setShowMessage] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [isSubmitting, setIsSubmitting] = useState(false);
 
   useEffect(() => {
     if (showEmailSubmitted) {
@@ -42,13 +42,12 @@ const ContactFormComponent = () => {
           action={async (formData) => {
             try {
               setError(null);
-              setIsSubmitting(true);
 
               if (!executeRecaptcha) {
                 await new Promise((resolve) => setTimeout(resolve, 1000));
                 if (!executeRecaptcha) {
                   setError(
-                    "Security verification unavailable. Please refresh the page and try again."
+                    "Security verification unavailable. Please refresh the page and try again.",
                   );
                   return;
                 }
@@ -63,14 +62,12 @@ const ContactFormComponent = () => {
                 setShowEmailSubmitted(true);
               } else {
                 setError(
-                  result.error || "Failed to send message. Please try again."
+                  result.error || "Failed to send message. Please try again.",
                 );
               }
             } catch (err) {
               setError("An unexpected error occurred. Please try again.");
               console.error("Contact form error:", err);
-            } finally {
-              setIsSubmitting(false);
             }
           }}
         >
@@ -152,9 +149,30 @@ const ContactFormComponent = () => {
                   <p className="text-[14px] text-red-600">{error}</p>
                 </div>
               )}
-              <ButtonType type="submit" colorBlack disabled={isSubmitting}>
-                {isSubmitting ? "Submitting..." : "Submit"}
-              </ButtonType>
+              <div className="flex flex-col gap-4">
+                <ButtonType type="submit" colorBlack>
+                  Submit
+                </ButtonType>
+                <p className="text-[14px] text-black/80">
+                  This site is protected by reCAPTCHA and the Google{" "}
+                  <Link
+                    href="https://policies.google.com/privacy"
+                    target="_blank"
+                    className="underline text-black/80 underline-offset-4 desktop:hover:opacity-85 ease-in-out duration-300"
+                  >
+                    Privacy Policy
+                  </Link>{" "}
+                  and{" "}
+                  <Link
+                    href="https://policies.google.com/terms"
+                    target="_blank"
+                    className="underline text-black/80 underline-offset-4 desktop:hover:opacity-85 ease-in-out duration-300"
+                  >
+                    Terms of Service
+                  </Link>{" "}
+                  apply.
+                </p>
+              </div>
             </>
           )}
         </form>

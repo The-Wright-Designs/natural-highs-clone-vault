@@ -11,6 +11,7 @@ import {
   sendOrderEmailCustomer,
 } from "@/_actions/send-order-emails";
 import { generateOrderNumber } from "@/_lib/utils/generate-order-number";
+import Link from "next/link";
 
 export default function CartSummary() {
   const { executeRecaptcha } = useGoogleReCaptcha();
@@ -43,7 +44,6 @@ export default function CartSummary() {
   };
   const [submissionStartTime, setSubmissionStartTime] = useState(0);
   const [error, setError] = useState<string | null>(null);
-  const [isSubmitting, setIsSubmitting] = useState(false);
   const [termsAcknowledged, setTermsAcknowledged] = useState(false);
   const [isDetailsOpen, setIsDetailsOpen] = useState(false);
   const [formData, setFormData] = useState({
@@ -68,13 +68,12 @@ export default function CartSummary() {
   const handleFormSubmit = async (formDataObj: FormData) => {
     try {
       setError(null);
-      setIsSubmitting(true);
 
       if (!executeRecaptcha) {
         await new Promise((resolve) => setTimeout(resolve, 1000));
         if (!executeRecaptcha) {
           setError(
-            "Security verification unavailable. Please refresh the page and try again."
+            "Security verification unavailable. Please refresh the page and try again.",
           );
           return;
         }
@@ -95,7 +94,8 @@ export default function CartSummary() {
 
       if (!staffResult.success) {
         setError(
-          staffResult.error || "Failed to process your order. Please try again."
+          staffResult.error ||
+            "Failed to process your order. Please try again.",
         );
         return;
       }
@@ -104,7 +104,7 @@ export default function CartSummary() {
 
       if (!customerResult.success) {
         setError(
-          `Order submitted successfully, but there was an issue sending your confirmation email: ${customerResult.error}. Please save your order number: ${orderNumber}`
+          `Order submitted successfully, but there was an issue sending your confirmation email: ${customerResult.error}. Please save your order number: ${orderNumber}`,
         );
         setShowEmailSubmitted(true);
         clearCart();
@@ -134,7 +134,7 @@ export default function CartSummary() {
             staffResult.error ||
             "We encountered an issue processing your order";
           errors.push(
-            `Order processing failed: ${staffError}. Please check your details and try again.`
+            `Order processing failed: ${staffError}. Please check your details and try again.`,
           );
         }
         if (!customerResult.success) {
@@ -144,23 +144,21 @@ export default function CartSummary() {
         }
         setError(
           errors.join(" ") +
-            " If the problem persists, please reach out to our support team."
+            " If the problem persists, please reach out to our support team.",
         );
       }
     } catch (err) {
       setError(
-        "We're experiencing technical difficulties. Please try submitting your order again in a few moments. If the issue continues, contact our support team."
+        "We're experiencing technical difficulties. Please try submitting your order again in a few moments. If the issue continues, contact our support team.",
       );
       console.error("Order submission error:", err);
-    } finally {
-      setIsSubmitting(false);
     }
   };
 
   const handleInputChange = (
     e: React.ChangeEvent<
       HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
-    >
+    >,
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
@@ -311,7 +309,7 @@ export default function CartSummary() {
               "w-full flex items-center justify-between p-2 rounded-md text-left desktop:hover:cursor-pointer desktop:hover:opacity-80 transition-colors",
               {
                 "bg-yellow": !isDetailsOpen,
-              }
+              },
             )}
           >
             <h3
@@ -545,23 +543,40 @@ export default function CartSummary() {
         <ButtonType
           type="submit"
           cssClasses="w-full"
-          disabled={totalItems < 4 || isSubmitting || !termsAcknowledged}
+          disabled={totalItems < 4 || !termsAcknowledged}
           title={
             totalItems < 4
               ? "You must have a minimum of 4 clones in your cart to submit an order"
-              : isSubmitting
-              ? "Processing your order..."
               : !termsAcknowledged
-              ? "You must acknowledge the payment and delivery terms to submit an order"
-              : "Submit Order"
+                ? "You must acknowledge the payment and delivery terms to submit an order"
+                : "Submit Order"
           }
         >
-          {isSubmitting ? "Processing..." : "Submit Order"}
+          Submit Order
         </ButtonType>
       </form>
       <p className="text-[14px] text-white/60 mt-4">
         By placing your order, you agree that we'll use your details only to
         process your purchase — and we'll never share them without your consent.
+      </p>
+      <p className="text-[14px] mt-4 text-white/75">
+        This site is protected by reCAPTCHA and the Google{" "}
+        <Link
+          href="https://policies.google.com/privacy"
+          target="_blank"
+          className="underline underline-offset-4 desktop:hover:opacity-85 ease-in-out duration-300"
+        >
+          Privacy Policy
+        </Link>{" "}
+        and{" "}
+        <Link
+          href="https://policies.google.com/terms"
+          target="_blank"
+          className="underline underline-offset-4 desktop:hover:opacity-85 ease-in-out duration-300"
+        >
+          Terms of Service
+        </Link>{" "}
+        apply.
       </p>
 
       {error && <ErrorPopup message={error} onClose={() => setError(null)} />}
