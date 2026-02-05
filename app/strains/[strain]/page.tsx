@@ -6,6 +6,7 @@ import StrainCartComponent from "@/_lib/utils/strain-cart-component";
 import StockAvailabilityBadges from "@/_components/ui/badges/stock-availability-badges";
 import ButtonLink from "@/_components/ui/buttons/button-link";
 import StrainDetails from "@/_components/strains-page/strain-details";
+import StrainDescription from "@/_components/strain-page/strain-description";
 import { createStrainMetadata } from "@/_lib/metadata";
 
 import strainData from "@/_data/strains-data.json";
@@ -26,7 +27,7 @@ export async function generateMetadata({
 }: StrainPageProps): Promise<Metadata> {
   const { strain: strainSlug } = await params;
   const strain = strainData.find(
-    (strain) => strain.title.toLowerCase().replace(/\s+/g, "-") === strainSlug
+    (strain) => strain.title.toLowerCase().replace(/\s+/g, "-") === strainSlug,
   );
 
   if (!strain) {
@@ -44,7 +45,7 @@ const StrainPage = async ({ params, searchParams }: StrainPageProps) => {
   const searchParam = await searchParams;
 
   const strain = strainData.find(
-    (strain) => strain.title.toLowerCase().replace(/\s+/g, "-") === strainSlug
+    (strain) => strain.title.toLowerCase().replace(/\s+/g, "-") === strainSlug,
   );
 
   if (!strain) {
@@ -97,13 +98,7 @@ const StrainPage = async ({ params, searchParams }: StrainPageProps) => {
               <StockAvailabilityBadges inStock={strain.inStock} />
             </div>
 
-            <div className="text-paragraph">
-              {strain.description.map((desc, index) => (
-                <p key={index} className="mb-5 last:mb-0">
-                  {desc}
-                </p>
-              ))}
-            </div>
+            <StrainDescription description={strain.description} />
           </div>
           <StrainCartComponent
             strainId={strainSlug}

@@ -20,7 +20,7 @@
     "floweringTime": "56-63 days",
     "terpeneProfile": "Orange spices, earthy, skunky",
     "effects": "",
-    "supplier": "Ethos",
+    "supplier": "Ethos Genetics",
     "dateCreated": "2026-01-23T08:40:27"
   },
   {
@@ -137,7 +137,7 @@
     "floweringTime": "63-70 Days",
     "terpeneProfile": "Sweet Floral, Gasoline and Pine, Hints of Candy",
     "effects": "",
-    "supplier": "Ethos",
+    "supplier": "Ethos Genetics",
     "dateCreated": "2026-01-05T09:58:01"
   },
   {
@@ -643,7 +643,7 @@
     "floweringTime": "56-63 Days",
     "terpeneProfile": "Pungent Grapes, Gasoline, Incense, Hints of Berries",
     "effects": "",
-    "supplier": "Ethos",
+    "supplier": "Ethos Genetics",
     "dateCreated": "2025-10-02T14:00:44"
   },
   {
@@ -881,7 +881,7 @@
     "floweringTime": "8 -9 Weeks",
     "terpeneProfile": "Gassy, Floral, Sour Citrus",
     "effects": "Pain, Stress & Anxiety",
-    "supplier": "Ethos",
+    "supplier": "Ethos Genetics",
     "dateCreated": "2025-03-27T07:40:32"
   },
   {
@@ -993,27 +993,8 @@
     "yield": "High",
     "floweringTime": "8 – 9 Weeks",
     "terpeneProfile": "Candy, Cheese, Skunk",
-    "supplier": "Big Buddha",
+    "supplier": "Big Buddha Genetics",
     "dateCreated": "2025-03-26T10:51:10"
-  },
-  {
-    "title": "Papaya Bomb",
-    "images": ["/images/strains/papaya-bomb/papaya-bomb-1.jpg"],
-    "description": [
-      "Papaya Bomb Lineage: PAPAYA X TAC BOMB",
-      "Papaya x TAC Bomb (aka Papaya Bomb) is a mostly indica hybrid from Purple City Genetics and can be cultivated indoors and outdoors (Where the plants will need a flowering time of ±63 days). Described as a indica leaning hybrid, our cut leans towards the sativa side, known for its energizing and uplifting effects. Purple City Genetics Description It is a cross between Papaya strain (Jack Herer x Skunk#1 x Kush) and an extremely powerful and productive TAC Bomb selection. The result is a Indica dominant variety that develops vigorously. It is a plant with a bushy and woody appearance, which withstands well the cold and the heat and it is highly resistant to fungus infections. Papaya x TAC Bomb, with Jack Herer, Skunk#1 and Kush genetics It matures after about 9 weeks, offering a high buds production with a yield of up to 500g per m2 cultivated in an indoor grow tent, and a yield of up to 600-700g per plant cultivated outdoors in open ground. It is a medium size plant with a well-branched and compact structure, with short-medium distance internodes that provide a fairly dense appearance. It is advisable to tutor it and space out the branches, also to prune the lower branches in order to maximise aeration and light penetration, thus enhancing production. Papaya x TAC Bomb, relaxing with an extremely fruity and sweet aroma Its structure makes it a good choice for SCROG cultivation, provided that it has 3-4 weeks of vegetative growth as it shows a 25-50% stretching by the time it passes to the flowering stage. The flowers offer a papaya, ripe fruit and strawberry chewing gum aroma with caramel touches and Skunk nuances. The aromas and flavours are enhanced by using a cannabis vaporiser. It produces a powerful, long-lasting relaxing effect, inducing calm and well-being accompanied by a pleasant psychedelic euphoria."
-    ],
-    "price": 125,
-    "inStock": false,
-    "type": "Hybrid | 40% Indica 60% Sativa",
-    "tac": "25%",
-    "length": "Medium",
-    "yield": "High",
-    "floweringTime": "9 Weeks",
-    "terpeneProfile": "Fruity, Caramel, Skunk",
-    "effects": "Anxiety & Stress Relief",
-    "supplier": "Purple City",
-    "dateCreated": "2025-03-26T10:36:47"
   },
   {
     "title": "Gelato 33",
@@ -1175,24 +1156,6 @@
     "terpeneProfile": "Sweet, Creamy & Earthy",
     "supplier": "Green House Seed CO.",
     "dateCreated": "2025-02-11T09:29:19"
-  },
-  {
-    "title": "Persian Pie",
-    "images": ["/images/strains/persian-pie/persian-pie-1.jpg"],
-    "description": [
-      "Persian Pie Lineage: LEMON TREE X BANANA KRUMBLE",
-      "The Persian Pie is our new combination of two powerful terpene profiles. On one hand, the famous Lemon Tree from the USA, known for its characteristic tree sap flavoured with the most acidic lemon profile, earthiness and citrus. On the other hand, you have our powerful Banana Krumble, whose banana flavour’s sweetness and complexity are mixed with the power of the OG. The combination of those two strains creates an amazing and vigorous hybrid plant that combines the sweetness of the banana with the acidic and earthy notes of the Lemon Tree. The explosion of fruity flavours, counterbalanced by the earthiness and gassy background of the OG, and Sour Diesel ancestors on the exhale, is a beautiful experience. The most expressed terpenes are Myrcene, D-Limonene, and β-Caryophyllene. The plants grow strong and vigorously, with a relatively short internodal length and a beautiful pine tree structure. Their strong branches can hold some heavy flowers and nutrient uptake. The flowers are very tight and compact and will connect to form a big main flower, covered in beautiful trichome layers that will release an army of terpene essences your way if you touch them! With some wide and short-bladed leaves that turn into beautiful colours by the end of flowering time, this is an amazing and resistant strain to grow for beginners and experienced growers alike. The effects are instant and strong, you will feel first the head-buzz of the Lemon Tree terpenes caressing your throat and going to your head joined by the sweetness of the banana flavour, before feeling the hit and power of the OG and Sour background that will spread thru your body creating a very mellow muscle relaxant effect."
-    ],
-    "price": 125,
-    "inStock": false,
-    "type": "Hybrid | 60% Indica 40% Sativa",
-    "tac": "27%",
-    "length": "Medium – Tall",
-    "yield": "High",
-    "floweringTime": "9 Weeks",
-    "terpeneProfile": "Heavy Gas",
-    "supplier": "Green House Seed CO.",
-    "dateCreated": "2025-02-11T08:12:02"
   },
   {
     "title": "Secret Agent",
@@ -1720,29 +1683,6 @@
     "dateCreated": "2024-08-15T14:32:13"
   },
   {
-    "title": "Pink Runtz",
-    "images": [
-      "/images/strains/pink-runtz/pink-runtz-1.jpg",
-      "/images/strains/pink-runtz/pink-runtz-2.jpeg",
-      "/images/strains/pink-runtz/pink-runtz-3.jpg"
-    ],
-    "description": [
-      "Pink Runtz",
-      "Pink Runtz is the result from the cross between a Pink Panties x Rainbow Sherbet will produce a hybrid strain Mostly Hybrid. The strain will likely have a Fruity, Sweet flavour with a strong Mostly Hybrid body high. It also has a High THC 20 – 24%, making it a great choice for those looking for a balanced experience enjoying the effects of an indica and the effects of a sativa. The Pink Runtz strain is a cross between Pink Panties x Rainbow Sherbet, resulting in a strain with a Fruity, Sweet flavour, as well as potent Energetic, Euphoric, Uplifted effects and a combination of cannabis flower, cannabis concentrate, and terpenes. The terpenes found in Pink Runtz are to include Alpha-bisabol, Beta-Ocimene, Geraniol, Humulene, Limonene, Linalool, Myrcene, Nerolidol, Terpineol, Valencene, which are known for their fatigue, muscle spasms, stress properties. Sativa or Indica? When unravelling the mystery of Pink Runtz strain classification, enthusiasts often wonder whether it leans towards Sativa or Indica dominance. With careful examination of its genetics, Pink Runtz emerges as a balanced hybrid, perfectly blending the uplifting characteristics of Sativa with the relaxing qualities of Indica. This balance makes Pink Runtz an ideal choice for any time of the day, providing a euphoric mental high followed by a relaxing physical embrace. The strain’s versatility caters to both recreational and therapeutic users, making Pink Runtz a sought-after hybrid recognized for its harmonious Sativa-Indica fusion. Effects Embarking on a sensory journey with Pink Runtz reveals a tapestry of effects that captivate cannabis enthusiasts. This strain is celebrated for inducing a euphoric and uplifting experience, making it a top choice for those seeking creative inspiration or a mood boost. The effects develop gradually, beginning with a cerebral stimulation that enhances concentration and creativity. As the experience evolves, a gentle wave of relaxation blankets the body, relieving stress and tension. The effects of Pink Runtz go beyond mere recreation, with a therapeutic potential that appeals to both recreational and medicinal users, highlighting the naturalness of the plant. Flowering Time For growers interested in optimizing their Pink Runtz harvest, understanding its flowering time is paramount. Typically, when grown indoors, Pink Runtz has a flowering period of approximately 8 to 9 weeks. Outdoor growers can expect to harvest their Pink Runtz crops between late September and early October. This relatively short flowering period is advantageous for those eager to enjoy the fruits of their labour early. Growers looking for feminized Pink Runtz seeds will find this strain’s efficient flowering time, rooted in its genetics, to be a compelling factor for a successful and timely growing cycle. Smell & Taste The buds of the Pink Runtz are rock hard, soaked in resin and often have a crystalline sheen due to the amount of trichomes. They almost look like they came out of the moon and are excessively covered with resinous trichomes. The taste and flavour can be described as the perfect blend of Fruity, Sweet. Pink Runtz makes a delicious soft smoke and combines a wide range of effects while a balanced experience enjoying the effects of an indica and the effects of a sativa. It´s rare genes produce a premium weed that is hard to beat. Thanks to its large resin production, it is the ideal strain for the production of high-quality extracts and concentrates. A good terpene profile enhances the Flavors of the buds of cannabis plants. Terpenes are volatile organic compounds that are produced in the cannabis plant and have an effect on the aroma and flavour of the buds. The most common terpenes are Alpha-bisabol, Beta-Ocimene, Geraniol, Humulene, Limonene, Linalool, Myrcene, Nerolidol, Terpineol, Valencene. These terpenes act as a kind of energizer for the flavours of the buds, as they add a fresh, citrusy touch to the sweeter flavours found in the buds. On the other hand, terpenes also have an effect on the effect that cannabis produces when smoked, as some terpenes have sedative properties, while others can act as stimulants. For this reason, it is important to know the different terpenes found in a given cannabis strain before smoking it, in order to get the most out of the flavours and effects they produce. Terpenes Fatigue relief: The feeling of fatigue is produced by two types of receptors, and the CB1 and CB2 receptors receive cannabinoids such as THC and CBD, helping the body to achieve a balance of energy and help us through the day. Pain relief: The appearance of the terpenes Myrcene and Humulene is a trigger for pain reduction. When the terpene Eucalyptol is present, it is a great ally in reducing chronic pain. It is present in earthy, musky, woody and spicy aromas and in the terpene Eucalyptol Mint. Stress relief: Limonene is the terpene that should predominate because it reduces stress, improves mood boots and gives us a good dose of happiness. It is present in citrus, lemon and sour aromas. See how others have grown this strain"
-    ],
-    "price": 125,
-    "inStock": true,
-    "type": "Balanced Hybrid | 50% Indica 50% Sativa",
-    "tac": "20–24%",
-    "length": "Medium – Tall",
-    "yield": "Medium",
-    "floweringTime": "8 – 9 Weeks",
-    "terpeneProfile": "Fruity and Sweet",
-    "effects": "Fatigue relief, Pain and Stress",
-    "supplier": "Blimburn Genetics",
-    "dateCreated": "2024-08-15T13:53:06"
-  },
-  {
     "title": "Wedding Cheesecake",
     "images": [
       "/images/strains/wedding-cheesecake/wedding-cheesecake-1.webp",
@@ -1850,7 +1790,7 @@
     "floweringTime": "9 Weeks",
     "terpeneProfile": "Citrus, Sour and Gassy",
     "effects": "Anxiety, Stress and Depression",
-    "supplier": "Ethos",
+    "supplier": "Ethos Genetics",
     "dateCreated": "2023-11-09T09:28:49"
   },
   {
@@ -1893,7 +1833,7 @@
     "floweringTime": "8 – 10 Weeks",
     "terpeneProfile": "Cheese, Sweet Honey and Citrus",
     "effects": "Pain, Anxiety, ADHD and Migraines",
-    "supplier": "Big Buddha",
+    "supplier": "Big Buddha Genetics",
     "dateCreated": "2023-11-09T09:01:14"
   },
   {
@@ -1978,7 +1918,7 @@
     "floweringTime": "9 – 10 Weeks",
     "terpeneProfile": "Sweetest Strawberry, Gas and Pine",
     "effects": "Chronic Pain",
-    "supplier": "Ethos",
+    "supplier": "Ethos Genetics",
     "dateCreated": "2023-11-09T07:55:29"
   },
   {
@@ -2065,7 +2005,7 @@
     "floweringTime": "9 – 10 Weeks",
     "terpeneProfile": "Grape, Tart Grapefruit and Propane",
     "effects": "Anxiety, Stress and Migraines",
-    "supplier": "Ethos",
+    "supplier": "Ethos Genetics",
     "dateCreated": "2023-08-03T16:33:46"
   },
   {
@@ -2106,7 +2046,7 @@
     "yield": "Large",
     "floweringTime": "8 Weeks",
     "terpeneProfile": "Ripe Apples, Fuel and Gas",
-    "supplier": "Perfect Tree",
+    "supplier": "Perfect Tree Genetics",
     "dateCreated": "2023-06-24T08:06:49"
   },
   {
@@ -2170,7 +2110,7 @@
     "floweringTime": "9 Weeks",
     "terpeneProfile": "Sour Gasoline, Pine and Mandarin",
     "effects": "Muscle Tension, Anxiety and Depression",
-    "supplier": "Ethos",
+    "supplier": "Ethos Genetics",
     "dateCreated": "2023-06-19T14:46:59"
   },
   {
@@ -2193,7 +2133,7 @@
     "floweringTime": "10 Weeks",
     "terpeneProfile": "Lemon, Gasoline and Spices",
     "effects": "Pain, Stress and Anxiety",
-    "supplier": "Ethos",
+    "supplier": "Ethos Genetics",
     "dateCreated": "2023-06-19T14:34:13"
   },
   {
@@ -2213,7 +2153,7 @@
     "yield": "Large",
     "floweringTime": "8 – 9 Weeks",
     "terpeneProfile": "Orange, Lemon and Grapefruit",
-    "supplier": "Ethos",
+    "supplier": "Ethos Genetics",
     "dateCreated": "2023-06-19T14:22:14"
   },
   {
@@ -2235,7 +2175,7 @@
     "yield": "Extra Large",
     "floweringTime": "8 – 9 Weeks",
     "terpeneProfile": "Cake Batter, Oranges and Sandalwood",
-    "supplier": "Ethos",
+    "supplier": "Ethos Genetics",
     "dateCreated": "2023-06-19T13:54:37"
   },
   {
@@ -2257,7 +2197,7 @@
     "floweringTime": "8 – 9 Weeks",
     "terpeneProfile": "Tangerine, Skunk and Spices",
     "effects": "Stress and Pain",
-    "supplier": "Ethos",
+    "supplier": "Ethos Genetics",
     "dateCreated": "2023-06-12T11:02:48"
   }
 ]
