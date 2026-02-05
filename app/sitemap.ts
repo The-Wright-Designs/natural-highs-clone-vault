@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import strainData from "@/_data/strains-data.json";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://www.clonekings.co.za";
+  const baseUrl = "https://www.naturalhighs.co.za";
 
   // Static pages
   const staticPages = [

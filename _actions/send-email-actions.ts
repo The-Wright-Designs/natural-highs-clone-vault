@@ -20,7 +20,7 @@ interface MailOptions {
 }
 
 export async function sendEmail(
-  formData: FormData
+  formData: FormData,
 ): Promise<{ success: boolean; error?: string }> {
   const honey = formData.get("_honey");
   const recaptchaToken = formData.get("recaptchaToken") as string;
@@ -66,9 +66,9 @@ export async function sendEmail(
       });
 
       const mailOptions: MailOptions = {
-        from: `Clone Kings <${process.env.SMTP_USER}>`,
+        from: `Natural Highs Clone Vault <${process.env.SMTP_USER}>`,
         to: process.env.SMTP_SEND_TO as string,
-        subject: "Website form submission - Clone Kings",
+        subject: "Website form submission - Natural Highs Clone Vault",
         replyTo: email,
         html: emailHtmlContent,
       };

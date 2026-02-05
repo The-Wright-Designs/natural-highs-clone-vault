@@ -32,7 +32,7 @@ export async function generateMetadata({
 
   if (!strain) {
     return {
-      title: "Strain Not Found | Clone Kings",
+      title: "Strain Not Found | Natural Highs Clone Vault",
       description: "The requested cannabis strain could not be found.",
     };
   }

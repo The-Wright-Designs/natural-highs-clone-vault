@@ -22,7 +22,7 @@ export function generateProductSchema(strain: {
     description: description,
     brand: {
       "@type": "Brand",
-      name: "Clone Kings",
+      name: "Natural Highs Clone Vault",
     },
     category: "Cannabis Clone",
     offers: {
@@ -34,10 +34,10 @@ export function generateProductSchema(strain: {
         : "https://schema.org/OutOfStock",
       seller: {
         "@type": "Organization",
-        name: "Clone Kings",
+        name: "Natural Highs Clone Vault",
       },
     },
-    image: strain.images.map(img => `https://www.clonekings.co.za${img}`),
+    image: strain.images.map((img) => `https://www.naturalhighs.co.za${img}`),
     additionalProperty: [
       {
         "@type": "PropertyValue",
@@ -97,14 +97,14 @@ export function generateOrganizationSchema() {
   return {
     "@context": "https://schema.org/",
     "@type": "Organization",
-    name: "Clone Kings",
+    name: "Natural Highs Clone Vault",
     description: "Premium cannabis clones and genetics in South Africa",
-    url: "https://www.clonekings.co.za",
-    logo: "https://www.clonekings.co.za/logo.webp",
+    url: "https://www.naturalhighs.co.za",
+    logo: "https://www.naturalhighs.co.za/logo.webp",
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "customer service",
-      email: "info@clonekings.co.za",
+      email: "sales@naturalhighs.co.za",
     },
     sameAs: [],
   };
@@ -114,18 +114,20 @@ export function generateWebsiteSchema() {
   return {
     "@context": "https://schema.org/",
     "@type": "WebSite",
-    name: "Clone Kings",
+    name: "Natural Highs Clone Vault",
     description: "Premium cannabis clones and genetics in South Africa",
-    url: "https://www.clonekings.co.za",
+    url: "https://www.naturalhighs.co.za",
     potentialAction: {
       "@type": "SearchAction",
-      target: "https://www.clonekings.co.za/search?q={search_term_string}",
+      target: "https://www.naturalhighs.co.za/search?q={search_term_string}",
       "query-input": "required name=search_term_string",
     },
   };
 }
 
-export function generateBreadcrumbSchema(breadcrumbs: { name: string; url: string }[]) {
+export function generateBreadcrumbSchema(
+  breadcrumbs: { name: string; url: string }[],
+) {
   return {
     "@context": "https://schema.org/",
     "@type": "BreadcrumbList",
@@ -142,11 +144,11 @@ export function generateLocalBusinessSchema() {
   return {
     "@context": "https://schema.org/",
     "@type": "LocalBusiness",
-    name: "Clone Kings",
+    name: "Natural Highs Clone Vault",
     description: "Premium cannabis clones and genetics in South Africa",
-    url: "https://www.clonekings.co.za",
+    url: "https://www.naturalhighs.co.za",
     telephone: "+27 123 456 789",
-    email: "info@clonekings.co.za",
+    email: "sales@naturalhighs.co.za",
     address: {
       "@type": "PostalAddress",
       addressCountry: "ZA",
@@ -157,11 +159,13 @@ export function generateLocalBusinessSchema() {
 }
 
 export function getAllStrainSlugs() {
-  return strainData.map((strain) => strain.title.toLowerCase().replace(/\s+/g, "-"));
+  return strainData.map((strain) =>
+    strain.title.toLowerCase().replace(/\s+/g, "-"),
+  );
 }
 
 export function getStrainBySlug(slug: string) {
   return strainData.find(
-    (strain) => strain.title.toLowerCase().replace(/\s+/g, "-") === slug
+    (strain) => strain.title.toLowerCase().replace(/\s+/g, "-") === slug,
   );
 }

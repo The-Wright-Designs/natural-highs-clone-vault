@@ -12,13 +12,13 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "Clone Kings",
+  name: "Natural Highs Clone Vault",
   description:
     "Premium cannabis clones and genetics in South Africa. We offer high-quality, lab-tested cannabis strains with discreet nationwide delivery.",
-  url: "https://www.clonekings.co.za",
+  url: "https://www.naturalhighs.co.za",
   ogImage: "/open-graph-image.webp",
   links: {
-    email: "info@clonekings.co.za",
+    email: "sales@naturalhighs.co.za",
     phone: "",
   },
 };
@@ -36,7 +36,7 @@ export function createBaseMetadata(): Metadata {
       "cannabis genetics",
       "marijuana clones",
       "cannabis strains",
-      "clone kings",
+      "Natural Highs Clone Vault",
       "south africa cannabis",
       "premium genetics",
       "lab tested cannabis",
@@ -150,7 +150,7 @@ export function createStrainMetadata(strain: {
   ];
 
   return createPageMetadata({
-    title: `${strain.title} - Premium Cannabis Clone | Clone Kings`,
+    title: `${strain.title} - Premium Cannabis Clone | Natural Highs Clone Vault`,
     description,
     keywords,
     ogImage: strain.images[0],

@@ -5,7 +5,7 @@ import { CartItem, CartContextType } from "@/_types/cart-types";
 
 const CartContext = createContext<CartContextType | undefined>(undefined);
 
-const CART_STORAGE_KEY = "clone-kings-cart";
+const CART_STORAGE_KEY = "natural-highs-clone-vault-cart";
 
 export function CartProvider({ children }: { children: ReactNode }) {
   const [items, setItems] = useState<CartItem[]>([]);

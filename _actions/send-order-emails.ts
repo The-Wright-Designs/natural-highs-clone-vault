@@ -15,7 +15,7 @@ interface MailOptions {
 
 export async function sendOrderEmailStaff(
   formData: FormData,
-  skipRecaptcha: boolean = false
+  skipRecaptcha: boolean = false,
 ): Promise<{ success: boolean; error?: string }> {
   const recaptchaToken = formData.get("recaptchaToken") as string;
 
@@ -39,13 +39,13 @@ export async function sendOrderEmailStaff(
     const phone = formData.get("tel") as string;
     const addressLine1 = formData.get("address-line1") as string;
     const addressLine2 = formData.get("address-line2")
-      ? formData.get("address-line2") as string
+      ? (formData.get("address-line2") as string)
       : "";
     const city = formData.get("address-level2") as string;
     const province = formData.get("address-level1") as string;
     const postalCode = formData.get("postal-code") as string;
     const notes = formData.get("notes")
-      ? formData.get("notes") as string
+      ? (formData.get("notes") as string)
       : "";
 
     const name = `${firstName} ${lastName}`;
@@ -102,9 +102,9 @@ export async function sendOrderEmailStaff(
     });
 
     const mailOptions: MailOptions = {
-      from: `Clone Kings <${process.env.SMTP_USER}>`,
+      from: `Natural Highs Clone Vault <${process.env.SMTP_USER}>`,
       to: process.env.SMTP_SEND_TO as string,
-      subject: `New Order - ${orderNumber} (Clone Kings)`,
+      subject: `New Order - ${orderNumber} (Natural Highs Clone Vault)`,
       replyTo: email,
       html: emailHtmlContent,
     };
@@ -120,7 +120,7 @@ export async function sendOrderEmailStaff(
 
 export async function sendOrderEmailCustomer(
   formData: FormData,
-  skipRecaptcha: boolean = false
+  skipRecaptcha: boolean = false,
 ): Promise<{ success: boolean; error?: string }> {
   const recaptchaToken = formData.get("recaptchaToken") as string;
 
@@ -144,13 +144,13 @@ export async function sendOrderEmailCustomer(
     const phone = formData.get("tel") as string;
     const addressLine1 = formData.get("address-line1") as string;
     const addressLine2 = formData.get("address-line2")
-      ? formData.get("address-line2") as string
+      ? (formData.get("address-line2") as string)
       : "";
     const city = formData.get("address-level2") as string;
     const province = formData.get("address-level1") as string;
     const postalCode = formData.get("postal-code") as string;
     const notes = formData.get("notes")
-      ? formData.get("notes") as string
+      ? (formData.get("notes") as string)
       : "";
 
     const name = `${firstName} ${lastName}`;
@@ -207,10 +207,10 @@ export async function sendOrderEmailCustomer(
     });
 
     const mailOptions: MailOptions = {
-      from: `Clone Kings <${process.env.SMTP_USER}>`,
+      from: `Natural Highs Clone Vault <${process.env.SMTP_USER}>`,
       to: email,
-      subject: `Clone Kings order confirmation - ${orderNumber}`,
-      replyTo: "sales@clonekings.co.za",
+      subject: `Natural Highs Clone Vault order confirmation - ${orderNumber}`,
+      replyTo: "sales@naturalhighs.co.za",
       html: emailHtmlContent,
     };
 

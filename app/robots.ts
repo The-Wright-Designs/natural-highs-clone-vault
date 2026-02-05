@@ -31,7 +31,7 @@ export default function robots(): MetadataRoute.Robots {
         crawlDelay: 1,
       },
     ],
-    sitemap: "https://www.clonekings.co.za/sitemap.xml",
-    host: "https://www.clonekings.co.za",
+    sitemap: "https://www.naturalhighs.co.za/sitemap.xml",
+    host: "https://www.naturalhighs.co.za",
   };
 }

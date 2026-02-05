@@ -20,11 +20,11 @@ export default function AboutComponent({
         <div className="grid gap-10 tablet:grid-cols-2 desktop:grid-cols-1 desktop:col-span-full">
           <div className="space-y-4">
             <p>
-              At <span className="font-bold">Clone Kings</span>, we take pride
-              in carefully pheno-hunting top-tier genetics from around the
-              world, making them available as premium cannabis clones for sale
-              to South African growers who want to cultivate at home with
-              confidence.
+              At <span className="font-bold">Natural Highs Clone Vault</span>,
+              we take pride in carefully pheno-hunting top-tier genetics from
+              around the world, making them available as premium cannabis clones
+              for sale to South African growers who want to cultivate at home
+              with confidence.
             </p>
             <p>
               Every clone we offer is hand-selected for vigour, stability, and
@@ -36,32 +36,33 @@ export default function AboutComponent({
             <p>
               Whether you're an experienced grower or just starting out and
               searching for where to buy quality cannabis clones and seeds,{" "}
-              <span className="font-bold">Clone Kings</span> ensures you get
-              premium genetics that set the foundation for success. With a focus
-              on quality, integrity, and innovation, we aim to build a trusted
-              community where passionate cultivators in South Africa can access
-              world-class genetics and grow with confidence.
+              <span className="font-bold">Natural Highs Clone Vault</span>{" "}
+              ensures you get premium genetics that set the foundation for
+              success. With a focus on quality, integrity, and innovation, we
+              aim to build a trusted community where passionate cultivators in
+              South Africa can access world-class genetics and grow with
+              confidence.
             </p>
           </div>
           <div className="grid gap-10 desktop:grid-cols-3">
             <Image
-              src="/images/clone-kings-pic-3.jpg"
-              alt="About Clone Kings"
+              src="/images/natural-highs-clone-vault-pic-3.jpg"
+              alt="About Natural Highs Clone Vault"
               width={380}
               height={300}
               className="hidden desktop:block object-cover desktop:aspect-[4/3.5]"
             />
             <Image
-              src="/images/clone-kings-pic-2.jpg"
-              alt="About Clone Kings"
+              src="/images/natural-highs-clone-vault-pic-2.jpg"
+              alt="About Natural Highs Clone Vault"
               width={800}
               height={600}
               className="object-cover h-full aspect-[4/2.5] tablet:aspect-[4/2] desktop:aspect-[4/3.5]"
               sizes="(max-width:800px) 100vw, (max-width:1280px) 50vw, 640px"
             />
             <Image
-              src="/images/clone-kings-pic-4.png"
-              alt="About Clone Kings"
+              src="/images/natural-highs-clone-vault-pic-4.png"
+              alt="About Natural Highs Clone Vault"
               width={380}
               height={300}
               className="hidden desktop:block object-cover desktop:aspect-[4/3.5]"
@@ -70,7 +71,7 @@ export default function AboutComponent({
         </div>
         <div className="grid gap-10 tablet:grid-cols-2 desktop:grid-cols-1">
           <div className="space-y-5 tablet:order-last desktop:order-first">
-            <h3>Why Clone Kings?</h3>
+            <h3>Why Natural Highs Clone Vault?</h3>
             <p>
               We’re dedicated to providing South African cannabis growers with a
               simple and dependable way to access world-class genetics. By
@@ -84,8 +85,8 @@ export default function AboutComponent({
           </div>
           <div>
             <Image
-              src="/images/clone-kings-pic-5.jpg"
-              alt="About Clone Kings"
+              src="/images/natural-highs-clone-vault-pic-5.jpg"
+              alt="About Natural Highs Clone Vault"
               width={800}
               height={600}
               className="object-cover h-full aspect-[4/2.5] tablet:aspect-[4/2.5]"
@@ -114,8 +115,8 @@ export default function AboutComponent({
           </div>
           <div className="hidden tablet:block">
             <Image
-              src="/images/clone-kings-pic-1.jpg"
-              alt="About Clone Kings"
+              src="/images/natural-highs-clone-vault-pic-1.jpg"
+              alt="About Natural Highs Clone Vault"
               width={800}
               height={600}
               className="h-full object-cover aspect-[4/2.5] tablet:aspect-[4/2] desktop:aspect-[4/1.75]"

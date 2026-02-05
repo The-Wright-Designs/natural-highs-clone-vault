@@ -32,21 +32,14 @@ export function MobileHeader() {
 
   return (
     <div className="relative px-7 pb-3 pt-6 desktop:hidden">
-      <div className="flex w-full items-center justify-between">
-        <Link href="/" className="relative">
-          <Image
-            src="/graphics/crown.png"
-            alt="Crown"
-            width={23}
-            height={18}
-            priority
-            className="absolute -z-10 -left-1 -top-2"
-          />
-          <span className="text-white text-[24px] font-normal uppercase">
-            Clone Kings
-          </span>
+      <div className="flex w-full gap-10 items-center justify-between">
+        <Link href="/" className="text-white text-[24px] font-light uppercase">
+          <span className="text-white text-[24px] font-bold uppercase">
+            Natural Highs
+          </span>{" "}
+          Clone Vault
         </Link>
-        <div className="flex items-center gap-10">
+        <div className="flex shrink-0 items-center gap-10">
           <CartButton onClick={() => router.push("/cart")} />
           <button
             onClick={() => setIsOpen(true)}
@@ -69,7 +62,7 @@ export function MobileHeader() {
           "fixed inset-0 z-50 transform bg-black transition-transform duration-300 ease-in-out",
           {
             "translate-x-full": !isOpen,
-          }
+          },
         )}
       >
         <div

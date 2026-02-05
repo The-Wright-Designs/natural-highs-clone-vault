@@ -52,14 +52,14 @@ export const orderEmailTemplate = ({
           R${(item.price * item.quantity).toFixed(2)}
         </td>
       </tr>
-    `
+    `,
     )
     .join("");
 
   const isCustomer = recipientType === "customer";
   const title = isCustomer
-    ? "Clone Kings - Order Confirmation"
-    : "Clone Kings - New Order";
+    ? "Natural Highs Clone Vault - Order Confirmation"
+    : "Natural Highs Clone Vault - New Order";
 
   return `<html lang="en">
   <head>
@@ -82,9 +82,9 @@ export const orderEmailTemplate = ({
         </td>
         <td width="40%" style="text-align: right; padding: 1rem;">
           <img
-            src="https://real-brides.s3.eu-south-2.amazonaws.com/clone-kings-logo-small.png"
+            src="https://real-brides.s3.eu-south-2.amazonaws.com/natural-highs-clone-vault-logo-small.webp"
             style="height: 100px; width: auto;"
-            alt="Clone Kings"
+            alt="Natural Highs Clone Vault"
           />
         </td>
     </table>
@@ -135,8 +135,8 @@ export const orderEmailTemplate = ({
           </p>
           <p style="font-size: 1rem; font-weight: 500; color: #353535;">
             Address: <span style="font-weight: 200; font-style: italic;">${addressLine1}${
-            addressLine2 ? `, ${addressLine2}` : ""
-          }, ${city}, ${province}, ${postalCode}</span>
+              addressLine2 ? `, ${addressLine2}` : ""
+            }, ${city}, ${province}, ${postalCode}</span>
           </p>
           ${
             notes

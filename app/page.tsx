@@ -6,15 +6,16 @@ import HeroComponent from "@/_components/home-page/hero/hero-component";
 import LatestStrainsSection from "@/_components/home-page/latest-strains/latest-strains-section";
 
 export const metadata: Metadata = createPageMetadata({
-  title: "Premium Cannabis Clones & Genetics | Clone Kings South Africa",
+  title:
+    "Premium Cannabis Clones & Genetics | Natural Highs Clone Vault South Africa",
   description:
-    "Clone Kings offers carefully pheno-hunted premium cannabis clones and genetics for South African growers. Hand-selected for vigour, stability, and exceptional traits including high yields and rich terpene profiles. Empowering growers of all levels with reliable, healthy clones.",
+    "Natural Highs Clone Vault offers carefully pheno-hunted premium cannabis clones and genetics for South African growers. Hand-selected for vigour, stability, and exceptional traits including high yields and rich terpene profiles. Empowering growers of all levels with reliable, healthy clones.",
   keywords: [
     "cannabis clones south africa",
     "premium cannabis genetics",
     "pheno-hunting",
     "cannabis cultivation",
-    "clone kings",
+    "Natural Highs Clone Vault",
     "cannabis strains",
     "south african growers",
     "premium clones",

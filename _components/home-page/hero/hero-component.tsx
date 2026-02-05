@@ -14,8 +14,8 @@ export default function HeroComponent() {
         <div className="from-60% via-70% via-black/60 to-100% to-black/75 bg-gradient-to-b absolute h-full w-full top-0 desktop:hidden" />
         <div className="w-full overflow-x-hidden flex justify-center desktop:items-center desktop:justify-end desktop:h-[313px] desktop:z-10 desktop:overflow-visible">
           <Image
-            src="/logo/clone-kings-logo.png"
-            alt="Clone Kings Logo"
+            src="/logo/natural-highs-clone-vault-logo.webp"
+            alt="Natural Highs Clone Vault Logo"
             width={564}
             height={735}
             className="object-cover min-w-[564px] h-auto desktop:min-w-[471px] desktop:w-[471px] desktop:mr-5"

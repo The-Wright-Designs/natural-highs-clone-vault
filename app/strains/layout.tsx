@@ -2,8 +2,9 @@ import { Metadata } from "next";
 import { createPageMetadata } from "@/_lib/metadata";
 
 export const metadata: Metadata = createPageMetadata({
-  title: "Premium Cannabis Strains | Clone Kings",
-  description: "Browse our complete collection of premium cannabis strains and genetics. Find the perfect cannabis clone with detailed descriptions, effects, and availability.",
+  title: "Premium Cannabis Strains | Natural Highs Clone Vault",
+  description:
+    "Browse our complete collection of premium cannabis strains and genetics. Find the perfect cannabis clone with detailed descriptions, effects, and availability.",
   keywords: [
     "cannabis strains",
     "marijuana strains",

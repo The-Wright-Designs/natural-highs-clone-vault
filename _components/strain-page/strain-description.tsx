@@ -10,10 +10,10 @@ interface StrainDescriptionProps {
 const StrainDescription = ({ description }: StrainDescriptionProps) => {
   const contentRef = useRef<HTMLDivElement>(null);
   const [expanded, setExpanded] = useState(false);
-  const [maxHeight, setMaxHeight] = useState<string>("260px");
+  const [maxHeight, setMaxHeight] = useState<string>("206px");
 
   const fullText = description.join(" ");
-  const isLong = fullText.length > 800;
+  const isLong = fullText.length > 720;
 
   const handleExpand = () => {
     if (!expanded && contentRef.current) {

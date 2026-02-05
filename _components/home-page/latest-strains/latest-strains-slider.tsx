@@ -78,7 +78,7 @@ const LatestStrainsSlider = ({ cssClasses, data }: SlideDataProps) => {
                   item.images[0] !== "" &&
                   item.title !== "" &&
                   item.price !== null &&
-                  item.supplier !== ""
+                  item.supplier !== "",
               )
               .map(({ title, images }, index) => (
                 <SwiperSlide key={index} className="pb-8">
@@ -93,14 +93,14 @@ const LatestStrainsSlider = ({ cssClasses, data }: SlideDataProps) => {
                     <div className="aspect-square overflow-hidden desktop:aspect-auto desktop:h-[304px]">
                       <Image
                         src={images[0]}
-                        alt={`Clone Kings - ${title}`}
+                        alt={`Natural Highs Clone Vault - ${title}`}
                         width={800}
                         height={600}
                         className={classNames(
                           "object-cover transition-transform duration-300 delay-150 desktop:w-full desktop:h-full",
                           {
                             "desktop:scale-105": hoveredIndex === index,
-                          }
+                          },
                         )}
                       />
                     </div>
@@ -125,7 +125,7 @@ const LatestStrainsSlider = ({ cssClasses, data }: SlideDataProps) => {
       <button
         className={classNames(
           "hidden swiper-button-prev-custom absolute left-0 top-1/2 -translate-y-full z-10 w-8 h-8 desktop:flex items-center justify-center desktop:hover:cursor-pointer desktop:hover:scale-[110%] ease-in-out duration-300",
-          { "opacity-50 pointer-events-none": isBeginning }
+          { "opacity-50 pointer-events-none": isBeginning },
         )}
       >
         <svg
@@ -162,7 +162,7 @@ const LatestStrainsSlider = ({ cssClasses, data }: SlideDataProps) => {
       <button
         className={classNames(
           "hidden swiper-button-next-custom absolute right-0 top-1/2 -translate-y-full z-10 w-8 h-8 desktop:flex items-center justify-center desktop:hover:cursor-pointer desktop:hover:scale-[110%] ease-in-out duration-300",
-          { "opacity-50 pointer-events-none": isEnd }
+          { "opacity-50 pointer-events-none": isEnd },
         )}
       >
         <svg
