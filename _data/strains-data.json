@@ -1,5 +1,132 @@
 [
   {
+    "title": "Jet Fuel Gelato",
+    "images": [
+      "/images/strains/jet-fuel-gelato-from-compound-genetics/jet-fuel-gelato-from-compound-genetics-1.jpg"
+    ],
+    "description": [
+      "Jet Fuel Gelato is the child of two legendary strains: Jet Fuel and Gelato. Its effects tend to be euphoric and uplifting, leaving consumers both happy and still functional enough to get tasks completed.",
+      "Immediately after smoking this powerhouse, users have described feeling a jolt of energy then leveling off into a dream-like euphoria. The flavor profile is also quite unique, combining the sweet, dessert-like taste of Gelato with the diesel aroma of Jet Fuel."
+    ],
+    "price": 150,
+    "inStock": false,
+    "type": "Hybrid",
+    "tac": "25%",
+    "length": "",
+    "yield": "",
+    "floweringTime": "",
+    "terpeneProfile": "Sweet, dessert-like taste of Gelato with diesel aroma of Jet Fuel",
+    "effects": "euphoric and uplifting, energy, dream-like euphoria",
+    "supplier": "Compound Genetics"
+  },
+  {
+    "title": "Gas Face",
+    "images": [
+      "/images/strains/gas-face/gas-face-3.jpg",
+      "/images/strains/gas-face/gas-face-1.jpg",
+      "/images/strains/gas-face/gas-face-2.jpg",
+      "/images/strains/gas-face/gas-face-4.webp"
+    ],
+    "description": [
+      "Gas Face will hit you in the face with her dank, pungent fuel aroma. Bred in the US by a very famous breeder, and from equally famous parent strains, it's no wonder that Gas Face is getting a lot of attention from both recreational and medical users.",
+      "Gas Face is a very potent hybrid strain that produces around 25% THC and as high as 33%. Its dense, resinous flowers also contain a rich mix of terpenes, the most dominant being caryophyllene, limonene, and pinene."
+    ],
+    "price": 150,
+    "inStock": false,
+    "type": "Hybrid",
+    "tac": "25-33%",
+    "length": "",
+    "yield": "",
+    "floweringTime": "±65 days",
+    "terpeneProfile": "Dank, pungent fuel aroma",
+    "effects": "Insomnia and sleep issues, stress, anxiety, depression, appetite loss, mood disorders, pain, inflammation, ptsd",
+    "supplier": "Seed Junky Genetics"
+  },
+  {
+    "title": "Fat Bastard",
+    "images": [
+      "/images/strains/fat-bastard/fat-bastard-4.webp",
+      "/images/strains/fat-bastard/fat-bastard-1.jpg",
+      "/images/strains/fat-bastard/fat-bastard-2.jpg",
+      "/images/strains/fat-bastard/fat-bastard-3.jpg"
+    ],
+    "description": [
+      "If you're looking for a strain that will really deliver come harvest time, make space for Blimburn Seeds' Fat Bastard. Fat Bastard pleases on many levels, including absolutely insane THC levels (30-38%). This plant is very adaptable in the grow room.",
+      "As a cross between Gold member and Monkey Spunk, the former brings Indica-dominant genetics and pungent aromas to the table, and the latter offers skunky, berry flavors and energizing effects. A few puffs will quickly elevate your spirits and give you an energy boost."
+    ],
+    "price": 150,
+    "inStock": false,
+    "type": "Hybrid (Gold member x Monkey Spunk)",
+    "tac": "30-38%",
+    "length": "",
+    "yield": "Indoor: 400-600 g/m², Outdoor: up to 900g per plant",
+    "floweringTime": "8-10 weeks",
+    "terpeneProfile": "Skunky, berry flavors, citrus notes, pungent",
+    "effects": "Elevate spirits, energy boost, soothing and relaxing",
+    "supplier": "Blimburn Seeds"
+  },
+  {
+    "title": "Blackberry Moonrocks",
+    "images": [
+      "/images/strains/blackberry-moonrocks/blackberry-moonrocks-1.jpg"
+    ],
+    "description": [
+      "Blackberry Moonrocks follows in the footsteps of other legendary and unique strains of our Seedbank. It was developed from a selected extremely potent female Blue Moonrock and a male Blackberry Kush, which has a particularly pronounced terpene and cannabinoid profile.",
+      "This strain is not recommended for faint-hearteds and beginners, as its gigantic THC content of 32% and the extensive cannabinoid profile ensure long-lasting and very intense effects. The effect is mainly Indica dominant, very strong and is complemented by inspiring mood-enhancing Sativa effects."
+    ],
+    "price": 150,
+    "inStock": false,
+    "type": "80% Indica, 20% Sativa (Blue Moonrock x Blackberry Kush)",
+    "tac": "33%",
+    "length": "110-130cm",
+    "yield": "550g/m² indoors, up to 700g per plant outdoors",
+    "floweringTime": "8-9 weeks",
+    "terpeneProfile": "Blueberry, lavender, blackberry with light citrus note",
+    "effects": "Pain, anxiety, ms and sleep disorders, deep sleep, calming",
+    "supplier": "Anesia Seeds"
+  },
+  {
+    "title": "Sugar Cake",
+    "images": ["/images/strains/sugar-cake/sugar-cake-1.jpg"],
+    "description": [
+      "Sugar Cake by Black Farm Genetics is a cross of Divorce Cake x Jungle Cake. This 60% Indica 40% Sativa has a flowering time of 8-10 Weeks. This specific composition suggests that Sugar Cake leans more towards the relaxing and sedating effects associated with Indica strains.",
+      "The presence of Sativa genetics in Sugar Cake's lineage suggests that it may also offer some uplifting and energizing effects, which can help to balance out its relaxing qualities and provide a more well-rounded experience for users."
+    ],
+    "price": 150,
+    "inStock": false,
+    "type": "60% Indica 40% Sativa (Divorce Cake x Jungle Cake)",
+    "tac": "22-26%",
+    "length": "90-130cm",
+    "yield": "400-550 grams per m2 indoors",
+    "floweringTime": "8-10 weeks",
+    "terpeneProfile": "",
+    "effects": "Calmness, relaxation, sleep aid, uplifting and energizing effects",
+    "supplier": "Black Farm Genetics"
+  },
+  {
+    "title": "Kosher Kush Breath",
+    "images": [
+      "/images/strains/kosher-kush-breath/kosher-kush-breath-3.jpg",
+      "/images/strains/kosher-kush-breath/kosher-kush-breath-1.jpg",
+      "/images/strains/kosher-kush-breath/kosher-kush-breath-2.jpg",
+      "/images/strains/kosher-kush-breath/kosher-kush-breath-4.png"
+    ],
+    "description": [
+      "Kosher Kush Breath is a hybrid strain that has been reported to help patients with menstrual symptoms, mood stabilization, and anti-inflammation. A great strain for helping you get through the stresses of the daily grind.",
+      "If you need a little afternoon pick me up, or you need something to help when it is that time of the month, Kosher Kush Breath has got you covered."
+    ],
+    "price": 150,
+    "inStock": false,
+    "type": "Hybrid",
+    "tac": "",
+    "length": "",
+    "yield": "",
+    "floweringTime": "",
+    "terpeneProfile": "",
+    "effects": "Menstrual symptoms, mood stabilization, anti-inflammation, stress relief",
+    "supplier": "Hicks Ford Farm"
+  },
+  {
     "title": "Orange Velvet Underground RBX",
     "images": [
       "/images/strains/orange-velvet-underground/orange-velvet-underground-1.jpeg",
@@ -264,8 +391,10 @@
   {
     "title": "Bubblegum Sherbet",
     "images": [
-      "/images/strains/bubblegum-sherbet/bubblegum-sherbet-1.webp",
-      "/images/strains/bubblegum-sherbet/bubblegum-sherbet-2.jpg"
+      "/images/strains/bubblegum-sherbet/bubblegum-sherbet-4.webp",
+      "/images/strains/bubblegum-sherbet/bubblegum-sherbet-1.jpg",
+      "/images/strains/bubblegum-sherbet/bubblegum-sherbet-2.jpg",
+      "/images/strains/bubblegum-sherbet/bubblegum-sherbet-3.jpg"
     ],
     "description": [
       "Bubble Gum Sherb was developed from an extremely potent female, Bubble Gum x Sunset Sherbet, that has a particularly pronounced terpene and cannabinoid profile. Both parent plants were selected through a long process of searching for flavor and potency to finally obtain the properties we had envisioned. This strain is not recommended for the faint of heart or beginners as its extreme THC content of 30%-32% and the extensive cannabinoid profile ensure long-lasting and very intense effects. It gives us euphoric effects accompanied by body relaxation."
@@ -1428,7 +1557,7 @@
       "See how others have grown this strain"
     ],
     "price": 150,
-    "inStock": true,
+    "inStock": false,
     "type": "Hybrid | 60% Indica 40% Sativa",
     "tac": "25%",
     "length": "Medium – Tall",
@@ -1760,7 +1889,7 @@
       "Tart Pops is a mostly Indica variety from In-House genetics and can be cultivated indoors (where the plants will need a flowering time of ±60 days) and outdoors. Lineage: (SKUNK x TANGIE x ZKITTLES) x PURPLE PUNCH"
     ],
     "price": 125,
-    "inStock": true,
+    "inStock": false,
     "type": "Fem Photo, Indica Dominant Hybrid",
     "tac": "25–30%",
     "length": "Medium",
