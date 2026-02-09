@@ -1,5 +1,6 @@
 import { MetadataRoute } from "next";
 import strainData from "@/_data/strains-data.json";
+import { createStrainSlug } from "@/_lib/utils/slug-utils";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.naturalhighs.co.za";
@@ -28,7 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Dynamic strain pages
   const strainPages = strainData.map((strain) => ({
-    url: `${baseUrl}/strains/${strain.title.toLowerCase().replace(/\s+/g, "-")}`,
+    url: `${baseUrl}/strains/${createStrainSlug(strain.title)}`,
     lastModified: new Date(),
     changeFrequency: "monthly" as const,
     priority: 0.8,

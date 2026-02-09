@@ -4,6 +4,7 @@ import { StrainProps } from "@/_types/general-types";
 import Link from "next/link";
 import StrainCartComponent from "@/_lib/utils/strain-cart-component";
 import StockAvailabilityBadges from "@/_components/ui/badges/stock-availability-badges";
+import { createStrainSlug } from "@/_lib/utils/slug-utils";
 
 interface StrainComponentProps {
   strainData: StrainProps;
@@ -18,7 +19,7 @@ const StrainComponent = ({
   filter = "Latest",
   searchTerm = "",
 }: StrainComponentProps) => {
-  const strainSlug = strainData.title.toLowerCase().replace(/\s+/g, "-");
+  const strainSlug = createStrainSlug(strainData.title);
 
   const buildStrainUrl = () => {
     const params = new URLSearchParams();
@@ -63,7 +64,7 @@ const StrainComponent = ({
         </div>
       </Link>
       <StrainCartComponent
-        strainId={strainData.title.toLowerCase().replace(/\s+/g, "-")}
+        strainId={strainSlug}
         strainName={strainData.title}
         strainPrice={strainData.price}
         strainImage={strainData.images[0]}

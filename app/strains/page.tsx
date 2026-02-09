@@ -5,6 +5,7 @@ import { useSearchParams, useRouter } from "next/navigation";
 import FilterSearchComponent from "@/_components/strains-page/filter-search-component";
 import StrainComponent from "@/_components/strains-page/strain-component";
 import PaginationComponent from "@/_components/strains-page/pagination-component";
+import { createStrainSlug } from "@/_lib/utils/slug-utils";
 
 import strainData from "@/_data/strains-data.json";
 
@@ -233,7 +234,7 @@ const StrainsContent = () => {
           <ul className="grid gap-10 grid-cols-1 place-items-start tablet:gap-15 tablet:grid-cols-2 min-[1000px]:grid-cols-3">
             {currentStrains.map((strain) => (
               <StrainComponent
-                key={strain.title.toLowerCase().replace(/\s+/g, "-")}
+                key={createStrainSlug(strain.title)}
                 strainData={strain}
                 currentPage={currentPage}
                 filter={filter}

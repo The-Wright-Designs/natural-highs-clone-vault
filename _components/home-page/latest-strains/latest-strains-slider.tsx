@@ -10,6 +10,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState, useRef, useEffect } from "react";
 import classNames from "classnames";
+import { createStrainSlug } from "@/_lib/utils/slug-utils";
 
 interface SlideDataProps {
   data: { title: string; images: string[]; price: number; supplier: string }[];
@@ -84,9 +85,7 @@ const LatestStrainsSlider = ({ cssClasses, data }: SlideDataProps) => {
                 .map(({ title, images }, index) => (
                   <SwiperSlide key={index} className="pb-8">
                     <Link
-                      href={`/strains/${title
-                        .toLowerCase()
-                        .replace(/\s+/g, "-")}`}
+                      href={`/strains/${createStrainSlug(title)}`}
                       className="flex flex-col gap-3 items-center"
                       onMouseEnter={() => setHoveredIndex(index)}
                       onMouseLeave={() => setHoveredIndex(null)}

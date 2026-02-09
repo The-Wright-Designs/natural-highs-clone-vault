@@ -8,6 +8,7 @@ import ButtonLink from "@/_components/ui/buttons/button-link";
 import StrainDetails from "@/_components/strains-page/strain-details";
 import StrainDescription from "@/_components/strain-page/strain-description";
 import { createStrainMetadata } from "@/_lib/metadata";
+import { createStrainSlug } from "@/_lib/utils/slug-utils";
 
 import strainData from "@/_data/strains-data.json";
 
@@ -18,7 +19,7 @@ interface StrainPageProps {
 
 export async function generateStaticParams() {
   return strainData.map((strain) => ({
-    strain: strain.title.toLowerCase().replace(/\s+/g, "-"),
+    strain: createStrainSlug(strain.title),
   }));
 }
 
@@ -27,7 +28,7 @@ export async function generateMetadata({
 }: StrainPageProps): Promise<Metadata> {
   const { strain: strainSlug } = await params;
   const strain = strainData.find(
-    (strain) => strain.title.toLowerCase().replace(/\s+/g, "-") === strainSlug,
+    (strain) => createStrainSlug(strain.title) === strainSlug,
   );
 
   if (!strain) {
@@ -45,7 +46,7 @@ const StrainPage = async ({ params, searchParams }: StrainPageProps) => {
   const searchParam = await searchParams;
 
   const strain = strainData.find(
-    (strain) => strain.title.toLowerCase().replace(/\s+/g, "-") === strainSlug,
+    (strain) => createStrainSlug(strain.title) === strainSlug,
   );
 
   if (!strain) {

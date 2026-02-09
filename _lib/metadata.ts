@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { createStrainSlug } from "@/_lib/utils/slug-utils";
 
 export interface SiteConfig {
   name: string;
@@ -155,6 +156,6 @@ export function createStrainMetadata(strain: {
     keywords,
     ogImage: strain.images[0],
     ogType: "website",
-    canonical: `/strains/${strain.title.toLowerCase().replace(/\s+/g, "-")}`,
+    canonical: `/strains/${createStrainSlug(strain.title)}`,
   });
 }

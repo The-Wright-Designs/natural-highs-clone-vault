@@ -1,4 +1,5 @@
 import strainData from "@/_data/strains-data.json";
+import { createStrainSlug } from "@/_lib/utils/slug-utils";
 
 export function generateProductSchema(strain: {
   title: string;
@@ -159,13 +160,9 @@ export function generateLocalBusinessSchema() {
 }
 
 export function getAllStrainSlugs() {
-  return strainData.map((strain) =>
-    strain.title.toLowerCase().replace(/\s+/g, "-"),
-  );
+  return strainData.map((strain) => createStrainSlug(strain.title));
 }
 
 export function getStrainBySlug(slug: string) {
-  return strainData.find(
-    (strain) => strain.title.toLowerCase().replace(/\s+/g, "-") === slug,
-  );
+  return strainData.find((strain) => createStrainSlug(strain.title) === slug);
 }
