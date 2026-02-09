@@ -33,11 +33,20 @@ export function MobileHeader() {
   return (
     <div className="relative px-7 pb-3 pt-6 desktop:hidden">
       <div className="flex w-full gap-10 items-center justify-between">
-        <Link href="/" className="text-white text-[24px] font-light uppercase">
-          <span className="text-white text-[24px] font-bold uppercase">
-            Natural Highs
-          </span>{" "}
-          Clone Vault
+        <Link href="/" className="flex items-center gap-2">
+          <Image
+            src="/logo/natural-highs-clone-vault-logo.png"
+            alt="Natural Highs Clone Vault logo"
+            width={70}
+            height={70}
+            className="hidden min-[410px]:block"
+          />
+          <h1 className="text-white text-[24px] leading-tight font-bold uppercase">
+            Natural Highs{" "}
+            <span className="text-white text-[24px] font-light uppercase">
+              Clone Vault
+            </span>
+          </h1>{" "}
         </Link>
         <div className="flex shrink-0 items-center gap-10">
           <CartButton onClick={() => router.push("/cart")} />

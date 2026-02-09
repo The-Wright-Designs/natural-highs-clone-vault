@@ -184,13 +184,13 @@ export default function CartSummary() {
 
   return (
     <div className="bg-black/50 border border-green rounded-md p-5 desktop:p-8 sticky top-28">
-      <form action={handleFormSubmit} className="space-y-5">
+      <form action={handleFormSubmit} className="flex flex-col gap-5">
         <input type="hidden" name="_honey" className="hidden" />
         <h2 className="text-subheading text-white border-b border-green/25 pb-3">
           Order Summary
         </h2>
 
-        <div className="space-y-3 pb-5 border-b border-green/25">
+        <div className="flex flex-col gap-3 pb-5 border-b border-green/25">
           <div
             className={classNames("flex justify-between text-paragraph", {
               "p-2 -mx-2 bg-red rounded-md": totalItems < 4,
@@ -220,10 +220,10 @@ export default function CartSummary() {
           </div>
         </div>
 
-        <div className="space-y-4">
+        <div className="flex flex-col gap-4">
           <h3 className="text-subheading text-white">Your Details</h3>
 
-          <div className="space-y-4">
+          <div className="flex flex-col gap-4">
             <div>
               <label
                 htmlFor="given-name"
@@ -301,7 +301,7 @@ export default function CartSummary() {
             </div>
           </div>
         </div>
-        <div className="space-y-4 mt-8">
+        <div className="flex flex-col gap-4 mt-8">
           <button
             type="button"
             onClick={toggleDetails}
@@ -346,7 +346,7 @@ export default function CartSummary() {
               isDetailsOpen ? "max-h-[2000px] opacity-100" : "max-h-0 opacity-0"
             }`}
           >
-            <div className="space-y-4">
+            <div className="flex flex-col gap-4">
               <div>
                 <label
                   htmlFor="address-line1"
@@ -501,7 +501,7 @@ export default function CartSummary() {
             />
           </div>
         </div>
-        <div className="space-y-5 p-5 border border-white/25 rounded-md">
+        <div className="flex flex-col gap-5 p-5 border border-white/25 rounded-md">
           <div className="grid gap-2">
             <h4>Payment</h4>
             <p className="text-[14px]">

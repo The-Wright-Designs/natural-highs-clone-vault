@@ -11,14 +11,11 @@ export default function AboutComponent({
   id,
 }: AboutComponentProps) {
   return (
-    <main
-      id={id}
-      className={classNames("max-w-[1280px] mx-auto desktop:pt-15", cssClasses)}
-    >
+    <main id={id} className={classNames("max-w-[1280px] mx-auto", cssClasses)}>
       <div className="mx-5 border-t-4 border-green py-10 grid gap-10 desktop:mx-10 desktop:border-none desktop:py-0 desktop:grid-cols-2">
         <h3 className="text-heading col-span-full">About</h3>
         <div className="grid gap-10 tablet:grid-cols-2 desktop:grid-cols-1 desktop:col-span-full">
-          <div className="space-y-4">
+          <div className="flex flex-col gap-4">
             <p>
               At <span className="font-bold">Natural Highs Clone Vault</span>,
               we take pride in carefully pheno-hunting top-tier genetics from
@@ -70,7 +67,7 @@ export default function AboutComponent({
           </div>
         </div>
         <div className="grid gap-10 tablet:grid-cols-2 desktop:grid-cols-1">
-          <div className="space-y-5 tablet:order-last desktop:order-first">
+          <div className="flex flex-col gap-5 tablet:order-last desktop:order-first">
             <h3>Why Natural Highs Clone Vault?</h3>
             <p>
               We’re dedicated to providing South African cannabis growers with a
@@ -95,9 +92,9 @@ export default function AboutComponent({
           </div>
         </div>
         <div className="grid gap-10 tablet:grid-cols-2 desktop:grid-cols-1">
-          <div className="space-y-5">
+          <div className="flex flex-col gap-5">
             <h3>Why our strains are unique</h3>
-            <div className="space-y-4">
+            <div className="flex flex-col gap-4">
               <p>
                 Every strain we offer is the result of a rigorous pheno-hunting
                 process designed to identify the very best cannabis traits. We

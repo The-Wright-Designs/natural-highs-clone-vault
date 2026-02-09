@@ -13,15 +13,23 @@ export function DesktopHeader() {
   const { setShowEmailSubmitted } = useCart();
 
   return (
-    <div className="hidden pt-7 pb-1 px-10 items-center justify-between desktop:flex">
+    <div className="hidden pt-7 pb-3 px-10 items-center justify-between desktop:flex">
       <Link
         href="/"
-        className="text-white text-[32px] font-light uppercase duration-300 ease-in-out hover:opacity-90"
+        className="flex gap-2 items-center duration-300 ease-in-out hover:opacity-90"
       >
-        <span className="text-white text-[32px] font-bold uppercase">
-          Natural Highs
-        </span>{" "}
-        Clone Vault
+        <Image
+          src="/logo/natural-highs-clone-vault-logo.png"
+          alt="Natural Highs Clone Vault logo"
+          width={60}
+          height={60}
+        />
+        <h1 className="text-white text-[32px] font-bold uppercase">
+          Natural Highs{" "}
+          <span className="text-white text-[32px] font-light uppercase">
+            Clone Vault
+          </span>
+        </h1>
       </Link>
       <nav className="translate-y-[7px]">
         <ul className="flex gap-5 items-center">

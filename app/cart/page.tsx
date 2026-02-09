@@ -31,10 +31,10 @@ export default function CartPage() {
   if (showEmailSubmitted) {
     return (
       <div
-        className="w-full px-5 min-h-[600px] flex flex-col justify-center items-center space-y-5"
+        className="w-full px-5 min-h-[600px] flex flex-col justify-center items-center gap-5"
         id="order-completed"
       >
-        <div className="text-center space-y-5">
+        <div className="text-center flex flex-col gap-5">
           <div className="flex justify-center">
             <div className="bg-green rounded-full p-3">
               <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
@@ -68,8 +68,8 @@ export default function CartPage() {
   if (totalItems === 0) {
     return (
       <div className="max-w-[1280px] mx-auto px-5 desktop:px-10 py-15">
-        <div className="flex flex-col items-center justify-center min-h-[600px] text-center space-y-5">
-          <h1 className="text-heading text-white">Your Cart is Empty</h1>
+        <div className="flex flex-col items-center justify-center min-h-[600px] text-center gap-5">
+          <h2 className="text-heading text-white">Your Cart is Empty</h2>
           <p className="text-paragraph text-white/80">
             Browse our strains and add some items to your cart
           </p>
@@ -83,9 +83,9 @@ export default function CartPage() {
 
   return (
     <div className="max-w-[1280px] mx-auto px-5 desktop:px-10 py-15">
-      <div className="space-y-10">
+      <div className="flex flex-col gap-10">
         <div className="border-b-4 border-green pb-5 flex flex-col gap-5 items-start min-[500px]:flex-row min-[500px]:justify-between min-[500px]:items-end">
-          <h1 className="text-heading text-white">Your Cart</h1>
+          <h2 className="text-heading text-white">Your Cart</h2>
           <ButtonLink href="/strains" type="button">
             Continue Shopping
           </ButtonLink>
@@ -98,7 +98,7 @@ export default function CartPage() {
           </div>
         )}
         <div className="desktop:grid desktop:grid-cols-[1fr_400px] desktop:gap-10 desktop:items-start">
-          <div className="space-y-5 mb-10 desktop:mb-0">
+          <div className="flex flex-col gap-5 mb-10 desktop:mb-0">
             {items.map((item) => (
               <CartItemComponent key={item.id} item={item} />
             ))}

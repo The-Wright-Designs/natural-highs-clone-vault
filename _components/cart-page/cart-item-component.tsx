@@ -67,7 +67,7 @@ export default function CartItemComponent({ item }: CartItemComponentProps) {
           </div>
         )}
 
-        <div className="flex-1 space-y-3">
+        <div className="flex-1 flex flex-col gap-3">
           <div className="flex justify-between items-start gap-x-5">
             <div>
               <h3 className="text-subheading text-white">{item.name}</h3>

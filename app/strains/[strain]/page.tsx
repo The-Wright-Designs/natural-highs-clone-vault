@@ -78,7 +78,7 @@ const StrainPage = async ({ params, searchParams }: StrainPageProps) => {
           Back to Strains
         </ButtonLink>
       </div>
-      <div className="space-y-5 desktop:grid grid-cols-[480px_1fr] desktop:gap-x-10 desktop:gap-y-5">
+      <div className="grid gap-5 desktop:grid-cols-[480px_1fr] desktop:gap-x-10 desktop:gap-y-5">
         <div className="flex w-full flex-col pb-5 border-b-4 border-green desktop:place-self-start">
           <h2 className="text-heading">{strain.title}</h2>
           <p
