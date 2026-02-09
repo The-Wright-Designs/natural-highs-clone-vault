@@ -9,8 +9,7 @@ const LatestStrainsSection = () => {
       <div className=" py-10 border-y-4 border-green grid gap-10">
         <h3 className="text-heading">Latest Strains</h3>
         <LatestStrainsSlider
-          data={strainsData.slice(0, 8)}
-          cssClasses="overflow-hidden"
+          data={strainsData.filter((strain) => strain.inStock).slice(0, 12)}
         />
         <ButtonLink href="/strains" cssClasses="desktop:place-self-center">
           View All Strains

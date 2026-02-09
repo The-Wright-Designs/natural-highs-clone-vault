@@ -13,6 +13,22 @@ const ContactFormComponent = () => {
   const [showEmailSubmitted, setShowEmailSubmitted] = useState(false);
   const [showMessage, setShowMessage] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [formData, setFormData] = useState({
+    email: "",
+    name: "",
+    phone: "",
+    message: "",
+  });
+
+  const handleInputChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+  ) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
 
   useEffect(() => {
     if (showEmailSubmitted) {
@@ -60,6 +76,12 @@ const ContactFormComponent = () => {
 
               if (result.success) {
                 setShowEmailSubmitted(true);
+                setFormData({
+                  email: "",
+                  name: "",
+                  phone: "",
+                  message: "",
+                });
               } else {
                 setError(
                   result.error || "Failed to send message. Please try again.",
@@ -90,6 +112,8 @@ const ContactFormComponent = () => {
               className="bg-white text-black px-4 py-3 rounded-md font-light border-none"
               autoComplete="email"
               required
+              value={formData.email}
+              onChange={handleInputChange}
             />
           </label>
           <label
@@ -104,6 +128,8 @@ const ContactFormComponent = () => {
               className="bg-white text-black px-4 py-3 rounded-md font-light border-none"
               autoComplete="name"
               required
+              value={formData.name}
+              onChange={handleInputChange}
             />
           </label>
           <label
@@ -117,6 +143,8 @@ const ContactFormComponent = () => {
               name="phone"
               className="bg-white text-black px-4 py-3 rounded-md font-light border-none"
               autoComplete="phone"
+              value={formData.phone}
+              onChange={handleInputChange}
             />
           </label>
 
@@ -141,6 +169,8 @@ const ContactFormComponent = () => {
                   className="bg-white text-black px-4 py-3 rounded-md font-light border-none"
                   rows={5}
                   required
+                  value={formData.message}
+                  onChange={handleInputChange}
                 ></textarea>
               </label>
               {error && (
