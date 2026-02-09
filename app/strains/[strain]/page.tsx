@@ -72,13 +72,13 @@ const StrainPage = async ({ params, searchParams }: StrainPageProps) => {
   };
 
   return (
-    <div className="max-w-[1280px] mx-auto px-5 desktop:px-10 py-15">
+    <div className="max-w-[1280px] desktop:mx-auto px-5 desktop:px-10 py-15">
       <div className="mb-10">
         <ButtonLink href={buildBackUrl()} cssClasses="place-self-start">
           Back to Strains
         </ButtonLink>
       </div>
-      <div className="grid gap-5 desktop:grid-cols-[480px_1fr] desktop:gap-x-10 desktop:gap-y-5">
+      <div className="flex flex-col gap-5 desktop:grid desktop:grid-cols-[480px_1fr] desktop:gap-x-10 desktop:gap-y-5">
         <div className="flex w-full flex-col pb-5 border-b-4 border-green desktop:place-self-start">
           <h2 className="text-heading">{strain.title}</h2>
           <p

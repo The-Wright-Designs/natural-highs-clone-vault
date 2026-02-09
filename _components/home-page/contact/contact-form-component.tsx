@@ -87,7 +87,7 @@ const ContactFormComponent = () => {
               type="email"
               id="emailAddress"
               name="email"
-              className="bg-white px-4 py-3 rounded-md font-light border-none"
+              className="bg-white text-black px-4 py-3 rounded-md font-light border-none"
               autoComplete="email"
               required
             />
@@ -101,7 +101,7 @@ const ContactFormComponent = () => {
               type="text"
               id="fullName"
               name="name"
-              className="bg-white px-4 py-3 rounded-md font-light border-none"
+              className="bg-white text-black px-4 py-3 rounded-md font-light border-none"
               autoComplete="name"
               required
             />
@@ -115,7 +115,7 @@ const ContactFormComponent = () => {
               type="tel"
               id="phoneNumber"
               name="phone"
-              className="bg-white px-4 py-3 rounded-md font-light border-none"
+              className="bg-white text-black px-4 py-3 rounded-md font-light border-none"
               autoComplete="phone"
             />
           </label>
@@ -138,7 +138,7 @@ const ContactFormComponent = () => {
                 <textarea
                   id="message"
                   name="message"
-                  className="bg-white px-4 py-3 rounded-md font-light border-none"
+                  className="bg-white text-black px-4 py-3 rounded-md font-light border-none"
                   rows={5}
                   required
                 ></textarea>
