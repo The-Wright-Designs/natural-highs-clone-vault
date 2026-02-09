@@ -29,8 +29,8 @@ const StrainSlider = ({ cssClasses, data }: Props) => {
         }}
         className={cssClasses}
         style={{
-          ["--swiper-pagination-color" as string]: "#FAB121",
-          ["--swiper-pagination-bullet-inactive-color" as string]: "#FAB121",
+          ["--swiper-pagination-color" as string]: "#66e00b",
+          ["--swiper-pagination-bullet-inactive-color" as string]: "#66e00b",
           ["--swiper-pagination-bullet-inactive-opacity" as string]: 1,
           ["--swiper-pagination-bullet-size" as string]: "8px",
           ["--swiper-pagination-bullet-horizontal-gap" as string]: "4px",
@@ -68,7 +68,7 @@ const StrainSlider = ({ cssClasses, data }: Props) => {
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
           <path
             d="M15 18L9 12L15 6"
-            stroke="#FAB121"
+            stroke="#66e00b"
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -80,7 +80,7 @@ const StrainSlider = ({ cssClasses, data }: Props) => {
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
           <path
             d="M9 6L15 12L9 18"
-            stroke="#FAB121"
+            stroke="#66e00b"
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"

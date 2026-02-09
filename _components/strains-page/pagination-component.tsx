@@ -51,14 +51,14 @@ const PaginationComponent = ({
   const handleFirst = () => {
     onPageChange(1);
     setTimeout(() => {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      window.scrollTo({ top: 0, behavior: "smooth" });
     }, 100);
   };
 
   const handleLast = () => {
     onPageChange(totalPages);
     setTimeout(() => {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      window.scrollTo({ top: 0, behavior: "smooth" });
     }, 100);
   };
 
@@ -72,7 +72,7 @@ const PaginationComponent = ({
         className={`flex h-10 w-16 justify-center items-center rounded-md text-paragraph desktop:h-8 transition-all duration-300 ${
           currentPage === 1
             ? "opacity-50 cursor-not-allowed"
-            : "bg-black text-white border-2 border-yellow desktop:hover:bg-yellow desktop:hover:text-black desktop:hover:cursor-pointer"
+            : "bg-black text-white border-2 border-green desktop:hover:bg-green desktop:hover:text-black desktop:hover:cursor-pointer"
         }`}
       >
         First
@@ -97,13 +97,13 @@ const PaginationComponent = ({
               onClick={() => {
                 onPageChange(page as number);
                 setTimeout(() => {
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                  window.scrollTo({ top: 0, behavior: "smooth" });
                 }, 100);
               }}
               className={`flex justify-center items-center size-10 rounded-md text-paragraph desktop:size-8 transition-all duration-300 ${
                 currentPage === page
-                  ? "bg-yellow text-black"
-                  : "bg-black text-white border-2 border-yellow desktop:hover:bg-yellow desktop:hover:text-black desktop:hover:cursor-pointer"
+                  ? "bg-green text-black"
+                  : "bg-black text-white border-2 border-green desktop:hover:bg-green desktop:hover:text-black desktop:hover:cursor-pointer"
               }`}
             >
               {page}
@@ -118,7 +118,7 @@ const PaginationComponent = ({
         className={`flex h-10 w-16 justify-center items-center rounded-md text-paragraph desktop:h-8 transition-all duration-300 ${
           currentPage === totalPages
             ? "opacity-50 cursor-not-allowed"
-            : "bg-black text-white border-2 border-yellow desktop:hover:bg-yellow desktop:hover:text-black desktop:hover:cursor-pointer"
+            : "bg-black text-white border-2 border-green desktop:hover:bg-green desktop:hover:text-black desktop:hover:cursor-pointer"
         }`}
       >
         Last

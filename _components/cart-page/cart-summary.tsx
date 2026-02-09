@@ -183,14 +183,14 @@ export default function CartSummary() {
   }, []);
 
   return (
-    <div className="bg-black/50 border border-yellow rounded-md p-5 desktop:p-8 sticky top-28">
+    <div className="bg-black/50 border border-green rounded-md p-5 desktop:p-8 sticky top-28">
       <form action={handleFormSubmit} className="space-y-5">
         <input type="hidden" name="_honey" className="hidden" />
-        <h2 className="text-subheading text-white border-b border-yellow/25 pb-3">
+        <h2 className="text-subheading text-white border-b border-green/25 pb-3">
           Order Summary
         </h2>
 
-        <div className="space-y-3 pb-5 border-b border-yellow/25">
+        <div className="space-y-3 pb-5 border-b border-green/25">
           <div
             className={classNames("flex justify-between text-paragraph", {
               "p-2 -mx-2 bg-red rounded-md": totalItems < 4,
@@ -213,8 +213,8 @@ export default function CartSummary() {
             </div>
           </div>
           <div className="flex justify-between text-subheading">
-            <span className="font-bold text-yellow">Total</span>
-            <span className="font-bold text-yellow">
+            <span className="font-bold text-green">Total</span>
+            <span className="font-bold text-green">
               R{totalWithDelivery.toFixed(2)}
             </span>
           </div>
@@ -239,7 +239,7 @@ export default function CartSummary() {
                 required
                 value={formData["given-name"]}
                 onChange={handleInputChange}
-                className="w-full bg-black/50 border border-white/25 rounded-md px-4 py-3 text-white focus:outline-none focus:border-yellow transition-colors"
+                className="w-full bg-black/50 border border-white/25 rounded-md px-4 py-3 text-white focus:outline-none focus:border-green transition-colors"
               />
             </div>
 
@@ -258,7 +258,7 @@ export default function CartSummary() {
                 required
                 value={formData["family-name"]}
                 onChange={handleInputChange}
-                className="w-full bg-black/50 border border-white/25 rounded-md px-4 py-3 text-white focus:outline-none focus:border-yellow transition-colors"
+                className="w-full bg-black/50 border border-white/25 rounded-md px-4 py-3 text-white focus:outline-none focus:border-green transition-colors"
               />
             </div>
 
@@ -277,7 +277,7 @@ export default function CartSummary() {
                 required
                 value={formData.email}
                 onChange={handleInputChange}
-                className="w-full bg-black/50 border border-white/25 rounded-md px-4 py-3 text-white focus:outline-none focus:border-yellow transition-colors"
+                className="w-full bg-black/50 border border-white/25 rounded-md px-4 py-3 text-white focus:outline-none focus:border-green transition-colors"
               />
             </div>
 
@@ -296,7 +296,7 @@ export default function CartSummary() {
                 required
                 value={formData.tel}
                 onChange={handleInputChange}
-                className="w-full bg-black/50 border border-white/25 rounded-md px-4 py-3 text-white focus:outline-none focus:border-yellow transition-colors"
+                className="w-full bg-black/50 border border-white/25 rounded-md px-4 py-3 text-white focus:outline-none focus:border-green transition-colors"
               />
             </div>
           </div>
@@ -308,7 +308,7 @@ export default function CartSummary() {
             className={classNames(
               "w-full flex items-center justify-between p-2 rounded-md text-left desktop:hover:cursor-pointer desktop:hover:opacity-80 transition-colors",
               {
-                "bg-yellow": !isDetailsOpen,
+                "bg-green": !isDetailsOpen,
               },
             )}
           >
@@ -359,7 +359,7 @@ export default function CartSummary() {
                   id="address-line1"
                   name="address-line1"
                   autoComplete="address-line1"
-                  className="w-full bg-black/50 border border-white/25 rounded-md px-4 py-3 text-white focus:outline-none focus:border-yellow transition-colors"
+                  className="w-full bg-black/50 border border-white/25 rounded-md px-4 py-3 text-white focus:outline-none focus:border-green transition-colors"
                   required
                   value={formData["address-line1"]}
                   onChange={handleInputChange}
@@ -377,7 +377,7 @@ export default function CartSummary() {
                   id="address-line2"
                   name="address-line2"
                   autoComplete="address-line2"
-                  className="w-full bg-black/50 border border-white/25 rounded-md px-4 py-3 text-white focus:outline-none focus:border-yellow transition-colors"
+                  className="w-full bg-black/50 border border-white/25 rounded-md px-4 py-3 text-white focus:outline-none focus:border-green transition-colors"
                   value={formData["address-line2"]}
                   onChange={handleInputChange}
                 />
@@ -394,7 +394,7 @@ export default function CartSummary() {
                   id="address-level2"
                   name="address-level2"
                   autoComplete="address-level2"
-                  className="w-full bg-black/50 border border-white/25 rounded-md px-4 py-3 text-white focus:outline-none focus:border-yellow transition-colors"
+                  className="w-full bg-black/50 border border-white/25 rounded-md px-4 py-3 text-white focus:outline-none focus:border-green transition-colors"
                   required
                   value={formData["address-level2"]}
                   onChange={handleInputChange}
@@ -412,7 +412,7 @@ export default function CartSummary() {
                   id="postal-code"
                   name="postal-code"
                   autoComplete="postal-code"
-                  className="w-full bg-black/50 border border-white/25 rounded-md px-4 py-3 text-white focus:outline-none focus:border-yellow transition-colors"
+                  className="w-full bg-black/50 border border-white/25 rounded-md px-4 py-3 text-white focus:outline-none focus:border-green transition-colors"
                   required
                   value={formData["postal-code"]}
                   onChange={handleInputChange}
@@ -430,7 +430,7 @@ export default function CartSummary() {
                     id="address-level1"
                     name="address-level1"
                     autoComplete="address-level1"
-                    className="w-full bg-black/50 border border-white/25 rounded-md px-4 py-3 text-white focus:outline-none focus:border-yellow transition-colors appearance-none"
+                    className="w-full bg-black/50 border border-white/25 rounded-md px-4 py-3 text-white focus:outline-none focus:border-green transition-colors appearance-none"
                     required
                     value={formData["address-level1"]}
                     onChange={handleInputChange}
@@ -495,7 +495,7 @@ export default function CartSummary() {
               id="notes"
               name="notes"
               rows={3}
-              className="w-full bg-black/50 border border-white/25 rounded-md px-4 py-3 text-white focus:outline-none focus:border-yellow transition-colors resize-none"
+              className="w-full bg-black/50 border border-white/25 rounded-md px-4 py-3 text-white focus:outline-none focus:border-green transition-colors resize-none"
               value={formData.notes}
               onChange={handleInputChange}
             />
@@ -529,7 +529,7 @@ export default function CartSummary() {
               id="terms-acknowledged"
               checked={termsAcknowledged}
               onChange={handleTermsChange}
-              className="min-w-8 w-8 h-8 bg-black/50 border border-white/25 rounded focus:outline-none focus:border-yellow transition-colors cursor-pointer desktop:min-w-5 desktop:w-5 desktop:h-5"
+              className="min-w-8 w-8 h-8 bg-black/50 border border-white/25 rounded focus:outline-none focus:border-green transition-colors cursor-pointer desktop:min-w-5 desktop:w-5 desktop:h-5"
             />
             <label
               htmlFor="terms-acknowledged"

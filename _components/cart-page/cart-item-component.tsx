@@ -53,7 +53,7 @@ export default function CartItemComponent({ item }: CartItemComponentProps) {
   };
 
   return (
-    <div className="bg-black/50 border border-yellow/25 rounded-md p-5 grid gap-5">
+    <div className="bg-black/50 border border-green/25 rounded-md p-5 grid gap-5">
       <div className="flex flex-col gap-5 min-[400px]:flex-row">
         {item.image && (
           <div className="relative w-full aspect-square overflow-hidden rounded-md min-[400px]:aspect-auto min-[400px]:w-32 min-[400px]:h-40 desktop:w-24 desktop:h-32">
@@ -80,7 +80,7 @@ export default function CartItemComponent({ item }: CartItemComponentProps) {
                     removeFromCart(item.id);
                     setShowConfirm(false);
                   }}
-                  className="ease-in-out duration-300 p-2 -m-2 desktop:cursor-pointer desktop:hover:opacity-80 desktop:p-0 desktop:m-0 text-yellow"
+                  className="ease-in-out duration-300 p-2 -m-2 desktop:cursor-pointer desktop:hover:opacity-80 desktop:p-0 desktop:m-0 text-green"
                   aria-label="Confirm remove item"
                 >
                   Remove
@@ -118,12 +118,12 @@ export default function CartItemComponent({ item }: CartItemComponentProps) {
                   onClick={increaseQuantity}
                   disabled={item.quantity >= 50}
                   className={classNames(
-                    "bg-yellow w-full h-6 rounded-t-md flex items-center justify-center tablet:w-[22px] tablet:rounded-t-none tablet:rounded-tr-md",
+                    "bg-green w-full h-6 rounded-t-md flex items-center justify-center tablet:w-[22px] tablet:rounded-t-none tablet:rounded-tr-md",
                     {
                       "cursor-not-allowed opacity-50": item.quantity >= 50,
                       "tablet:hover:cursor-pointer tablet:hover:opacity-90 ease-in-out duration-300":
                         item.quantity < 50,
-                    }
+                    },
                   )}
                 >
                   <svg width="10" height="5" viewBox="0 0 10 5" fill="none">
@@ -147,12 +147,12 @@ export default function CartItemComponent({ item }: CartItemComponentProps) {
                   onClick={decreaseQuantity}
                   disabled={item.quantity === 1}
                   className={classNames(
-                    "bg-yellow w-full h-6 rounded-b-md flex items-center justify-center border-t border-white tablet:w-[22px] tablet:rounded-b-none tablet:rounded-br-md",
+                    "bg-green w-full h-6 rounded-b-md flex items-center justify-center border-t border-white tablet:w-[22px] tablet:rounded-b-none tablet:rounded-br-md",
                     {
                       "opacity-50 cursor-not-allowed": item.quantity === 1,
                       "tablet:hover:cursor-pointer tablet:hover:opacity-90 ease-in-out duration-300":
                         item.quantity > 1,
-                    }
+                    },
                   )}
                 >
                   <svg width="10" height="5" viewBox="0 0 10 5" fill="none">
@@ -163,7 +163,7 @@ export default function CartItemComponent({ item }: CartItemComponentProps) {
             </div>
 
             <div className="text-right">
-              <p className="text-subheading text-yellow">
+              <p className="text-subheading text-green">
                 R{(item.price * item.quantity).toFixed(2)}
               </p>
               <p className="text-[12px] text-white/60">Subtotal</p>
@@ -173,7 +173,7 @@ export default function CartItemComponent({ item }: CartItemComponentProps) {
       </div>
 
       {typeof quantity === "number" && quantity >= 50 && (
-        <p className="text-yellow italic">
+        <p className="text-green italic">
           *Please contact us directly for any orders with over 50 clones from a
           single plant -{" "}
           <Link

@@ -36,7 +36,7 @@ export default function CartPage() {
       >
         <div className="text-center space-y-5">
           <div className="flex justify-center">
-            <div className="bg-yellow rounded-full p-3">
+            <div className="bg-green rounded-full p-3">
               <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
                 <path
                   d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
@@ -84,7 +84,7 @@ export default function CartPage() {
   return (
     <div className="max-w-[1280px] mx-auto px-5 desktop:px-10 py-15">
       <div className="space-y-10">
-        <div className="border-b-4 border-yellow pb-5 flex flex-col gap-5 items-start min-[500px]:flex-row min-[500px]:justify-between min-[500px]:items-end">
+        <div className="border-b-4 border-green pb-5 flex flex-col gap-5 items-start min-[500px]:flex-row min-[500px]:justify-between min-[500px]:items-end">
           <h1 className="text-heading text-white">Your Cart</h1>
           <ButtonLink href="/strains" type="button">
             Continue Shopping

@@ -15,7 +15,7 @@ export default function AboutComponent({
       id={id}
       className={classNames("max-w-[1280px] mx-auto desktop:pt-15", cssClasses)}
     >
-      <div className="mx-5 border-t-4 border-yellow py-10 grid gap-10 desktop:mx-10 desktop:border-none desktop:py-0 desktop:grid-cols-2">
+      <div className="mx-5 border-t-4 border-green py-10 grid gap-10 desktop:mx-10 desktop:border-none desktop:py-0 desktop:grid-cols-2">
         <h3 className="text-heading col-span-full">About</h3>
         <div className="grid gap-10 tablet:grid-cols-2 desktop:grid-cols-1 desktop:col-span-full">
           <div className="space-y-4">

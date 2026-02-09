@@ -31,7 +31,7 @@ export function DesktopHeader() {
                 <Link
                   href={url}
                   onClick={() => setShowEmailSubmitted(false)}
-                  className="text-white text-paragraph ease-in-out duration-300 hover:text-yellow"
+                  className="text-white text-paragraph ease-in-out duration-300 hover:text-green"
                 >
                   {title}
                 </Link>

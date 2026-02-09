@@ -28,7 +28,7 @@ This is a Next.js 15 project using the App Router architecture with TypeScript a
 
 The project uses a custom Tailwind CSS v4 configuration with CSS variables defined in `_styles/globals.css`. Key customizations:
 
-- **Custom Colors**: `text-black` (#353535), `text-white` (#FFFFFF), `text-yellow` (#FAB121), `text-link-blue` (#0000ff)
+- **Custom Colors**: `text-black` (#353535), `text-white` (#FFFFFF), `text-green` (#76a865), `text-link-blue` (#0000ff)
 - **Typography Classes**: `text-paragraph` (1rem, weight 200), `text-subheading` (1.25rem, weight 600), `text-heading` (2.5rem, weight 200)
 - **Breakpoints**: `phone:` (425px), `tablet:` (800px), `desktop:` (1280px)
 - **Spacing**: `margin-15`/`padding-15`/`gap-15` (60px), `margin-30`/`padding-30`/`gap-30` (120px)

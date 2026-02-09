@@ -85,7 +85,7 @@ const StrainCartComponent = ({
         price: strainPrice,
         image: strainImage,
       },
-      qty
+      qty,
     );
 
     setIsLoading(true);
@@ -100,7 +100,7 @@ const StrainCartComponent = ({
     <div
       className={classNames(
         "relative grid gap-5 w-full desktop:gap-2.5",
-        cssClasses
+        cssClasses,
       )}
     >
       <div className="flex items-center gap-5 justify-between w-full">
@@ -114,7 +114,7 @@ const StrainCartComponent = ({
               !inStock ? "This product is currently out of stock" : undefined
             }
             className={classNames(
-              "bg-yellow w-full h-6 rounded-t-md flex items-center justify-center tablet:w-[22px] tablet:rounded-t-none tablet:rounded-tr-md",
+              "bg-green w-full h-6 rounded-t-md flex items-center justify-center tablet:w-[22px] tablet:rounded-t-none tablet:rounded-tr-md",
               {
                 "cursor-not-allowed opacity-50":
                   !inStock || (typeof quantity === "number" && quantity >= 50),
@@ -122,7 +122,7 @@ const StrainCartComponent = ({
                   inStock &&
                   (typeof quantity !== "number" ||
                     (typeof quantity === "number" && quantity < 50)),
-              }
+              },
             )}
           >
             <svg width="10" height="5" viewBox="0 0 10 5" fill="none">
@@ -155,7 +155,7 @@ const StrainCartComponent = ({
               !inStock ? "This product is currently out of stock" : undefined
             }
             className={classNames(
-              "bg-yellow w-full h-6 rounded-b-md flex items-center justify-center border-t border-white tablet:w-[22px] tablet:rounded-b-none tablet:rounded-br-md",
+              "bg-green w-full h-6 rounded-b-md flex items-center justify-center border-t border-white tablet:w-[22px] tablet:rounded-b-none tablet:rounded-br-md",
               {
                 "opacity-50 cursor-not-allowed":
                   !inStock || (typeof quantity === "number" && quantity === 1),
@@ -163,7 +163,7 @@ const StrainCartComponent = ({
                   inStock &&
                   (typeof quantity !== "number" ||
                     (typeof quantity === "number" && quantity !== 1)),
-              }
+              },
             )}
           >
             <svg width="10" height="5" viewBox="0 0 10 5" fill="none">
@@ -181,18 +181,18 @@ const StrainCartComponent = ({
             !inStock ? "This product is currently out of stock" : undefined
           }
           colorBlack={buttonState === "view"}
-          yellowStroke={buttonState === "view"}
+          greenStroke={buttonState === "view"}
           onClick={handleAddToCart}
         >
           {isLoading
             ? "Adding..."
             : buttonState === "view"
-            ? "View Cart"
-            : "Add To Cart"}
+              ? "View Cart"
+              : "Add To Cart"}
         </ButtonType>
       </div>
       {typeof quantity === "number" && quantity >= 50 && (
-        <p className="text-yellow italic">
+        <p className="text-green italic">
           Please contact us directly for any orders with over 50 clones from a
           single plant -{" "}
           <Link

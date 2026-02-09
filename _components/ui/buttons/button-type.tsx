@@ -12,7 +12,7 @@ const ButtonType = ({
   colorBlack = false,
   ariaLabel,
   title,
-  yellowStroke = false,
+  greenStroke = false,
 }: ButtonProps) => {
   const { pending } = useFormStatus();
 
@@ -26,7 +26,7 @@ const ButtonType = ({
         disabled,
         pending,
         colorBlack,
-        yellowStroke,
+        greenStroke,
       )}
       disabled={disabled || pending}
       style={{ fontVariant: "small-caps" }}
@@ -36,7 +36,7 @@ const ButtonType = ({
         <div className="py-[3px]">
           <div
             className={classNames({
-              "spinner-yellow": colorBlack,
+              "spinner-green": colorBlack,
               "spinner-black": !colorBlack,
             })}
           ></div>

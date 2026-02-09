@@ -5,7 +5,7 @@ interface StockAvailabilityBadgesProps {
 const StockAvailabilityBadges = ({ inStock }: StockAvailabilityBadgesProps) => {
   if (inStock) {
     return (
-      <div className="bg-yellow flex items-center justify-center px-2 border-4 border-yellow  rounded-md">
+      <div className="bg-white/90 flex items-center justify-center px-2.5 py-[3px] border-2 border-black rounded-md">
         <p
           className="text-black text-[14px] text-subheading"
           style={{ fontVariant: "small-caps" }}

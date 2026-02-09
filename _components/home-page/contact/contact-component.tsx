@@ -28,29 +28,26 @@ const ContactComponent = ({ cssClasses, id }: ContactComponentProps) => {
             <h3 className="text-subheading text-white">Email:</h3>
             <ShowEmailAddress />
           </div>
-          {/* <div className="flex flex-col gap-3 tablet:flex-row tablet:items-center tablet:gap-5">
+          <div className="flex flex-col gap-3 tablet:flex-row tablet:items-center tablet:gap-5">
             <div className="flex flex-col gap-3 tablet:order-last">
               <div className="flex flex-col tablet:flex-row tablet:items-center tablet:gap-2">
                 <h3 className="text-subheading text-white">Phone:</h3>
-                <p className="text-paragraph italic text-white">
-                  (WhatsApp message only)
-                </p>
               </div>
               <ShowPhoneNumber />
             </div>
             <Link
-              href="#"
+              href="https://wa.me/message/56KOIRA243TID1"
               target="_blank"
               className="desktop:hover:opacity-80 desktop:justify-self-end desktop:self-center"
             >
               <Image
-                src="/icons/whatsapp.svg"
+                src="/icons/whatsapp.png"
                 alt="WhatsApp"
                 width={31.5}
                 height={31.5}
               />
             </Link>
-          </div> */}
+          </div>
         </div>
         <div className="tablet:grid grid-cols-2 gap-10 desktop:grid-cols-1">
           <ContactFormComponent />

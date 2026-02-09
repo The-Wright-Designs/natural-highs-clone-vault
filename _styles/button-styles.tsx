@@ -5,7 +5,7 @@ export const buttonStyles = (
   disabled?: boolean,
   pending?: boolean,
   colorBlack?: boolean,
-  yellowStroke?: boolean,
+  greenStroke?: boolean,
 ) =>
   classNames(
     "border-4 flex text-subheading text-center py-0.5 px-4 justify-center ease-in-out duration-300 rounded-md min-w-[100px]",
@@ -14,11 +14,11 @@ export const buttonStyles = (
       "opacity-50 cursor-not-allowed hover:none": pending || disabled,
       "cursor-pointer": !(disabled || pending),
       "bg-black border-black text-white": colorBlack,
-      "bg-yellow border-yellow text-black": !colorBlack,
+      "bg-green border-green text-black": !colorBlack,
       "desktop:hover:bg-black desktop:hover:text-white":
         !colorBlack && !(disabled || pending),
-      "desktop:hover:bg-yellow desktop:hover:text-black":
+      "desktop:hover:bg-green desktop:hover:text-black":
         colorBlack && !(disabled || pending),
-      "border-yellow": yellowStroke,
+      "border-green": greenStroke,
     },
   );

@@ -32,7 +32,7 @@ const StrainComponent = ({
   return (
     <li
       id={`strain-${strainSlug}`}
-      className="flex flex-col gap-5 items-start justify-center relative w-full border-b border-yellow/25 pb-10 min-[550px]:border-b-0 min-[550px]:pb-0"
+      className="flex flex-col gap-5 items-start justify-center relative w-full border-b border-green/25 pb-10 min-[550px]:border-b-0 min-[550px]:pb-0"
     >
       <Link
         href={buildStrainUrl()}

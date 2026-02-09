@@ -113,7 +113,7 @@ const LatestStrainsSlider = ({ cssClasses, data }: SlideDataProps) => {
           <SwiperSlide key="view-more" className="pb-8">
             <Link
               href="/strains"
-              className="flex text-heading rounded-lg flex-col gap-3 items-center justify-center h-full w-full border-8 border-dashed border-yellow aspect-square overflow-hidden desktop:aspect-auto desktop:h-[304px] desktop:hover:text-yellow ease-in-out duration-300 min-[600px]:text-subheading min-[600px]:border-4"
+              className="flex text-heading rounded-lg flex-col gap-3 items-center justify-center h-full w-full border-8 border-dashed border-green aspect-square overflow-hidden desktop:aspect-auto desktop:h-[304px] desktop:hover:text-green ease-in-out duration-300 min-[600px]:text-subheading min-[600px]:border-4"
               onMouseEnter={() => setHoveredIndex(-1)}
               onMouseLeave={() => setHoveredIndex(null)}
             >

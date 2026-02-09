@@ -68,7 +68,7 @@ export const orderEmailTemplate = ({
     <title>${title}</title>
   </head>
   <body style="font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 1rem; color: #353535;">
-    <table style="width: 100%; background-color: #FAB121; margin-bottom: 2rem;">
+    <table style="width: 100%; background-color: #66e00b; margin-bottom: 2rem;">
       <tr>
       <td width="60%" style="vertical-align: middle;">
           <h1 style="padding: 0 1rem; color: #353535; margin: 0;">

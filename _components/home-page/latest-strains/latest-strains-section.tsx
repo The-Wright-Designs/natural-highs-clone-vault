@@ -6,7 +6,7 @@ import strainsData from "@/_data/strains-data.json";
 const LatestStrainsSection = () => {
   return (
     <section className="max-w-[1280px] mx-auto px-5 desktop:px-10">
-      <div className=" py-10 border-y-4 border-yellow grid gap-10">
+      <div className=" py-10 border-y-4 border-green grid gap-10">
         <h3 className="text-heading">Latest Strains</h3>
         <LatestStrainsSlider
           data={strainsData.slice(0, 8)}

@@ -18,7 +18,7 @@ export const emailTemplate = ({
     <title>Natural Highs Clone Vault</title>
   </head>
   <body style="font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 1rem; color: #353535;">
-    <table style="width: 100%; background-color: #FAB121;">
+    <table style="width: 100%; background-color: #66e00b;">
       <tr>
         <td>
           <h1 style="padding: 0 1rem; color: #353535">Natural Highs Clone Vault</h1>

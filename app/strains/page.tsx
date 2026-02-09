@@ -13,16 +13,16 @@ const StrainsPageLoading = () => (
     <div className="grid gap-10">
       <h2>Strains</h2>
       <div className="animate-pulse">
-        <div className="h-10 bg-yellow/25 rounded mb-4"></div>
-        <div className="h-10 bg-yellow/25 rounded"></div>
+        <div className="h-10 bg-green/25 rounded mb-4"></div>
+        <div className="h-10 bg-green/25 rounded"></div>
       </div>
     </div>
     <div className="grid gap-10 grid-cols-1 tablet:grid-cols-2 min-[1000px]:grid-cols-3">
       {[...Array(9)].map((_, i) => (
         <div key={i} className="animate-pulse">
-          <div className="h-64 bg-yellow/25 rounded mb-4"></div>
-          <div className="h-4 bg-yellow/25 rounded mb-2"></div>
-          <div className="h-4 bg-yellow/25 rounded w-3/4"></div>
+          <div className="h-64 bg-green/25 rounded mb-4"></div>
+          <div className="h-4 bg-green/25 rounded mb-2"></div>
+          <div className="h-4 bg-green/25 rounded w-3/4"></div>
         </div>
       ))}
     </div>
