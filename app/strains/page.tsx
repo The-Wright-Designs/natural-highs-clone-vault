@@ -108,7 +108,7 @@ const StrainsContent = () => {
   };
 
   const filteredStrains = useMemo(() => {
-    let filtered = strainData.filter((strain) => strain.inStock);
+    let filtered = [...strainData];
 
     if (searchTerm) {
       filtered = filtered.filter(
@@ -122,16 +122,33 @@ const StrainsContent = () => {
 
     switch (filter) {
       case "A-Z":
-        filtered = filtered.sort((a, b) => a.title.localeCompare(b.title));
+        filtered = filtered.sort((a, b) => {
+          if (a.inStock && !b.inStock) return -1;
+          if (!a.inStock && b.inStock) return 1;
+          return a.title.localeCompare(b.title);
+        });
         break;
       case "Price High to Low":
-        filtered = filtered.sort((a, b) => b.price - a.price);
+        filtered = filtered.sort((a, b) => {
+          if (a.inStock && !b.inStock) return -1;
+          if (!a.inStock && b.inStock) return 1;
+          return b.price - a.price;
+        });
         break;
       case "Price Low to High":
-        filtered = filtered.sort((a, b) => a.price - b.price);
+        filtered = filtered.sort((a, b) => {
+          if (a.inStock && !b.inStock) return -1;
+          if (!a.inStock && b.inStock) return 1;
+          return a.price - b.price;
+        });
         break;
       case "Latest":
       default:
+        filtered = filtered.sort((a, b) => {
+          if (a.inStock && !b.inStock) return -1;
+          if (!a.inStock && b.inStock) return 1;
+          return 0;
+        });
         break;
     }
 
