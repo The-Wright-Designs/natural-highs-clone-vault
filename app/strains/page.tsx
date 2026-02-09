@@ -36,7 +36,7 @@ const StrainsContent = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
   const [isInitialized, setIsInitialized] = useState(false);
-  const itemsPerPage = 9;
+  const itemsPerPage = 15;
 
   useEffect(() => {
     const pageParam = searchParams.get("page");
