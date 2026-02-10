@@ -40,7 +40,7 @@ const ContactFormComponent = () => {
   }, [showEmailSubmitted]);
 
   return (
-    <div className="border-green border-4 px-5 py-10 -mx-5 tablet:mx-0 tablet:py-5 tablet:rounded-md">
+    <div className="border-green tablet:rounded-md tablet:border-2 tablet:p-7">
       {!showEmailSubmitted && (
         <p className="mb-8 italic font-light">
           Fill out the form below and our team will get back to you ASAP...

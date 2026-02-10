@@ -17,7 +17,7 @@ const ContactComponent = ({ cssClasses, id }: ContactComponentProps) => {
     <section
       id={id}
       className={classNames(
-        "max-w-[1280px] mx-auto px-5 desktop:px-10 tablet:grid tablet:gap-10 desktop:grid-cols-2",
+        "max-w-[1280px] px-5 tablet:mx-auto tablet:grid tablet:gap-10 desktop:grid-cols-2 desktop:px-10",
         cssClasses,
       )}
     >

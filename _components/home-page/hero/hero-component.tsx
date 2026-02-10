@@ -8,7 +8,7 @@ const { heroSlider } = sliderData;
 
 export default function HeroComponent() {
   return (
-    <div className="max-w-[1280px] desktop:mx-auto">
+    <div className="max-w-[1280px] desktop:mx-auto desktop:-mb-15">
       <HeroSlider
         data={heroSlider}
         cssClasses="h-[650px] mb-5 desktop:h-[600px]"
