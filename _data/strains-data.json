@@ -9,7 +9,7 @@
       "Immediately after smoking this powerhouse, users have described feeling a jolt of energy then leveling off into a dream-like euphoria. The flavor profile is also quite unique, combining the sweet, dessert-like taste of Gelato with the diesel aroma of Jet Fuel."
     ],
     "price": 150,
-    "inStock": false,
+    "inStock": true,
     "type": "Hybrid",
     "tac": "25%",
     "length": "",
@@ -55,7 +55,7 @@
       "As a cross between Gold member and Monkey Spunk, the former brings Indica-dominant genetics and pungent aromas to the table, and the latter offers skunky, berry flavors and energizing effects. A few puffs will quickly elevate your spirits and give you an energy boost."
     ],
     "price": 150,
-    "inStock": false,
+    "inStock": true,
     "type": "Hybrid (Gold member x Monkey Spunk)",
     "tac": "30-38%",
     "length": "",
@@ -75,7 +75,7 @@
       "This strain is not recommended for faint-hearteds and beginners, as its gigantic THC content of 32% and the extensive cannabinoid profile ensure long-lasting and very intense effects. The effect is mainly Indica dominant, very strong and is complemented by inspiring mood-enhancing Sativa effects."
     ],
     "price": 150,
-    "inStock": false,
+    "inStock": true,
     "type": "80% Indica, 20% Sativa (Blue Moonrock x Blackberry Kush)",
     "tac": "33%",
     "length": "110-130cm",
@@ -87,9 +87,7 @@
   },
   {
     "title": "Sugar Cake",
-    "images": [
-      "/images/strains/sugar-cake/sugar-cake-1.jpg"
-    ],
+    "images": ["/images/strains/sugar-cake/sugar-cake-1.jpg"],
     "description": [
       "Sugar Cake by Black Farm Genetics is a cross of Divorce Cake x Jungle Cake. This 60% Indica 40% Sativa has a flowering time of 8-10 Weeks. This specific composition suggests that Sugar Cake leans more towards the relaxing and sedating effects associated with Indica strains.",
       "The presence of Sativa genetics in Sugar Cake's lineage suggests that it may also offer some uplifting and energizing effects, which can help to balance out its relaxing qualities and provide a more well-rounded experience for users."
@@ -118,7 +116,7 @@
       "If you need a little afternoon pick me up, or you need something to help when it is that time of the month, Kosher Kush Breath has got you covered."
     ],
     "price": 150,
-    "inStock": false,
+    "inStock": true,
     "type": "Hybrid",
     "tac": "",
     "length": "",
@@ -154,9 +152,7 @@
   },
   {
     "title": "Blue Sherbert S1 Feminized",
-    "images": [
-      "/images/strains/blue-sherbert/blue-sherbert-1.jpg"
-    ],
+    "images": ["/images/strains/blue-sherbert/blue-sherbert-1.jpg"],
     "description": [
       "Blue Gelato x Sunset Sherbert",
       "Alchimia is pleased to present Blue Sherbert S1 by The Plug Seedbank, an excellent choice for growers looking for a quality strain with exceptional aroma and effect. This variety is now available in our feminised cannabis seeds catalogue. Blue Sherbert S1 is the encounter between Blue Gelato and Sunset Sherbert, resulting in a highly rewarding growing and consumption experience. With its unique characteristics, this strain is perfect for those who want a bountiful harvest of dense, resinous flowers with fruity, sweet flavours. The perfect fusion, Blue Gelato and Sunset Sherbert come together in Blue Sherbert S1 Blue Sherbert S1 is the encounter between Blue Gelato and Sunset Sherbert. Blue Gelato genetic influence is noted by a vigorous growth and ease of cultivation. Its flowers are dense and covered in a thick resin layer, making it a visual spectacle. It is ideal to elaborate all types of extractions. It offers a complex aroma with fruity notes, such as blueberry and citric hints, with an earthy and floral background. It presents a high THC level, which results in an intense cerebral effect that gradually transforms into a relaxing sensation. On the other hand, Sunset Sherbert contributes with the ability to produce a large amount of trichomes. It is also an excellent choice for resin extractions. Its flavour combines citric notes with a sweet and earthy background, while offering an uplifting and euphoric effect on a mental level, while providing physical relaxation. Blue Sherbert S1 Strain cultivation, strong, easy, and full of black hues Blue Sherbert S1 plants present black hues in the foliage, making them visually striking and attractive. It is easy to cultivate, thus ideal for both novice and experienced growers. It is a strong medium-sized plant with medium internodal distance. Indoors it offers a flowering period of about 8-9 weeks, while outdoors it is ready to harvest in October. It delivers a high production, with a yield of up to 500-550 g per m2 indoors and equally abundant outdoors. Blue Sherbert S1 cannabis strain, experience sweet flavours and uplifting effects Blue Sherbert S1 will delight your senses with fruity and sweet flavours, complemented by a pleasant earthy background. The combination of citric, sweet, and earthy notes creates a unique and satisfying taste experience. In terms of effects, this strain offers a cheerful and euphoric experience on a mental level, providing an uplifting and energetic mood. At the same time, it provides a physical relaxation that helps to release accumulated tension and stress. Its high THC content ensures a powerful and long-lasting effect, perfect for creativity and socialising moments as well as for relaxation and rest. In short, Blue Sherbert S1 by The Plug Seedbank is a feminised cannabis strain with an excellent genetic potential. It is easy to cultivate, offers heavy yields and an exceptional taste and effect. It is an attractive option for growers in search of a rewarding experience. Do not miss the opportunity to cultivate and enjoy this exceptional plant in your garden."
@@ -175,9 +171,7 @@
   },
   {
     "title": "Shiskaberry Strain",
-    "images": [
-      "/images/strains/shiskaberry/shiskaberry-1.webp"
-    ],
+    "images": ["/images/strains/shiskaberry/shiskaberry-1.webp"],
     "description": [
       "Blueberry x Afghan",
       "An indica-dominant hybrid created by crossing DJ Short Blueberry and Afghan. It features a sweet berry and earthy profile. Shiskaberry offers relaxing and calming effects with potential pain relief. THC content of 26%. Plants grow to 80-110 cm indoors and can yield up to 600-700g/m². Getting our Shiskaberry strain to this stage has been a complex work in progress for years, and we are delighted to finally introduce this unique and wonderful strain to our catalogue. The Shiskaberry strain is a unique experience. Her pungent, earthy, spicy notes leave a memorable, delicious aftertaste. Her beautiful berry scent will submerse you in a deeper dimension of delight and insight. The Shiskaberry strain is one stunning Indica that will put you where you need to be and keep you there."
@@ -218,15 +212,13 @@
   },
   {
     "title": "Raw Diesel",
-    "images": [
-      "/images/strains/raw-diesel/raw-diesel-1.jpg"
-    ],
+    "images": ["/images/strains/raw-diesel/raw-diesel-1.jpg"],
     "description": [
       "Mexican Sativa x Afghan",
       "G13 Labs' Raw Diesel variety is the result of the union between Mexican Sativa and an Afghan plant. Its medium height and excellent organoleptic qualities make it an easy-to-grow plant. Its flowering period is between 60 and 70 days, and it is a heavy yielder: up to 950 g/plant outdoors of deep green, resinous buds. Raw Diesel has long, resin-covered tops of an intense, sweet smell – a complex fragrance composed of citric-mandarin and fruity notes, and a petrol amalgam. Raw Diesel seeds are also a good option for indoor cultivation, especially when the SOG and SCROG methods are used, up to 400 gr/m2 of luscious harvest can be expected. Moreover, the end product provides a long-lasting, cerebral effect. Perfect for enjoying an evening together with friends as it is highly stimulating yet balanced, allowing yourself to be carried along by its special aroma."
     ],
     "price": 150,
-    "inStock": false,
+    "inStock": true,
     "type": "",
     "tac": "12-16%",
     "length": "",
@@ -239,9 +231,7 @@
   },
   {
     "title": "Orange Cake",
-    "images": [
-      "/images/strains/orange-cake/orange-cake-1.webp"
-    ],
+    "images": ["/images/strains/orange-cake/orange-cake-1.webp"],
     "description": [
       "Tangie x Wedding Cake",
       "Experience the exceptional Orange Cake strain, a perfectly balanced hybrid with vibrant citrus flavors, uplifting effects, and potent genetics. Ideal for creativity, relaxation, and high yield cultivation!"
@@ -260,9 +250,7 @@
   },
   {
     "title": "Sour G R1",
-    "images": [
-      "/images/strains/sour-g/sour-g-1.jpg"
-    ],
+    "images": ["/images/strains/sour-g/sour-g-1.jpg"],
     "description": [
       "Jet Fuel Gelato x (Sour D x Marshmallow OG)",
       "Fairly large flowers with spongy, dark green flowers with hints of purple. A little extra defoliation can be helpful."
@@ -356,7 +344,7 @@
       "Permanent Marker is a modern cannabis strain and is Leafly Strain of the Year 2023! Los Angeles indie brand Doja Exclusive released the Permanent Marker weed strain in 2022 on both coasts. Bred and grown by Seed Junky Genetics' JBeezy and selected by Doja Pak. The strain fuses several well-established cultivars: (Biscotti x Sherb Bx) x Jealousy. It can smell like a permanent marker. Others note its floral, soapy, candy, and gassy funk that fully translate into the taste. The potent strain smells amazing, and can support creativity or relaxation day and night."
     ],
     "price": 150,
-    "inStock": false,
+    "inStock": true,
     "type": "Indica/Sativa hybrid ((Biscotti x Sherb Bx) x Jealousy)",
     "length": "",
     "floweringTime": "±70 days",
@@ -390,9 +378,7 @@
   },
   {
     "title": "Jet Fuel Gelato",
-    "images": [
-      "/images/strains/jet-fuel-gelato/jet-fuel-gelato-1.jpg"
-    ],
+    "images": ["/images/strains/jet-fuel-gelato/jet-fuel-gelato-1.jpg"],
     "description": [
       "Jet Fuel Gelato is the child of two legendary strains: Jet Fuel and Gelato. Its effects tend to be euphoric and uplifting, leaving consumers both happy and still functional enough to get tasks completed. Immediately after smoking this powerhouse, users have described feeling a jolt of energy then leveling off into a dream-like euphoria. The flavor profile is also quite unique, combining the sweet, dessert-like taste of Gelato with the diesel aroma of Jet Fuel."
     ],
@@ -410,9 +396,7 @@
   },
   {
     "title": "Pineapple Express",
-    "images": [
-      "/images/strains/pineapple-express/pineapple-express-1.jpg"
-    ],
+    "images": ["/images/strains/pineapple-express/pineapple-express-1.jpg"],
     "description": [
       "Experience tropical bliss with this potent hybrid, born from the union of Big Bud and Skunk genetics. The Pineapple Express is an Indica-dominant type that has been one of our best-selling strains for years! With its short flowering time, bountiful harvests, and high THC levels it is a favourite among growers. Expect large, resinous, heavy, and compact flower heads with both aroma and taste strongly marked with lemon and pineapple notes."
     ],
@@ -460,9 +444,7 @@
       "/images/strains/frozen-tropicana-cherries/frozen-tropicana-cherries-3.jpg",
       "/images/strains/frozen-tropicana-cherries/frozen-tropicana-cherries-4.jpg"
     ],
-    "description": [
-      "Lineage:  Tropicana Cherry x BBC"
-    ],
+    "description": ["Lineage:  Tropicana Cherry x BBC"],
     "price": 150,
     "inStock": true,
     "type": "Hybrid",
@@ -477,9 +459,7 @@
   },
   {
     "title": "Sticky Glue",
-    "images": [
-      "/images/strains/sticky-glue/sticky-glue-1.jpeg"
-    ],
+    "images": ["/images/strains/sticky-glue/sticky-glue-1.jpeg"],
     "description": [
       "Sticky Glue is an unknown from In House Genetics and can be cultivated indoors and outdoors (Where the plants will need a flowering time of ±60 days) In House Genetics's Sticky Glue is only available as feminized seeds. Lineage: Gorilla Glue x Platinum Gorilla Flowering Time: 60"
     ],
@@ -497,9 +477,7 @@
   },
   {
     "title": "Trichopath",
-    "images": [
-      "/images/strains/trichopath/trichopath-1.jpeg"
-    ],
+    "images": ["/images/strains/trichopath/trichopath-1.jpeg"],
     "description": [
       "Lineage: Platinum x Jelly breath",
       "Extremely frosty buds with a gassy funk and good yield."
@@ -518,9 +496,7 @@
   },
   {
     "title": "Violet Cake",
-    "images": [
-      "/images/strains/violet-cake/violet-cake-1.jpeg"
-    ],
+    "images": ["/images/strains/violet-cake/violet-cake-1.jpeg"],
     "description": [
       "Violet Cake is an indica / sativa from Robin Hood Seeds and can be cultivated indoors, outdoors and greenhouse (Where the plants will need a flowering time of ±65 days) Robin Hood seeds. Robin Hood Seeds Description Wild berry Cake x (Grape Rock Candy x Banana Butter Cups) (Fems)"
     ],
@@ -579,9 +555,7 @@
   },
   {
     "title": "Gastro Pop",
-    "images": [
-      "/images/strains/gastro-pop/gastro-pop-1.jpg"
-    ],
+    "images": ["/images/strains/gastro-pop/gastro-pop-1.jpg"],
     "description": [
       "Gastro Pop was created from a cross of Apples & Bananas and Grape Gas—two strains also created by Chris Lynch. Below we'll shine a light on both parent strains. Apples & Bananas, Gastro Pop's first parent, is a beloved strain in its own right. Combining genetics from Now N Later and Jet Fuel Gelato, Apples & Bananas boasts deliciously fruity aromas with bold notes of, you guessed, apples and bananas, as well as hints of cherries and strong gassy overtones. Its flavor is also dominated by notes of apples and bananas, tied together with full-bodied and slightly earthy cookie/pastry notes. Apples & Bananas flowers are a little airy and spear-shaped, with stunning purple colors, and deliver a heavy head high with a light, relaxing body buzz. Gastro Pop's second parent, Grape Gas, is a heavy-handed indica-dominant strain that combines Grape Pie and Jet Fuel Gelato genetics. As its name suggests, Grape Gas has a dank aroma that couples sweet grape notes with pungent diesel overtones. Its flavor is similar, mixing grape with bold berry sweetness and a strong, sour note reminiscent of dank diesel. Grape Gas flowers have a very dense structure with a vibrant mix of bright green, deep purple, and fiery orange hues, all under a frosty layer of trichomes. Its effects are deeply relaxing, mixing a warm body buzz with an uplifting cerebral high. Gastro Pop is a very potent cannabis strain, producing between 23–30% THC."
     ],
@@ -599,9 +573,7 @@
   },
   {
     "title": "Fabulozo",
-    "images": [
-      "/images/strains/fabulozo/fabulozo-1.jpeg"
-    ],
+    "images": ["/images/strains/fabulozo/fabulozo-1.jpeg"],
     "description": [
       "Fabulozo, crafted by StarFire Genetix, is a notable blend of Zoap and Permanent Marker strains, combining unique scents and flavors. This variety stands out for its exceptional qualities making it a must-have for those looking to enhance their garden with something truly remarkable. The parentage includes the well-received Permanent Marker, a mix of (Biscotti X Sherb BX1) X Jealousy F2 #5, known for its impactful presence in the cannabis community."
     ],
@@ -619,9 +591,7 @@
   },
   {
     "title": "French Macaron",
-    "images": [
-      "/images/strains/french-macaron/french-macaron-1.jpeg"
-    ],
+    "images": ["/images/strains/french-macaron/french-macaron-1.jpeg"],
     "description": [
       "Facts about this strain:",
       "1st place for Best Indica at Expo Grow Irun 2017",
@@ -629,7 +599,7 @@
       "Named after the delicate French treat, the Macaron. French Macaron by T.H. Seeds has melt-in-your-mouth potential and has more flavour and aroma than a boulangerie. The Gelato 33 French Cookies cross expresses the best traits of both parents and is the perfect cookie treat if you are looking for a quality indica with plenty to offer. About French Macaron Cannabis Seeds French Macaron is a feisty indica with a lot to offer. The plant is a Gelato 33 x French Cookies. The two strains get along like a house on fire and produce one of the tastiest indicas. This potent cannabis hybrid has so far only entered one cannabis cup but counts itself a winner. French Macaron won 1st place in the indica category at Expo Grow Irun 2017. Type French Macaron is a mostly indica photoperiod with a flowering time of 8-9 weeks. It is known to be a short plant with a high yield. You can buy French Macaron cannabis seeds online at the Amsterdam Seed Center in packs of 5. Appearance The structure of this plant is the perfect mix of Gelato 33 and French Cookies. French Macaron is a short plant with tightly packed calyxes erupting with so many trichomes it can be hard to see the beautiful, tight, dark purple bud underneath. Smell / Taste / Aroma The name of this one speaks for itself. Aromas of gas, musk and heavy cream come together, reminiscent of a sweet, creamy dessert. French Macaron is the perfect treat for your tastebuds and a worthy addition to the cookie line of cannabis genetics. Effect With a T.H.C. content >20%, you can expect to feel the full effects of French Macaron. Typical of an indica in many ways, this hybrid leaves you with a clear head while addressing any aches or pains. This one is potent but not overbearing and undoubtedly worth a try if you're a fan of cookie cannabis strains. Growing / Flowering Although a short plant with a flowering time of 8-9 weeks, French Macaron responds well to topping and L.S.T. (low-stress training). Good ventilation is a must with this one; whether grown indoors or outdoors, this plant will produce flowers so dense you will need to ensure they are getting fresh air flow. And French Macaron can be cultivated in any medium or culture, making it easy to grow whether you're soil or hydro."
     ],
     "price": 150,
-    "inStock": false,
+    "inStock": true,
     "type": "",
     "tac": "",
     "length": "",
@@ -642,9 +612,7 @@
   },
   {
     "title": "Mimosa",
-    "images": [
-      "/images/strains/mimosa/mimosa-1.jpeg"
-    ],
+    "images": ["/images/strains/mimosa/mimosa-1.jpeg"],
     "description": [
       "Mimosa is an indica / sativa from Symbiotic Genetics and can be cultivated indoors and outdoors (Where the plants will need a flowering time of ±60 days) Symbiotic Genetics's Mimosa is/was never available as feminized seeds. Symbiotic Genetics Description Mimosa by Symbiotic genetics is a rising star in the cannabis community. This strain has garderedn praise for its outstanding fruit puch, citrus rind aroma and pleasurable mid level buzz. Mimosa is a cross of Clementine and Purple Punch, and has been known to contain respectable percentages of the terpenes limonene and beta caryophyllene. Mimosa Awards Mimosa is a cupwinning variety from Symbiotic Genetics! 2nd Place for Phatpharms at the The Karma Cup 2019 - Sativa 4th Place for Brady Ranck at the The Emerald Cup 2018 - Outdoor - Private 3rd Place for Bamboo at the Santa Cruz Cup 2018 - Outdoor - Sativa 17th Place for Booney Acre Farm at the The Emerald Cup 2017 - Outdoor 4th Place for Pure Melt Rosin Ranch at the The Emerald Cup 2017 - Outdoor"
     ],
@@ -662,12 +630,8 @@
   },
   {
     "title": "Banana Buttercups",
-    "images": [
-      "/images/strains/banana-buttercups/banana-buttercups-1.jpeg"
-    ],
-    "description": [
-      "Banana Punch-Loki Gro Cut x PB & Jealous (REGS)"
-    ],
+    "images": ["/images/strains/banana-buttercups/banana-buttercups-1.jpeg"],
+    "description": ["Banana Punch-Loki Gro Cut x PB & Jealous (REGS)"],
     "price": 150,
     "inStock": false,
     "type": "",
@@ -682,9 +646,7 @@
   },
   {
     "title": "Marionberry Kush",
-    "images": [
-      "/images/strains/marionberry-kush/marionberry-kush-1.jpeg"
-    ],
+    "images": ["/images/strains/marionberry-kush/marionberry-kush-1.jpeg"],
     "description": [
       "Marionberry Kush is an mostly indica fromSubCool's The Dank and can be cultivated indoors and outdoors (Where the plants will need a flowering time of ±60 days) SubCool's The Dank's Marionberry Kush is/was never available as feminized seeds. Marionberry is a kush hybrid. Most phenotypes will grow as a typical short to medium kush, with a large broad leaf structure. Berries are the first thing that come to mind when describing the aroma of her. It is a true blend of a fruit salad aroma with a bit of musky funkiness that comes through, resembling her sister, Cinderella 99. The taste is smooth and fruity, with a clean, crisp, earthy exhale. Marionberry's high comes on quick, first feeling it behind the eyes, moving into the forehead. You can almost feel it tightening your eyebrows. Once the initial high has set in, it's a steady mild high great for day time activities with a true functionable experience.Phenotypes: There are six main phenotypes. All have similar fruit smells, some heavier than others with a range from passionfruit, raspberry, and a romulan earth under tone. Almost every phenotype will have some variation of purple, pink, and light green with drips of sugars."
     ],
@@ -722,9 +684,7 @@
   },
   {
     "title": "Chimera",
-    "images": [
-      "/images/strains/chimera/chimera-1.jpeg"
-    ],
+    "images": ["/images/strains/chimera/chimera-1.jpeg"],
     "description": [
       "Chimera is an unknown from Beleaf Cannabisand can be cultivated indoors and outdoors (Where the plants will need a flowering time of ±60 days) Beleaf Cannabis's Chimera is/was clone only available as feminized seeds. Beleaf Cannabis Description Chimera is a hybrid cannabis strain with an almost cult-like following. Treasured for her complex aromas and uplifting, energizing effects, Chimera makes for a standout daytime smoke. Read on to learn all there is to know about the Chimera cannabis strain. History of the Chimera Cannabis Strain Chimera is a strain most commonly attributed to BeLeaf Cannabis—a breeder based in Tulsa, Oklahoma. BeLeaf says he's had a passion for gardening since the age of 10 and admits to being introduced to cannabis at age 12 after finding his mom's stash of Mexican brick weed. After smoking it with some friends, it was love at first sight, and not long before BeLeaf started experimenting with growing the seeds contained in his mom's supply. As his passion for cannabis grew, BeLeaf found and preserved a wide pool of genetics, some of which he has been releasing through the BeLeaf Cannabis brand since 2015. Genetic Lineage of Chimera Chimera is a hybrid strain descending from White Truffle and The Creature. White Truffle, as its name suggests, has a dense, dank, and savory aroma. A phenotype of Gorilla Butter (Peanut Butter Breath x Gorilla Glue), White Truffle produces dark flowers with plenty of frosty resin. Its aroma is very strong and skunky, with upfront notes of cream, butter, and nuts. Its flavor, meanwhile, tastes like toasted onions sauteed in generous amounts of butter, and its smoke has an equally greasy, thick texture. Finally, White Truffle's effects can be felt almost instantaneously, producing a strong sense of mental relaxation that's quickly followed by a growing body buzz. Users with a tolerance might enjoy White Truffle in the evenings as they finish up chores or engage in creative activities, while less experienced users may prefer White Truffle closer to bedtime. The Creature, meanwhile, is a sativa-dominant strain bred by BeLeaf and sold under the Love Seeds moniker. Like many Love Seed strains, The Creature stems from a batch of seeds produced by plants that hermied in response to light failures at one of BeLeaf's off-the-grid farms. The Creature's exact lineage isn't known, but the strain is said to demonstrate strong sativa traits and produces long flowers with natural foxtails and tons of resin. The Creature's aroma is strong and fruity, with notes of peach and nectarines as well as an intense, gassy finish. Its effects are uplifting, starting behind the eyes and elevating the mood while simultaneously relaxing the body. Physical Characteristics of Chimera Chimera is a hybrid cannabis strain that produces stout plants with dark green foliage. As they transition out of veg, however, Chimera plants are known to stretch to almost double their height, adopting an impressive structure once mature. Generally speaking, Chimera flowers are a light wintergreen but, depending on the conditions in which they're grown, can also take on a stunning mix of purple, orange, red, and blue hues. Combined with their thick coating of trichomes (which could easily be mistaken for real, icy frost), this strain offers a ton of bag appeal. Properties and Effects of Chimera Chimera is known to be extremely potent and has received a lot of hype from users of all types for its strength and delicious aromas/flavors. Depending on the batch, Chimera can contain anywhere between 20–27% THC along with an exotic mix of terpenes. Limonene, caryophyllene, pinene, humulene, and guaiol tend to dominate Chimera's terpene profile, though the strain may also contain linalool and other common cannabis terps. Crack open a jar or bag of well-cured Chimera buds and you'll be greeted by a strong aroma of sugary, fruity cereal and jam. Below the sweetness, you'll also notice an upfront earthiness, almost reminiscent of wild mushrooms, moss, or crispy grilled waffle/pancake batter. Break apart Chimera's frosty nugs and take another big whiff as her subtler aromas of cream, skunk, and tobacco come to the foreground—some users compare the aroma of Chimera to that of a freshly buttered and jammed scone or biscuit. When you finally light her up and inhale Chimera's thick smoke or vapor, your palate will be hit by a complex mix of fruity sweetness, doughy earthiness, and lingering notes of zesty skunk."
     ],
@@ -742,9 +702,7 @@
   },
   {
     "title": "Bananium",
-    "images": [
-      "/images/strains/bananium/bananium-1.jpg"
-    ],
+    "images": ["/images/strains/bananium/bananium-1.jpg"],
     "description": [
       "Genetic Lineage",
       "Bananium from the renowned breeder In House Genetics, crafted through the expert combination of two celebrated strains: Platinum and Banana OG. This hybrid leans heavily toward the indica side, with a composition of 95% indica and 5% sativa. The result is a plant that reflects the most desirable growth traits from both parent strains, delivering a powerful presence in the garden and a high resin output. Sold exclusively as feminized seeds, Bananium seeds ensure that growers will harvest only female, flower-producing plants, maximizing yield potential and efficiency. Flavor and Aroma One of Bananium's standout characteristics is its exceptional flavor and aroma profile. Upon consumption, a dominant hashy OG taste emerges first, offering a deep, earthy richness that grounds the palate. This robust base is smoothly accented by banana undertones that bring a sweet, creamy nuance to the experience. These flavors linger long after consumption, making Bananium particularly memorable. The aroma mirrors the flavor with an enveloping scent of hash and ripe bananas, combining to create a warm, inviting fragrance that fills any grow room or stash jar with a sweet, musky presence. Visual Characteristics Visually, Bananium makes a bold impression. The buds are dense and tightly packed, showcasing a frosty, sugar-coated appearance thanks to a generous coating of resin glands. These glistening trichomes not only reflect the plant's potency but also indicate its suitability for concentrate production. Under light, the crystalline surface of Bananium buds sparkles, adding to their bag appeal. The coloration can vary from deep forest greens to lighter tones, with vibrant orange pistils weaving through the flower, further enhancing its aesthetic allure. Indoor Cultivation Bananium seeds perform exceptionally well in indoor environments. Plants experience a moderate stretch during flowering, making them manageable in tents or smaller rooms. The flowering period typically spans 56 to 63 days. During this time, growers can expect the development of dense buds that are heavily coated in resin. With good cultivation practices and a stable environment, indoor yields tend toward the medium to heavy range. Training techniques such as topping and low-stress training (LST) are effective in promoting even canopy development and boosting yield. Outdoor Cultivation Outdoor cultivators will find Bananium to be a reliable performer across a variety of climate zones. The plant benefits from strong sunlight and thrives in well-draining soil. Its robust genetics make it resilient and adaptable, capable of producing high yields when provided ample space and attention. Outdoor Bananium plants typically reach maturity in late September to early October. Given sufficient growing space and favorable conditions, growers can expect a large harvest of resin-heavy, aromatic buds that maintain the strain's signature flavor and scent. Cultivation Tips Bananium is considered grower-friendly, making it a solid choice for both novice and experienced cultivators. Indoors, maintaining proper temperature and humidity during flowering will enhance resin development and preserve terpene richness. Employing training techniques helps optimize space and increase flower production. Outdoors, spacing plants well ensures airflow and light penetration, which are essential for healthy growth. Regular feeding and monitoring will support the plant's vigorous development throughout the season. Whether cultivated in soil or hydro, Bananium responds well to attentive care. Yield Potential Bananium seeds are known for producing medium to heavy yields, with results that vary depending on the environment and techniques used. Indoors, the yield can range from moderate to substantial, especially when growers implement effective canopy management. Outdoors, the yields can be particularly impressive, especially in climates that allow for full maturation of the dense, resin-rich flowers. The combination of flower quality and volume makes Bananium an excellent choice for growers interested in both personal use and concentrate production."
@@ -792,7 +750,7 @@
       "Created by blending OGKB V2.1 with Platinum, one of a kind strain which truly has it all; looks, bag appeal and flavour. Great for pain relief, anxiety and stimulating appetite."
     ],
     "price": 150,
-    "inStock": false,
+    "inStock": true,
     "type": "Hybrid",
     "tac": "",
     "length": "Medium to tall stretch",
@@ -805,9 +763,7 @@
   },
   {
     "title": "Durban Poison",
-    "images": [
-      "/images/strains/durban-poison/durban-poison-1.jpg"
-    ],
+    "images": ["/images/strains/durban-poison/durban-poison-1.jpg"],
     "description": [
       "Why should I get Durban Poison",
       "Classic, fully proven corner-stone variety",
@@ -859,11 +815,9 @@
       "/images/strains/nanaz/nanaz-5.jpg",
       "/images/strains/nanaz/nanaz-6.jpg"
     ],
-    "description": [
-      "NANAZ linage - RUNTZ X BANANA BUTTER CUPS"
-    ],
+    "description": ["NANAZ linage - RUNTZ X BANANA BUTTER CUPS"],
     "price": 150,
-    "inStock": true,
+    "inStock": false,
     "yield": "Large",
     "floweringTime": "8 – 9 Weeks",
     "terpeneProfile": "Candy, Gas, Banana, Funk",
@@ -921,9 +875,7 @@
       "/images/strains/frozen-blueberries/frozen-blueberries-3.jpg",
       "/images/strains/frozen-blueberries/frozen-blueberries-4.jpg"
     ],
-    "description": [
-      "FROZEN BLUEBERRIES lineage: BLUEBERRY X BBC"
-    ],
+    "description": ["FROZEN BLUEBERRIES lineage: BLUEBERRY X BBC"],
     "price": 150,
     "inStock": true,
     "yield": "Medium",
@@ -940,9 +892,7 @@
       "/images/strains/mangonada-rosa/mangonada-rosa-3.jpg",
       "/images/strains/mangonada-rosa/mangonada-rosa-4.jpg"
     ],
-    "description": [
-      "MANGONADA ROSA lineage: FROZEN MANGO X LIMONADA ROSA"
-    ],
+    "description": ["MANGONADA ROSA lineage: FROZEN MANGO X LIMONADA ROSA"],
     "price": 150,
     "inStock": true,
     "yield": "Medium",
@@ -958,9 +908,7 @@
       "/images/strains/applecup/applecup-2.jpg",
       "/images/strains/applecup/applecup-3.jpg"
     ],
-    "description": [
-      "APPLECUP lineage: APPLE FRITTER X BBC"
-    ],
+    "description": ["APPLECUP lineage: APPLE FRITTER X BBC"],
     "price": 150,
     "inStock": true,
     "yield": "Medium",
@@ -1125,9 +1073,7 @@
   },
   {
     "title": "La Cheese",
-    "images": [
-      "/images/strains/la-cheese/la-cheese-1.jpg"
-    ],
+    "images": ["/images/strains/la-cheese/la-cheese-1.jpg"],
     "description": [
       "LA Cheese Lineage: LA CONFIDENTIAL X BIG BUDHA CHEESE",
       "Winner High Times Cannabis Cup 2011 Amsterdam",
@@ -1169,9 +1115,7 @@
   },
   {
     "title": "Forbidden Cake",
-    "images": [
-      "/images/strains/forbidden-cake/forbidden-cake-1.jpg"
-    ],
+    "images": ["/images/strains/forbidden-cake/forbidden-cake-1.jpg"],
     "description": [
       "Forbidden Cake Lineage: WEDDING CAKE X FORBIDDEN FRUIT",
       "Forbidden Cake is a variety of feminized cannabis seeds from the American bank Elev8 Seeds, the result of crossing a Wedding Cake with a Forbidden Fruit. Wedding Cake has skyrocketed in popularity over the years for its incredible flavour. Wedding Cake, sometimes called the Pink Panties, is a modern hybrid with a balanced high and delicious flavour. It is a cross between the Cherry Pie and the famous Girl Scout Cookies. Wedding Cake has a profile of rich aromas with sour and acid touches, accompanied by a small creamy touch. Indoors, Wedding Cake finishes in about 9 weeks and can produce 500-600g/m², while outdoors it will be ready to harvest around October. Forbidden Fruit is the delicious cross of Cherry Pie x Tangie. This sumptuous genetic cross expresses a beautiful, dense bud structure with deep purple hues, deep green foliage, and orange hairs. The terpene profile is a perfect blend of Cherry Pie's musky and sweet cherry nuances and Tangie's strong tropical flavours. There are also notes of pine candy, mango and passion fruit, Forbidden Cake combines the terps of rotten fruit and candy with cookie gas."
@@ -1211,9 +1155,7 @@
   },
   {
     "title": "Belladonna",
-    "images": [
-      "/images/strains/belladonna/belladonna-1.jpg"
-    ],
+    "images": ["/images/strains/belladonna/belladonna-1.jpg"],
     "description": [
       "Belladonna Lineage: SUPER SKUNK X MALAWI SATIVA F1",
       "Sultry Sativa… Belladonna is one of our original old school strains. This classic plant is a multi-award winner and is as popular now as when we introduced it 15 years ago thanks to a quick harvest time combined with sativa high. When we released it at the end of the Nineties it quickly became an overnight classic with growers in the USA, Spain and the Netherlands due to its commercial potential and outstanding forum reviews. It is a versatile plant that will adapt effectively well to most environments and repay the grower with a combination of strength and yield. A great plant to grow, Belladonna continues to be a popular choice with indoor growers with a flowering time of approximately 9 weeks. The ease of management and characteristic low maintenance makes it a good plant for beginners seeking a generous harvest and keeps old school growers coming back for more too. The buds are tight, and the foliage is reduced, giving this strain a good natural defense against mold and fungi. Belladonna is particularly recommended for growers with SOG set ups （Sea of Green）. This sultry sativa remains the seed of choice with many outdoor growers in both northern and southern regions. It does very well in warmer climates, such as California, where the sun fuels healthy growth, and was super popular when the outdoor growing revolution came to Spain in the 1990s. As this plant has been bred to be mold resistant, it is also a great bet （and a popular one） with sativa inspired gardeners in countries like the UK, Germany and the Netherlands. The resin coated buds that Belladonna delivers come with a heavy coating of trichomes, producing a plant that is beautiful to look at and fruity to taste. As for the effect, Belladonna produces a euphoria when smoked with a high that is psychedelic – trippy and hallucinogenic – provoking a strong rush to the senses. Belladonna – literally translated as ‘beautiful lady’ is a cross between Super Skunk – the famous Dutch strain which set the benchmark in the 1980s/1990s – and a potent male Malawi sativa (F1 hybrid) from the Paradise Seeds library. The result is a plant that is predominantly sativa but also comes with a significant indica influence – producing a unique long lasting and very powerful effect. Difficulty Indoors: A great plant to grow, Belladonna continues to be a popular choice with indoor growers with a flowering time of approximately 9 weeks. The ease of management and characteristic low maintenance makes it a good plant for beginners seeking a large harvest and keeps old school growers coming back for more too. The buds are tight, and the foliage is reduced, giving this strain a good natural defense against mold and fungi. Belladonna is particularly recommended for growers with SOG set ups (Sea of Green). Outdoors: This sultry sativa remains the seed of choice with many outdoor growers in both northern and southern regions. It does very well in warmer climates where the sun fuels healthy growth and was super popular when the outdoor growing revolution came to Spain in the 1990s. As this plant has been bred to be mold resistant, it is also a great bet (and a popular one) with sativa inspired gardeners in countries in northern and more temperate regions where Autumn brings more unpredictable weather. Recreational: The Belladonna cannabis seed produces a nicely balanced plant. The initial sativa effect is one of heady euphoria and uplifting energy, but the indica relaxation also comes into play as time passes, resulting in a long-lasting effect. Belladonna is also known for having a more mind-expanding effect than many strains. This makes it a popular choice for creativity and seeing a shifted view of the world, however it is not recommended for use by those who are prone to anxiety. Medical: Belladonna is not the best recommendation for medical users although there will be aspects that users will find therapeutic. * Winner 3rd prize Highlife Feria Barcelona 2005 See how others have grown this strain"
@@ -1253,9 +1195,7 @@
   },
   {
     "title": "Blood Bath",
-    "images": [
-      "/images/strains/blood-bath/blood-bath-1.jpg"
-    ],
+    "images": ["/images/strains/blood-bath/blood-bath-1.jpg"],
     "description": [
       "Blood Bath Lineage: BUBBLE BATH X RED VELVET",
       "Blood Bath by LIT Farms is an indica-dominant hybrid bred from the luscious pairing of Bubble Bath and Red Velvet. This feminized strain flowers in 8-9 weeks, offering reliable growth and potent effects. Blood Bath by LIT Farms is a bold and flavorful indica-dominant hybrid, showcasing the best of its premium genetics, Bubble Bath and Red Velvet. Known for its vigorous growth and dense, resinous buds, Blood Bath thrives in both indoor and outdoor settings. This feminized photoperiod strain flowers within 8–9 weeks, making it a convenient choice for growers seeking efficiency without compromising quality. The plants produce vibrant, trichome-coated buds that reflect their luxurious lineage, while their robust structure ensures adaptability to different cultivation techniques. Blood Bath is the perfect addition to any grower’s lineup, offering a combination of resilience, striking visual appeal, and powerful effects. Whether you’re cultivating for personal enjoyment or as part of a collection, this strain delivers a high-quality harvest every time."
@@ -1273,9 +1213,7 @@
   },
   {
     "title": "King's Tart",
-    "images": [
-      "/images/strains/kings-tart/kings-tart-1.jpg"
-    ],
+    "images": ["/images/strains/kings-tart/kings-tart-1.jpg"],
     "description": [
       "King's Tart Lineage: LA KUSH CAKE X BUBBA SLUSH",
       "Description",
@@ -1428,9 +1366,7 @@
   },
   {
     "title": "Supreme Oreoz",
-    "images": [
-      "/images/strains/supreme-oreoz/supreme-oreoz-1.webp"
-    ],
+    "images": ["/images/strains/supreme-oreoz/supreme-oreoz-1.webp"],
     "description": [
       "Supreme Oreoz Genetic Lineage: GARY PAYTON X OREOS",
       "I know you're used to regular Oreos. Well, our Supreme Oreoz are much more delicious. They come from Starfire Genetics. Chocolate and Peanut butter. Smooth, creamy and relaxing. We think you'll like ours better than the Oreos you're used to. See how others have grown this strain."
@@ -1628,9 +1564,7 @@
       "/images/strains/violet-bag/violet-bag-1.jpg",
       "/images/strains/violet-bag/violet-bag-2.jpg"
     ],
-    "description": [
-      "See how others have grown this strain."
-    ],
+    "description": ["See how others have grown this strain."],
     "price": 125,
     "inStock": true,
     "type": "",
@@ -1675,7 +1609,7 @@
       "Welcome to the world of dessert strains and delicious flavors. Jelly Donutz is a tasty little morsel with high potency that is sure to delight the palate of smokers of all consumption habits. It will also satisfy growers looking for a fast-flowering plant that provides a huge yield. Here is what you should know about Jelly Donutz, how it grows, as well as how it smells, tastes, and feels. Bred by Humboldt Seed Company (HSC), Jelly Donutz is a sativa-dominant hybrid (40% indica, 60% sativa) that was born from crossing Jelly Donutz (#160x#17), Hella Jelly, and White Runtz. Just in reading that, you can probably smell and taste the thought of Jelly Donutz. That’s because its genetics scream fruit, dessert, and Gelato descendance. Jelly Donutz Flavour Pofile Thanks to its Gelato and Zkittlez lineage, but also comes through with floral, creamy, and diesel notes on the exhale.  Runtz and White Runtz are both strains that have been faked, forged, and scammed thousands of times, due to their popularity. Companies know how in-demand the strains are so they will take a plant that is NOT Runtz, and still package and market that strain as such. Fortunately, with HSC, you’ll never have to worry about that. If they say a strain is Runtz, or is crossed with Runtz, you can bet your bottom dollar that it’s the truth. Made from a cut of Runtz that Humboldt Seed Company obtained at the famous Emerald Cup, Jelly Donutz is a perfect example of that. Jelly Donutz’ purple and green flowers are absolutely coated in trichomes, which makes it a great strain to wash for concentrates. Its THC content has tested as high as 35%. Tetrahydrocannabinol (THC) is the active compound in cannabis that turns you from sober to “high. This strain is the perfect mix of sweet candy and fuel terpenes. HSC describes its smell profile as pink cotton candy, caramel, and fuel. As far as flavor goes, smoking Jelly Donutz tastes like drinking a strawberry malted milkshake. The High Consumers can typically expect an energizing and upbeat type of high from this strain. That’s why it’s such a great strain for anytime consumption. Whether you wake-and-bake with it, smoke it during an afternoon break, or reserve it for an evening chill-out, you’ll still sure to enjoy the experience that follows. For people looking for something to smoke and enjoy active hobbies, say hello to Jelly Donutz. “The high from buds harvested at day 56 lived up to HSC’s promise of 30-35% THC. The onset of the high was heart-racing, mostly Sativa, but not annoyingly paranoid or anxious, and the high lasted hours without burnout,” says Growing Marijuana Perfectly. “This high is great for dancing, athletics, parties…but novice users should inhale with caution. Even those of us who wake and bake and keep baking all day long notice that this strain takes you right through the ceiling, no matter how high you were before,” they continue. Jelly Donutz tends to be more of a head high than body high for consumers. It hits your brain with an energy rush that then spreads the same energy throughout your body; but that initial cerebral onset is undeniable. Still, even with this knowledge of average user experience, the best way to know how Jelly Donutz will affect you is to consume the strain in various doses and settings then monitor the experience over a period of 2-5 hours. So get up, find this delicious cannabis strain, and see if it’s your next favorite smoke. We have a feeling you’ll absolutely love it. See how others have grown this strain."
     ],
     "price": 125,
-    "inStock": true,
+    "inStock": false,
     "type": "Hybrid | 40% Sativa 60% Indica",
     "tac": "30–35%",
     "length": "Medium – High",
@@ -1726,9 +1660,7 @@
   },
   {
     "title": "Masterpiece",
-    "images": [
-      "/images/strains/masterpiece/masterpiece-1.jpg"
-    ],
+    "images": ["/images/strains/masterpiece/masterpiece-1.jpg"],
     "description": [
       "Natural Highs is happy to present Masterpiece by In House Genetics, encounter between Cap Junky and Platinum, two super genetics. It is a vigorous strain with flowers worthy of the envy of any dispensary. This variety is now available in our feminized cannabis seeds catalogue. Cap Junky, the parental, is a hybrid developed from a collaboration between Seed Junky and Capulator, two of the most influential breeders on the cannabis scene. It boasts THC levels of over 30%, yet is really well-known for the aroma. A pungent waft of petrol and fermented fruit will waft through the room once you open a Cap Junky jar. Platinum, the other parental, is an in-house bred strain cross between UW Hash plant x Permafrost S1. A variety with Indica genetics, notably primarily for an excellent production of top quality trichomes. It produces fresh terpenes with wood and pine notes. Masterpiece is a to USA plant. It presents a fully hybrid structure. The size of the specimens is average, as well as the distance between nodes. Indoors it requires about 8-9 weeks to be ready to harvest, and outdoors it is ready to harvest in October. This strain delivers a powerful effect due to the incredible amounts of cannabinoids in the buds. The user will experience an initial euphoric high which, briefly, progresses into a more relaxing and calming state. See how others have grown this strain"
     ],
@@ -1837,7 +1769,7 @@
       "Slurbert or “Slurrbert”  is a well-balanced hybrid strain (50% Indica/50% Sativa) created by crossing Slurricane with Sunset Sherbert, both very famous strains. In America, its taste and aroma are popular among hybrid cannabis lovers. It has a strong citrus flavour mixed with fruity notes followed by refreshing herbal and earthy scents. The ultimate strain that shouldn't be missed: “Slurbert Marijuana Strain”, the source of inspiration for the ultimate mood creator!"
     ],
     "price": 125,
-    "inStock": false,
+    "inStock": true,
     "type": "Balanced Hybrid |50% Sativa 50% Indica",
     "tac": "26%",
     "length": "Medium",
@@ -2292,7 +2224,7 @@
       "Many years of breeding have gone into making this more homogenous version of Mandarin Cookies. We've finally captured all of the various desired qualities from previous versions and have them all in this one. Expect INTENSE terpenes, along with large, extremely dense flowers completely coated with trichomes. She’s amazing for extractions and easy to grow in any environment. Her effects are long-lasting, enjoyable and chill—but not sleepy. Medium height with good vigour and perfect internode spacing. She grows well in any system or environment. Extremely dense with a high bract-to-leaf ratio. She’s covered in trichomes and super terpy. Lineage: MANDARIN COOKIES #7 x MANDARIN COOKIES #17"
     ],
     "price": 125,
-    "inStock": true,
+    "inStock": false,
     "type": "Sativa Dominant Hybrid | 70% Sativa 30% Indica",
     "tac": "25–30%",
     "length": "Medium",
