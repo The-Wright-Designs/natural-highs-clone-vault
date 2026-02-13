@@ -365,7 +365,7 @@
       "Bubble Gum Sherb was developed from an extremely potent female, Bubble Gum x Sunset Sherbet, that has a particularly pronounced terpene and cannabinoid profile. Both parent plants were selected through a long process of searching for flavor and potency to finally obtain the properties we had envisioned. This strain is not recommended for the faint of heart or beginners as its extreme THC content of 30%-32% and the extensive cannabinoid profile ensure long-lasting and very intense effects. It gives us euphoric effects accompanied by body relaxation."
     ],
     "price": 150,
-    "inStock": true,
+    "inStock": false,
     "type": "Mainly Indica (Bubble Gum x Sunset Sherbet)",
     "tac": "30-32%",
     "length": "",
@@ -643,24 +643,6 @@
     "effects": "",
     "supplier": "Square One Genetics",
     "dateCreated": "2025-10-02T14:39:35"
-  },
-  {
-    "title": "Marionberry Kush",
-    "images": ["/images/strains/marionberry-kush/marionberry-kush-1.jpeg"],
-    "description": [
-      "Marionberry Kush is an mostly indica fromSubCool's The Dank and can be cultivated indoors and outdoors (Where the plants will need a flowering time of ±60 days) SubCool's The Dank's Marionberry Kush is/was never available as feminized seeds. Marionberry is a kush hybrid. Most phenotypes will grow as a typical short to medium kush, with a large broad leaf structure. Berries are the first thing that come to mind when describing the aroma of her. It is a true blend of a fruit salad aroma with a bit of musky funkiness that comes through, resembling her sister, Cinderella 99. The taste is smooth and fruity, with a clean, crisp, earthy exhale. Marionberry's high comes on quick, first feeling it behind the eyes, moving into the forehead. You can almost feel it tightening your eyebrows. Once the initial high has set in, it's a steady mild high great for day time activities with a true functionable experience.Phenotypes: There are six main phenotypes. All have similar fruit smells, some heavier than others with a range from passionfruit, raspberry, and a romulan earth under tone. Almost every phenotype will have some variation of purple, pink, and light green with drips of sugars."
-    ],
-    "price": 150,
-    "inStock": false,
-    "type": "Hybrid (Raspberry Kush x Space Queen)",
-    "tac": "",
-    "length": "Short to Medium",
-    "yield": "Medium to Heavy",
-    "floweringTime": "",
-    "terpeneProfile": "Phenotypes range from mango, passionfruit, to a raspberry lemonade and an earthy fruit smell. Very smooth, clear smoke with variations of berry after tastes to a musky kush sweetness.",
-    "effects": "",
-    "supplier": "SubCool’s The Dank",
-    "dateCreated": "2025-10-02T14:18:45"
   },
   {
     "title": "Gelato 33 X Zkittles Cake",
