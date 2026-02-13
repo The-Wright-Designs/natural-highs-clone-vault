@@ -508,8 +508,10 @@ export default function CartSummary() {
               <span className="font-bold text-[14px]">
                 Payment is via EFT only.
               </span>{" "}
-              Please use the order number that will be emailed to you as the
-              payment reference.
+              An email with the order number (to be used as the payment
+              reference) and banking details will arrive in your inbox once the
+              order is completed. Please check your spam folder if you don't see
+              it within a few minutes.
             </p>
           </div>
 

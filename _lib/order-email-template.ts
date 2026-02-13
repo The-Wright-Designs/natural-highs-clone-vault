@@ -110,7 +110,7 @@ export const orderEmailTemplate = ({
             <div style="border: 1px solid #e0e0e0; padding: 0.5rem; margin-top: 1rem; border-radius: 4px;">
               <p style="font-size: 1rem; font-weight: 500; color: #353535; margin: 0;">
                 <strong>Bank:</strong> FNB<br />
-                <strong>Account number:</strong> 63173653883<br />
+                <strong>Account number:</strong> 62862741149<br />
                 <strong>Branch code:</strong> 250655
               </p>
             </div>
