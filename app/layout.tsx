@@ -6,6 +6,7 @@ import Header from "@/_components/navigation/header/header";
 import Footer from "@/_components/navigation/footer/footer";
 import { CartProvider } from "@/_contexts/cart-context";
 import RecaptchaProvider from "@/_lib/recaptcha-provider";
+import { Analytics } from "@vercel/analytics/next";
 
 const spectralSerif = Spectral({
   variable: "--font-spectral",
