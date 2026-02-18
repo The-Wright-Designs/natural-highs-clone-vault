@@ -1,8 +1,6 @@
 export function generateOrderNumber() {
-  const now = performance.now();
-  const microTime = Math.floor(now * 1000)
+  const random = Math.floor(Math.random() * 100000)
     .toString()
-    .slice(-4);
-  const random = Math.random().toString(36).substr(2, 2).toUpperCase();
-  return `OR-${microTime}${random}`;
+    .padStart(5, "0");
+  return `OR-${random}`;
 }

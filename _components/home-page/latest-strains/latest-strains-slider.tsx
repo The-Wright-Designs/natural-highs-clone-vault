@@ -43,6 +43,7 @@ const LatestStrainsSlider = ({ cssClasses, data }: SlideDataProps) => {
             spaceBetween={40}
             speed={1000}
             modules={[Autoplay, Pagination, Navigation]}
+            a11y={{ scrollOnFocus: false }}
             pagination={{
               dynamicBullets: true,
             }}
