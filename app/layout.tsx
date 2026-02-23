@@ -29,6 +29,7 @@ export default function RootLayout({
             <Footer />
           </CartProvider>
         </RecaptchaProvider>
+        <Analytics />
       </body>
     </html>
   );
