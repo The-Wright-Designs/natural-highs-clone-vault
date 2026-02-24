@@ -45,6 +45,7 @@ const ContactComponent = ({ cssClasses, id }: ContactComponentProps) => {
                 alt="WhatsApp"
                 width={31.5}
                 height={31.5}
+                sizes="32px"
               />
             </Link>
           </div>

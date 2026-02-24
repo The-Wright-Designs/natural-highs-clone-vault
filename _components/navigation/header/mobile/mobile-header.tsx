@@ -39,6 +39,7 @@ export function MobileHeader() {
             alt="Natural Highs Clone Vault logo"
             width={70}
             height={70}
+            sizes="70px"
             className="hidden min-[410px]:block"
           />
           <h1 className="text-white text-[24px] leading-tight font-bold uppercase">
@@ -60,6 +61,7 @@ export function MobileHeader() {
               alt="Open menu"
               width={22}
               height={14}
+              sizes="22px"
             />
           </button>
         </div>
@@ -98,6 +100,7 @@ export function MobileHeader() {
               alt="Close menu"
               width={16}
               height={16}
+              sizes="16px"
             />
           </button>
         </div>

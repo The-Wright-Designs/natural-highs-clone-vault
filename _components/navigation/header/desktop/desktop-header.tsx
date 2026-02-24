@@ -23,6 +23,7 @@ export function DesktopHeader() {
           alt="Natural Highs Clone Vault logo"
           width={60}
           height={60}
+          sizes="60px"
         />
         <h1 className="text-white text-[32px] font-bold uppercase">
           Natural Highs{" "}

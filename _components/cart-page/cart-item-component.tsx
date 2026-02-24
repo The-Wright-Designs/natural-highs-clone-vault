@@ -62,6 +62,7 @@ export default function CartItemComponent({ item }: CartItemComponentProps) {
               alt={item.name}
               width={160}
               height={160}
+              sizes="(max-width: 399px) 100vw, (max-width: 1279px) 128px, 96px"
               className="h-full w-full object-cover"
             />
           </div>

@@ -97,6 +97,7 @@ const LatestStrainsSlider = ({ cssClasses, data }: SlideDataProps) => {
                           alt={`Natural Highs Clone Vault - ${title}`}
                           width={800}
                           height={600}
+                          sizes="(max-width: 599px) 100vw, (max-width: 799px) 50vw, (max-width: 1279px) 33vw, 20vw"
                           className={classNames(
                             "object-cover h-full transition-transform duration-300 delay-150 desktop:w-full desktop:h-full",
                             {

@@ -12,6 +12,7 @@ export default function Footer() {
           alt="Natural Highs Clone Vault Logo"
           width={150}
           height={200}
+          sizes="150px"
           className="object-cover"
         />
         <p className="text-paragraph pb-3 border-b border-white/25 text-white text-center tablet:flex tablet:gap-1">
