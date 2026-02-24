@@ -6,6 +6,11 @@ export const metadata: Metadata = createPageMetadata({
   description:
     "Browse our complete collection of premium cannabis strains and genetics. Find the perfect cannabis clone with detailed descriptions, effects, and availability.",
   keywords: [
+    "clones for sale",
+    "cannabis clones for sale",
+    "marijuana clones for sale",
+    "cannabis seeds for sale",
+    "marijuana seeds for sale",
     "cannabis strains",
     "marijuana strains",
     "cannabis genetics",

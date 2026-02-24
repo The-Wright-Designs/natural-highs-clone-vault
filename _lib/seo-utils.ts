@@ -107,7 +107,7 @@ export function generateOrganizationSchema() {
       contactType: "customer service",
       email: "sales@naturalhighs.co.za",
     },
-    sameAs: [],
+    sameAs: ["https://www.facebook.com/profile.php?id=61581096452689"],
   };
 }
 
@@ -118,11 +118,6 @@ export function generateWebsiteSchema() {
     name: "Natural Highs Clone Vault",
     description: "Premium cannabis clones and genetics in South Africa",
     url: "https://www.naturalhighs.co.za",
-    potentialAction: {
-      "@type": "SearchAction",
-      target: "https://www.naturalhighs.co.za/search?q={search_term_string}",
-      "query-input": "required name=search_term_string",
-    },
   };
 }
 
@@ -141,23 +136,6 @@ export function generateBreadcrumbSchema(
   };
 }
 
-export function generateLocalBusinessSchema() {
-  return {
-    "@context": "https://schema.org/",
-    "@type": "LocalBusiness",
-    name: "Natural Highs Clone Vault",
-    description: "Premium cannabis clones and genetics in South Africa",
-    url: "https://www.naturalhighs.co.za",
-    telephone: "+27 123 456 789",
-    email: "sales@naturalhighs.co.za",
-    address: {
-      "@type": "PostalAddress",
-      addressCountry: "ZA",
-    },
-    openingHours: "Mo-Su 00:00-23:59",
-    acceptsReservations: false,
-  };
-}
 
 export function getAllStrainSlugs() {
   return strainData.map((strain) => createStrainSlug(strain.title));

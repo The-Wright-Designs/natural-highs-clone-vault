@@ -7,10 +7,16 @@ import LatestStrainsSection from "@/_components/home-page/latest-strains/latest-
 
 export const metadata: Metadata = createPageMetadata({
   title:
-    "Premium Cannabis Clones & Genetics | Natural Highs Clone Vault South Africa",
+    "Cannabis Clones & Marijuana Clones for Sale | Natural Highs Clone Vault",
   description:
-    "Natural Highs Clone Vault offers carefully pheno-hunted premium cannabis clones and genetics for South African growers. Hand-selected for vigour, stability, and exceptional traits including high yields and rich terpene profiles. Empowering growers of all levels with reliable, healthy clones.",
+    "Natural Highs Clone Vault offers premium cannabis clones and marijuana clones for sale, carefully pheno-hunted for South African growers. Browse cannabis and marijuana genetics including seeds, with discreet nationwide delivery.",
   keywords: [
+    "clones for sale",
+    "cannabis clones for sale",
+    "marijuana clones for sale",
+    "cannabis seeds for sale",
+    "marijuana seeds for sale",
+    "marijuana clones",
     "cannabis clones south africa",
     "premium cannabis genetics",
     "pheno-hunting",
@@ -20,9 +26,7 @@ export const metadata: Metadata = createPageMetadata({
     "south african growers",
     "premium clones",
     "terpene profiles",
-    "cannabis seeds",
     "home cultivation",
-    "grow with confidence",
   ],
 });
 

@@ -5,30 +5,8 @@ export default function robots(): MetadataRoute.Robots {
     rules: [
       {
         userAgent: "*",
-        allow: [
-          "/",
-          "/strains",
-          "/strains/*",
-          "/cart",
-          "/images",
-          "/images/*",
-          "/_next/static",
-          "/_next/static/*",
-        ],
-        disallow: [
-          "/api",
-          "/api/*",
-          "/_next",
-          "/_next/*",
-          "/sitemap.xml",
-          "/robots.txt",
-        ],
-      },
-      {
-        userAgent: "Googlebot",
-        allow: ["/"],
-        disallow: ["/api"],
-        crawlDelay: 1,
+        allow: ["/", "/strains", "/strains/*", "/cart", "/images", "/images/*"],
+        disallow: ["/api", "/api/*", "/_next", "/_next/*"],
       },
     ],
     sitemap: "https://www.naturalhighs.co.za/sitemap.xml",
