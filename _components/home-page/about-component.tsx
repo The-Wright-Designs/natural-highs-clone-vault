@@ -20,8 +20,8 @@ export default function AboutComponent({
               At <span className="font-bold">Natural Highs Clone Vault</span>,
               we take pride in carefully pheno-hunting top-tier genetics from
               around the world, making them available as premium cannabis clones
-              for sale to South African growers who want to cultivate at home
-              with confidence.
+              and marijuana clones for sale to South African growers who want to
+              cultivate at home with confidence.
             </p>
             <p>
               Every clone we offer is hand-selected for vigour, stability, and
@@ -32,7 +32,8 @@ export default function AboutComponent({
             </p>
             <p>
               Whether you're an experienced grower or just starting out and
-              searching for where to buy quality cannabis clones and seeds,{" "}
+              searching for quality clones, cannabis seeds, or marijuana seeds
+              for sale,{" "}
               <span className="font-bold">Natural Highs Clone Vault</span>{" "}
               ensures you get premium genetics that set the foundation for
               success. With a focus on quality, integrity, and innovation, we

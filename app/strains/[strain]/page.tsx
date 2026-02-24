@@ -9,6 +9,7 @@ import StrainDetails from "@/_components/strains-page/strain-details";
 import StrainDescription from "@/_components/strain-page/strain-description";
 import { createStrainMetadata } from "@/_lib/metadata";
 import { createStrainSlug } from "@/_lib/utils/slug-utils";
+import { generateProductSchema } from "@/_lib/seo-utils";
 
 import strainData from "@/_data/strains-data.json";
 
@@ -72,8 +73,18 @@ const StrainPage = async ({ params, searchParams }: StrainPageProps) => {
     return queryString ? `/strains?${queryString}` : "/strains";
   };
 
+  const schema = generateProductSchema({
+    ...strain,
+    type: strain.type ?? "",
+  });
+
   return (
-    <div className="max-w-[1280px] desktop:mx-auto px-5 desktop:px-10 py-15">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      <div className="max-w-[1280px] desktop:mx-auto px-5 desktop:px-10 py-15">
       <div className="mb-10">
         <ButtonLink href={buildBackUrl()} cssClasses="place-self-start">
           Back to Strains
@@ -115,7 +126,8 @@ const StrainPage = async ({ params, searchParams }: StrainPageProps) => {
           cssClasses="grid gap-5 text-paragraph pt-10 mt-10 border-t-4 border-green desktop:col-span-2 desktop:gap-x-10 desktop:gap-y-5 desktop:grid-cols-[480px_1fr] desktop:mt-0 desktop:pt-0 desktop:border-t-0"
         />
       </div>
-    </div>
+      </div>
+    </>
   );
 };
 

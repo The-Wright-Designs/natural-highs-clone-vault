@@ -1,5 +1,3 @@
-"use client";
-
 import { Spectral } from "next/font/google";
 import "@/_styles/globals.css";
 import Header from "@/_components/navigation/header/header";
