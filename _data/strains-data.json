@@ -104,29 +104,6 @@
     "supplier": "Black Farm Genetics"
   },
   {
-    "title": "Kosher Kush Breath",
-    "images": [
-      "/images/strains/kosher-kush-breath/kosher-kush-breath-3.jpg",
-      "/images/strains/kosher-kush-breath/kosher-kush-breath-1.jpg",
-      "/images/strains/kosher-kush-breath/kosher-kush-breath-2.jpg",
-      "/images/strains/kosher-kush-breath/kosher-kush-breath-4.png"
-    ],
-    "description": [
-      "Kosher Kush Breath is a hybrid strain that has been reported to help patients with menstrual symptoms, mood stabilization, and anti-inflammation. A great strain for helping you get through the stresses of the daily grind.",
-      "If you need a little afternoon pick me up, or you need something to help when it is that time of the month, Kosher Kush Breath has got you covered."
-    ],
-    "price": 150,
-    "inStock": true,
-    "type": "Hybrid",
-    "tac": "",
-    "length": "",
-    "yield": "",
-    "floweringTime": "",
-    "terpeneProfile": "",
-    "effects": "Menstrual symptoms, mood stabilization, anti-inflammation, stress relief",
-    "supplier": "Hicks Ford Farm"
-  },
-  {
     "title": "Orange Velvet Underground Rbx",
     "images": [
       "/images/strains/orange-velvet-underground/orange-velvet-underground-1.jpeg",
@@ -1863,7 +1840,7 @@
       "Big Buddha Cheese, also known as “BBC,” is an offspring of the original cheese strain out of Great Britain. Bred by a grower named Big Buddha, this strain took home a major prize during the 2006 High Times Cannabis Cup. Its TAC level is high, but its exact proportion is unknown. Big Buddha Cheese is a sativa-indica hybrid, but again, the specific numbers are unclear. This strain is more popular on the West Coast, in Colorado, and in Michigan, but it's typically hard to find outside the United Kingdom and Amsterdam. With a strong cheese flavor and a pungent earthy smell, Big Buddha Cheese is a longtime classic among Brits. It's also prized for its strength in the United States and provides relief from severe pain, as well as anxiety, ADHD, migraines, GI distress, and spinal cord injuries. A dry mouth is a distinct possibility, while dry eyes and dizziness occur less frequently. The high is intensely euphoric, making this a good strain for low moods and low energy. Deep relaxation is also common, and some people find Big Buddha Cheese to be a good treatment for insomnia."
     ],
     "price": 125,
-    "inStock": false,
+    "inStock": true,
     "type": "Balanced Hybrid | 50% Sativa 50% Indica",
     "tac": "18–23%",
     "length": "Medium – Tall",
@@ -1916,27 +1893,6 @@
     "effects": "Insomnia",
     "supplier": "Barney's Farm",
     "dateCreated": "2023-11-09T08:36:02"
-  },
-  {
-    "title": "Strawberry Cookies Og R1",
-    "images": [
-      "/images/strains/strawberry-cookies-og/strawberry-cookies-og-1.jpg",
-      "/images/strains/strawberry-cookies-og/strawberry-cookies-og-2.jpg"
-    ],
-    "description": [
-      "Strawberry Cookies OG R1 feminized seeds by Ethos Genetics are the result of crossing Strawberry OG IBL x Ethos Cookies #16 strains. Strawberry OG (not to be confused with OG Strawberry) is the product of a painstaking search for a stable strawberry flavour mixed with Bruce Banner's exceptional structure, yield and early flowering schedule. On the other hand, we have the Ethos Cookies that offer us that aroma of sweet cookies so rich and valued by consumers. We can expect a plant that grows like a champion and Its flowers develop with medium-length internodes. The high calyx/leaf ratio allows this tall plant to sprout profusely from all its branches. It works best if topped after the first big set of branches comes out. A variety with which lovers of extractions will find a jewel."
-    ],
-    "price": 125,
-    "inStock": false,
-    "type": "Indica Dominant Hybrid | 70% Indica 30% Sativa",
-    "tac": "25–30%",
-    "length": "Medium – Tall",
-    "yield": "Large",
-    "floweringTime": "9 – 10 Weeks",
-    "terpeneProfile": "Sweetest Strawberry, Gas and Pine",
-    "effects": "Chronic Pain",
-    "supplier": "Ethos Genetics",
-    "dateCreated": "2023-11-09T07:55:29"
   },
   {
     "title": "Mandarin Zkittlez R1",
