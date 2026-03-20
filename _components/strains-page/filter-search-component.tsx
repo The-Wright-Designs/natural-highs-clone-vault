@@ -47,17 +47,24 @@ const FilterSearchComponent = ({
 
   useEffect(() => {
     const timeout = setTimeout(() => {
+      const normalize = (str: string) =>
+        str
+          .toLowerCase()
+          .replace(/[\u2018\u2019\u0060]/g, "'")
+          .replace(/[\u2013\u2014\u2010]/g, "-");
+
       if (!searchTerm.trim()) {
         onSearchChange?.(searchTerm, strains);
       } else {
+        const normalizedSearch = normalize(searchTerm);
         const titleMatches = strains.filter((strain) =>
-          strain.title.toLowerCase().includes(searchTerm.toLowerCase()),
+          normalize(strain.title).includes(normalizedSearch),
         );
         const descriptionMatches = strains.filter(
           (strain) =>
-            !strain.title.toLowerCase().includes(searchTerm.toLowerCase()) &&
+            !normalize(strain.title).includes(normalizedSearch) &&
             strain.description.some((desc: string) =>
-              desc.toLowerCase().includes(searchTerm.toLowerCase()),
+              normalize(desc).includes(normalizedSearch),
             ),
         );
         const filteredResults = [...titleMatches, ...descriptionMatches];
