@@ -4,8 +4,7 @@ import { useState, useEffect } from "react";
 
 interface FilterSearchComponentProps {
   onFilterChange?: (filter: string) => void;
-  onSearchChange?: (search: string, filteredResults?: any[]) => void;
-  strains?: any[];
+  onSearchChange?: (search: string) => void;
   currentSearch?: string;
   currentFilter?: string;
 }
@@ -13,7 +12,6 @@ interface FilterSearchComponentProps {
 const FilterSearchComponent = ({
   onFilterChange,
   onSearchChange,
-  strains = [],
   currentSearch = "",
   currentFilter = "Latest",
 }: FilterSearchComponentProps) => {
@@ -47,34 +45,12 @@ const FilterSearchComponent = ({
 
   useEffect(() => {
     const timeout = setTimeout(() => {
-      const normalize = (str: string) =>
-        str
-          .toLowerCase()
-          .replace(/[\u2018\u2019\u0060]/g, "'")
-          .replace(/[\u2013\u2014\u2010]/g, "-");
-
-      if (!searchTerm.trim()) {
-        onSearchChange?.(searchTerm, strains);
-      } else {
-        const normalizedSearch = normalize(searchTerm);
-        const titleMatches = strains.filter((strain) =>
-          normalize(strain.title).includes(normalizedSearch),
-        );
-        const descriptionMatches = strains.filter(
-          (strain) =>
-            !normalize(strain.title).includes(normalizedSearch) &&
-            strain.description.some((desc: string) =>
-              normalize(desc).includes(normalizedSearch),
-            ),
-        );
-        const filteredResults = [...titleMatches, ...descriptionMatches];
-        onSearchChange?.(searchTerm, filteredResults);
-      }
+      onSearchChange?.(searchTerm);
       setIsSearching(false);
     }, 1000);
 
     return () => clearTimeout(timeout);
-  }, [searchTerm, onSearchChange, strains]);
+  }, [searchTerm, onSearchChange]);
 
   return (
     <div className="flex flex-col gap-10 py-10 relative border-y-4 border-green tablet:flex-row tablet:justify-start tablet:border-t-4 tablet:border-b-0 tablet:pb-0 tablet:pt-10">

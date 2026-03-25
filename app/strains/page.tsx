@@ -112,13 +112,60 @@ const StrainsContent = () => {
     let filtered = [...strainData];
 
     if (searchTerm) {
-      filtered = filtered.filter(
-        (strain) =>
-          strain.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          strain.description.some((desc) =>
-            desc.toLowerCase().includes(searchTerm.toLowerCase()),
-          ),
+      const normalize = (str: string) =>
+        str
+          .toLowerCase()
+          .replace(/[\u2018\u2019\u0060]/g, "'")
+          .replace(/[\u2013\u2014\u2010]/g, "-")
+          .replace(/feminized/g, "feminised");
+
+      const searchTokens = normalize(searchTerm).split(/\s+/).filter(Boolean);
+
+      const matchesTokens = (text: string) => {
+        const normalizedText = normalize(text);
+        return searchTokens.every((token) => normalizedText.includes(token));
+      };
+
+      const titleMatches = filtered.filter((strain) =>
+        matchesTokens(strain.title),
       );
+      const descriptionMatches = filtered.filter(
+        (strain) =>
+          !matchesTokens(strain.title) &&
+          strain.description.some((desc: string) => matchesTokens(desc)),
+      );
+      filtered = [...sortGroup(titleMatches), ...sortGroup(descriptionMatches)];
+      return filtered;
+    }
+
+    function sortGroup(group: typeof strainData) {
+      switch (filter) {
+        case "A-Z":
+          return group.sort((a, b) => {
+            if (a.inStock && !b.inStock) return -1;
+            if (!a.inStock && b.inStock) return 1;
+            return a.title.localeCompare(b.title);
+          });
+        case "Price High to Low":
+          return group.sort((a, b) => {
+            if (a.inStock && !b.inStock) return -1;
+            if (!a.inStock && b.inStock) return 1;
+            return b.price - a.price;
+          });
+        case "Price Low to High":
+          return group.sort((a, b) => {
+            if (a.inStock && !b.inStock) return -1;
+            if (!a.inStock && b.inStock) return 1;
+            return a.price - b.price;
+          });
+        case "Latest":
+        default:
+          return group.sort((a, b) => {
+            if (a.inStock && !b.inStock) return -1;
+            if (!a.inStock && b.inStock) return 1;
+            return 0;
+          });
+      }
     }
 
     switch (filter) {
@@ -224,7 +271,6 @@ const StrainsContent = () => {
         <FilterSearchComponent
           onFilterChange={handleFilterChange}
           onSearchChange={handleSearchChange}
-          strains={validStrains}
           currentSearch={searchTerm}
           currentFilter={filter}
         />
