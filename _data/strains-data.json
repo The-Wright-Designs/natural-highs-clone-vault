@@ -1,15 +1,13 @@
 [
   {
     "title": "Jet Fuel Gelato",
-    "images": [
-      "/images/strains/jet-fuel-gelato-from-compound-genetics/jet-fuel-gelato-from-compound-genetics-1.jpg"
-    ],
+    "images": ["/images/strains/jet-fuel-gelato/jet-fuel-gelato-1.jpg"],
     "description": [
       "Jet Fuel Gelato is the child of two legendary strains: Jet Fuel and Gelato. Its effects tend to be euphoric and uplifting, leaving consumers both happy and still functional enough to get tasks completed.",
       "Immediately after smoking this powerhouse, users have described feeling a jolt of energy then leveling off into a dream-like euphoria. The flavor profile is also quite unique, combining the sweet, dessert-like taste of Gelato with the diesel aroma of Jet Fuel."
     ],
     "price": 150,
-    "inStock": false,
+    "inStock": true,
     "type": "Hybrid",
     "tac": "25%",
     "length": "",
@@ -32,7 +30,7 @@
       "Gas Face is a very potent hybrid strain that produces around 25% THC and as high as 33%. Its dense, resinous flowers also contain a rich mix of terpenes, the most dominant being caryophyllene, limonene, and pinene."
     ],
     "price": 150,
-    "inStock": false,
+    "inStock": true,
     "type": "Hybrid",
     "tac": "25-33%",
     "length": "",
@@ -93,7 +91,7 @@
       "The presence of Sativa genetics in Sugar Cake's lineage suggests that it may also offer some uplifting and energizing effects, which can help to balance out its relaxing qualities and provide a more well-rounded experience for users."
     ],
     "price": 150,
-    "inStock": false,
+    "inStock": true,
     "type": "60% Indica 40% Sativa (Divorce Cake x Jungle Cake)",
     "tac": "22-26%",
     "length": "90-130cm",
@@ -177,7 +175,7 @@
       "Mighty Grape is famous for its rich grapefruit taste, heavy yields and only 50 days of flowering time. In short, she is a fast, commercial and colourful lady. 100% Indica Fast flowering strain Commercial strain Medical cannabis seeds Mighty Grape feminised from Freedom of Seeds is a stable Indica cross of the two most delicious genetics: Dynamite and Grapefruit. Mighty Grape typically creates one main long-fat central cola and delivers heavy yields in only 45 – 50 days of flowering time indoors. She is our fastest strain with the highest commercial yields in such a short time. Buds of Mighty Grape are solid and compact. Although the flowers are heavy, the plant is so strong, that she requires little or no support. Mighty Grape does not have any special requirements for nutrients. In fact, she is so easy to grow that we recommend her to novice growers. Taste and effect of Mighty Grape The taste she inherited from her parents is incredibly grapefruity with a creamy hashy aftertaste. The high will hit you fast with pleasant, relaxing and calming effects accompanied by happiness and an uplifted mood. Mighty Grape as a herb Mighty Grape is often used in medicine to treat insomnia, chronic pains and fatigue. She is a relaxing medicinal strain suitable for nighttime use."
     ],
     "price": 150,
-    "inStock": false,
+    "inStock": true,
     "type": "Indica Dominant",
     "tac": "18%",
     "length": "1.90 meters",
@@ -300,7 +298,7 @@
       "Infatuation is one of the captivating strains from the exclusive Blue Power 10 Year Anniversary Limited Edition Line. To create this top-notch hybrid, a Jealousy BX was crossed with Blue Power IX2. Thanks to this connection, Infatuation boasts a 30% Sativa and 70% Indica genetic. Cultivators can anticipate bountiful yields ranging from 500 to 800 grams per square meter. Prepare to be smitten by the enchanting allure of Infatuation's unique character and remarkable flavors."
     ],
     "price": 150,
-    "inStock": false,
+    "inStock": true,
     "type": "30% Sativa / 70% Indica (Jealousy BX x Blue Power IX2)",
     "length": "",
     "yield": "500-800 grams per square meter",
@@ -355,31 +353,13 @@
     "dateCreated": "2025-11-05T08:23:10"
   },
   {
-    "title": "Jet Fuel Gelato",
-    "images": ["/images/strains/jet-fuel-gelato/jet-fuel-gelato-1.jpg"],
-    "description": [
-      "Jet Fuel Gelato is the child of two legendary strains: Jet Fuel and Gelato. Its effects tend to be euphoric and uplifting, leaving consumers both happy and still functional enough to get tasks completed. Immediately after smoking this powerhouse, users have described feeling a jolt of energy then leveling off into a dream-like euphoria. The flavor profile is also quite unique, combining the sweet, dessert-like taste of Gelato with the diesel aroma of Jet Fuel."
-    ],
-    "price": 150,
-    "inStock": false,
-    "type": "Hybrid",
-    "tac": "25%",
-    "length": "",
-    "yield": "",
-    "floweringTime": "",
-    "terpeneProfile": "Sweet, dessert-like taste of Gelato with diesel aroma of Jet Fuel",
-    "effects": "euphoric and uplifting, energy, dream-like euphoria",
-    "supplier": "Compound Genetics",
-    "dateCreated": "2025-11-05T08:14:16"
-  },
-  {
     "title": "Pineapple Express",
     "images": ["/images/strains/pineapple-express/pineapple-express-1.jpg"],
     "description": [
       "Experience tropical bliss with this potent hybrid, born from the union of Big Bud and Skunk genetics. The Pineapple Express is an Indica-dominant type that has been one of our best-selling strains for years! With its short flowering time, bountiful harvests, and high THC levels it is a favourite among growers. Expect large, resinous, heavy, and compact flower heads with both aroma and taste strongly marked with lemon and pineapple notes."
     ],
     "price": 150,
-    "inStock": false,
+    "inStock": true,
     "type": "70% Indica | 30% Sativa",
     "tac": "17-22%",
     "length": "Medium length",
@@ -403,7 +383,7 @@
       "Ay Wappa!… Caramba is a fast flowering indica exotic which introduces a purple flourish to Paradise’s Wappa family. It comes with a big personality in the form of enhanced flavor, big yields and high levels of THC (24% THC). Caramba is ready to be harvested between 55 and 60 days and will yield about 600 grams per m² indoors or 900 grams per plant outdoors. This strain will be a hit with the many fans who have been seduced by the original Wappa, Tangerine Sorbet and Mendocino Skunk and delight those who are discovering the Wappa family for the first time, as Caramba stays true to the family values of the Wappa dynasty with its great resistance and superb all-round grow qualities."
     ],
     "price": 150,
-    "inStock": false,
+    "inStock": true,
     "type": "Hybrid | Indica 60%, Sativa 40%",
     "tac": "28%",
     "length": "",
@@ -557,7 +537,7 @@
       "Fabulozo, crafted by StarFire Genetix, is a notable blend of Zoap and Permanent Marker strains, combining unique scents and flavors. This variety stands out for its exceptional qualities making it a must-have for those looking to enhance their garden with something truly remarkable. The parentage includes the well-received Permanent Marker, a mix of (Biscotti X Sherb BX1) X Jealousy F2 #5, known for its impactful presence in the cannabis community."
     ],
     "price": 150,
-    "inStock": false,
+    "inStock": true,
     "type": "Hybrid 50/50",
     "tac": "",
     "length": "",
@@ -612,7 +592,7 @@
     "images": ["/images/strains/banana-buttercups/banana-buttercups-1.jpeg"],
     "description": ["Banana Punch-Loki Gro Cut x PB & Jealous (REGS)"],
     "price": 150,
-    "inStock": false,
+    "inStock": true,
     "type": "",
     "tac": "",
     "length": "",
@@ -1126,7 +1106,7 @@
       "Sultry Sativa… Belladonna is one of our original old school strains. This classic plant is a multi-award winner and is as popular now as when we introduced it 15 years ago thanks to a quick harvest time combined with sativa high. When we released it at the end of the Nineties it quickly became an overnight classic with growers in the USA, Spain and the Netherlands due to its commercial potential and outstanding forum reviews. It is a versatile plant that will adapt effectively well to most environments and repay the grower with a combination of strength and yield. A great plant to grow, Belladonna continues to be a popular choice with indoor growers with a flowering time of approximately 9 weeks. The ease of management and characteristic low maintenance makes it a good plant for beginners seeking a generous harvest and keeps old school growers coming back for more too. The buds are tight, and the foliage is reduced, giving this strain a good natural defense against mold and fungi. Belladonna is particularly recommended for growers with SOG set ups （Sea of Green）. This sultry sativa remains the seed of choice with many outdoor growers in both northern and southern regions. It does very well in warmer climates, such as California, where the sun fuels healthy growth, and was super popular when the outdoor growing revolution came to Spain in the 1990s. As this plant has been bred to be mold resistant, it is also a great bet （and a popular one） with sativa inspired gardeners in countries like the UK, Germany and the Netherlands. The resin coated buds that Belladonna delivers come with a heavy coating of trichomes, producing a plant that is beautiful to look at and fruity to taste. As for the effect, Belladonna produces a euphoria when smoked with a high that is psychedelic – trippy and hallucinogenic – provoking a strong rush to the senses. Belladonna – literally translated as ‘beautiful lady’ is a cross between Super Skunk – the famous Dutch strain which set the benchmark in the 1980s/1990s – and a potent male Malawi sativa (F1 hybrid) from the Paradise Seeds library. The result is a plant that is predominantly sativa but also comes with a significant indica influence – producing a unique long lasting and very powerful effect. Difficulty Indoors: A great plant to grow, Belladonna continues to be a popular choice with indoor growers with a flowering time of approximately 9 weeks. The ease of management and characteristic low maintenance makes it a good plant for beginners seeking a large harvest and keeps old school growers coming back for more too. The buds are tight, and the foliage is reduced, giving this strain a good natural defense against mold and fungi. Belladonna is particularly recommended for growers with SOG set ups (Sea of Green). Outdoors: This sultry sativa remains the seed of choice with many outdoor growers in both northern and southern regions. It does very well in warmer climates where the sun fuels healthy growth and was super popular when the outdoor growing revolution came to Spain in the 1990s. As this plant has been bred to be mold resistant, it is also a great bet (and a popular one) with sativa inspired gardeners in countries in northern and more temperate regions where Autumn brings more unpredictable weather. Recreational: The Belladonna cannabis seed produces a nicely balanced plant. The initial sativa effect is one of heady euphoria and uplifting energy, but the indica relaxation also comes into play as time passes, resulting in a long-lasting effect. Belladonna is also known for having a more mind-expanding effect than many strains. This makes it a popular choice for creativity and seeing a shifted view of the world, however it is not recommended for use by those who are prone to anxiety. Medical: Belladonna is not the best recommendation for medical users although there will be aspects that users will find therapeutic. * Winner 3rd prize Highlife Feria Barcelona 2005 See how others have grown this strain"
     ],
     "price": 150,
-    "inStock": false,
+    "inStock": true,
     "type": "Fem Photo, Hybrid | 60% Sativa 40% Indica",
     "tac": "22%",
     "length": "Medium – Tall",
@@ -1321,7 +1301,7 @@
       "Honeycomb Pave is one of the newest strains to launch with us from the ever-popular breeders at Compound Genetics. This new strain is part of their Pave line, a three-way collaboration between Cookies, Compound Genetics & Quavo from the Migos rap supergroup. The mother is Big Face, a star-studded array blending two exotic heavyweights, the candy-gas-filled White Runtz hit with the raw Gelato powerhouse that is Jet Fuel Gelato. The Honeycomb Pavé is an Indica-dominant hybrid that typically tests at 23-27% THC content and generally finishes flowering between weeks 9 and 10. Honeycomb Pave is also typically a high-yielding cultivar. Pavé itself is a cross of the legendary Paris OG clone-only cut pollinated with Compound Genetics’ in-house creation of The Menthol which blends together Gelato #45 with White Diesel x High Octane x Jet Fuel."
     ],
     "price": 125,
-    "inStock": false,
+    "inStock": true,
     "type": "Hybrid | Indica Dominant",
     "tac": "23–27%",
     "length": "Medium",
@@ -1575,7 +1555,7 @@
       "Welcome to the world of dessert strains and delicious flavors. Jelly Donutz is a tasty little morsel with high potency that is sure to delight the palate of smokers of all consumption habits. It will also satisfy growers looking for a fast-flowering plant that provides a huge yield. Here is what you should know about Jelly Donutz, how it grows, as well as how it smells, tastes, and feels. Bred by Humboldt Seed Company (HSC), Jelly Donutz is a sativa-dominant hybrid (40% indica, 60% sativa) that was born from crossing Jelly Donutz (#160x#17), Hella Jelly, and White Runtz. Just in reading that, you can probably smell and taste the thought of Jelly Donutz. That’s because its genetics scream fruit, dessert, and Gelato descendance. Jelly Donutz Flavour Pofile Thanks to its Gelato and Zkittlez lineage, but also comes through with floral, creamy, and diesel notes on the exhale.  Runtz and White Runtz are both strains that have been faked, forged, and scammed thousands of times, due to their popularity. Companies know how in-demand the strains are so they will take a plant that is NOT Runtz, and still package and market that strain as such. Fortunately, with HSC, you’ll never have to worry about that. If they say a strain is Runtz, or is crossed with Runtz, you can bet your bottom dollar that it’s the truth. Made from a cut of Runtz that Humboldt Seed Company obtained at the famous Emerald Cup, Jelly Donutz is a perfect example of that. Jelly Donutz’ purple and green flowers are absolutely coated in trichomes, which makes it a great strain to wash for concentrates. Its THC content has tested as high as 35%. Tetrahydrocannabinol (THC) is the active compound in cannabis that turns you from sober to “high. This strain is the perfect mix of sweet candy and fuel terpenes. HSC describes its smell profile as pink cotton candy, caramel, and fuel. As far as flavor goes, smoking Jelly Donutz tastes like drinking a strawberry malted milkshake. The High Consumers can typically expect an energizing and upbeat type of high from this strain. That’s why it’s such a great strain for anytime consumption. Whether you wake-and-bake with it, smoke it during an afternoon break, or reserve it for an evening chill-out, you’ll still sure to enjoy the experience that follows. For people looking for something to smoke and enjoy active hobbies, say hello to Jelly Donutz. “The high from buds harvested at day 56 lived up to HSC’s promise of 30-35% THC. The onset of the high was heart-racing, mostly Sativa, but not annoyingly paranoid or anxious, and the high lasted hours without burnout,” says Growing Marijuana Perfectly. “This high is great for dancing, athletics, parties…but novice users should inhale with caution. Even those of us who wake and bake and keep baking all day long notice that this strain takes you right through the ceiling, no matter how high you were before,” they continue. Jelly Donutz tends to be more of a head high than body high for consumers. It hits your brain with an energy rush that then spreads the same energy throughout your body; but that initial cerebral onset is undeniable. Still, even with this knowledge of average user experience, the best way to know how Jelly Donutz will affect you is to consume the strain in various doses and settings then monitor the experience over a period of 2-5 hours. So get up, find this delicious cannabis strain, and see if it’s your next favorite smoke. We have a feeling you’ll absolutely love it. See how others have grown this strain."
     ],
     "price": 125,
-    "inStock": false,
+    "inStock": true,
     "type": "Hybrid | 40% Sativa 60% Indica",
     "tac": "30–35%",
     "length": "Medium – High",
@@ -1893,7 +1873,7 @@
       "Blue Cheese lineage: Big Buddha Cheese x Blueberry Cheese. It is one of the best and strongest on the market and is guaranteed to knock your head off. This is an easy-to-grow strain, which creates an incredible yield of fragrant and tasty buds. The intense aged-cheese flavours are softened by a sweet blueberry aftertaste. The short stocky plant has strong side branches which develop heavy sticky colas in a short flowering period. Prepare to relax because this is a true sensation for Indica enthusiasts. This is now available in an auto-flowering strain."
     ],
     "price": 125,
-    "inStock": true,
+    "inStock": false,
     "type": "Indica Dominant Hybrid | 20% Sativa 80% Indica",
     "tac": "23%",
     "length": "Medium",
