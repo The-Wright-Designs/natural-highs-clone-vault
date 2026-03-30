@@ -13,7 +13,7 @@ import classNames from "classnames";
 import { createStrainSlug } from "@/_lib/utils/slug-utils";
 
 interface SlideDataProps {
-  data: { title: string; images: string[]; price: number; supplier: string }[];
+  data: { title: string; images: string[]; price: number; supplier?: string }[];
   cssClasses?: string;
 }
 
