@@ -1797,28 +1797,6 @@
     "certificate": "/certificates/NaturalHigh_CoA_Cresendo_12032026.pdf"
   },
   {
-    "title": "Cinderella 99",
-    "images": [
-      "/images/strains/cinderella-99/cinderella-99-1.jpg",
-      "/images/strains/cinderella-99/cinderella-99-2.jpeg",
-      "/images/strains/cinderella-99/cinderella-99-3.jpg"
-    ],
-    "description": [
-      "Cinderella 99, also known as \"C99,\" \"Cindy,\" and \"Cindy 99,\" is a Sativa-dominant hybrid cannabis strain bred by Mr. Soul of Brothers Grimm. This strain is best known for her potent cerebral high, sweet fruity flavours, and epic yields. According to Mr Soul, C99 was created using seeds found in a Sensi-branded 2-gram package of Jack Herer purchased at an Amsterdam coffee shop. Cinderella 99 is very popular with indoor growers because of its short, bushy stature, high yields, short flowering time, and high TAC content. Cindy’s effects are usually described as dreamy, euphoric, and uplifting. Medical marijuana patients use the effects of this strain to relieve symptoms associated with fatigue and stress. She is a mostly Sativa plant which easily triples its size during the stretch period. It needs 55-65 days to fully ripe, and loves light and nutrients, especially some extra calcium according to Brothers Grimm. Suitable for both the SOG and SCROG techniques, yields are average, although compensated by their excellent quality. The fleshy and frosty buds have a tropical fruit scent, simply delicious, while the effect is clear and cerebral, motivating and creative."
-    ],
-    "price": 125,
-    "inStock": false,
-    "type": "Sativa Dominant Hybrid | 80% Sativa 20% Indica",
-    "tac": "19–23%",
-    "length": "Medium",
-    "yield": "Medium",
-    "floweringTime": "9 – 10 Weeks",
-    "terpeneProfile": "Citrus, Tropical and Grapefruit",
-    "effects": "Anxiety, Stress and Depression",
-    "supplier": "Brothers Grim",
-    "dateCreated": "2023-11-09T09:14:37"
-  },
-  {
     "title": "Big Buddha Cheese",
     "images": [
       "/images/strains/big-buddha-cheese/big-buddha-cheese-1.jpg",
@@ -1905,27 +1883,6 @@
     "effects": "Anxiety, Cramps, Lack of Appetite",
     "supplier": "Indica",
     "dateCreated": "2023-11-06T14:52:59"
-  },
-  {
-    "title": "Apex R1",
-    "images": [
-      "/images/strains/apex/apex-1.jpg",
-      "/images/strains/apex/apex-2.jpg"
-    ],
-    "description": [
-      "Ethos Apex R1 is the variety that we have included in our catalog at your request, from the Ethos Genetics bank. The cross comes from two successful bank varieties such as Lilac Diesel and Mandarin Cookies. On the one hand, Lilac Diesel is a strong and aggressive plant with medium-length internodes and heavy lateral branching. It has large, fluffy but solid flowers, making this cross a great producer with a high development. The other part of the cross is the well-known Mandarin Cookies, which have strong growth and may need some light training. It can stretch quite a bit in bloom but is controllable. The floral structure of this plant is one of the best you will find. Medium-sized, dense and stacked with perfectly spaced internodes and a low leaf-to-calyx ratio. The crossing of both makes Ethos Apex R1 a variety that grows with great violence but is easy to train. Medium-long internodes pack large flowers of medium density that give large yields of boutique flowers. The effects are classic stoner, lots of laughs with a clear but powerful punch."
-    ],
-    "price": 125,
-    "inStock": false,
-    "type": "Indica Dominant Hybrid | 80% Sativa 20% Indica",
-    "tac": "30%",
-    "length": "Medium – Tall",
-    "yield": "Large",
-    "floweringTime": "9 Weeks",
-    "terpeneProfile": "Lemon sweets to Grapefruit, Fuel and Orange",
-    "effects": "Anxiety, Nausea, Pain",
-    "supplier": "Indica",
-    "dateCreated": "2023-11-06T13:59:10"
   },
   {
     "title": "Peanut Butter Breath",
