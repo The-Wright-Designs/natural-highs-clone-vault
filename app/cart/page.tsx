@@ -7,6 +7,8 @@ import Link from "next/link";
 import ButtonType from "@/_components/ui/buttons/button-type";
 import ButtonLink from "@/_components/ui/buttons/button-link";
 import { useEffect, useState } from "react";
+import strainsData from "@/_data/strains-data.json";
+import { createStrainSlug } from "@/_lib/utils/slug-utils";
 
 export default function CartPage() {
   const {
@@ -18,6 +20,13 @@ export default function CartPage() {
   } = useCart();
   const totalItems = getTotalItems();
   const [showConfirmClear, setShowConfirmClear] = useState(false);
+
+  const outOfStockSlugs = new Set(
+    strainsData
+      .filter((s) => !s.inStock)
+      .map((s) => createStrainSlug(s.title)),
+  );
+  const hasOutOfStockItems = items.some((item) => outOfStockSlugs.has(item.id));
 
   useEffect(() => {
     if (showEmailSubmitted) {
@@ -100,7 +109,11 @@ export default function CartPage() {
         <div className="desktop:grid desktop:grid-cols-[1fr_400px] desktop:gap-10 desktop:items-start">
           <div className="flex flex-col gap-5 mb-10 desktop:mb-0">
             {items.map((item) => (
-              <CartItemComponent key={item.id} item={item} />
+              <CartItemComponent
+                key={item.id}
+                item={item}
+                isOutOfStock={outOfStockSlugs.has(item.id)}
+              />
             ))}
             {showConfirmClear ? (
               <div className="grid gap-4">
@@ -133,7 +146,7 @@ export default function CartPage() {
             )}
           </div>
 
-          <CartSummary />
+          <CartSummary hasOutOfStockItems={hasOutOfStockItems} />
         </div>
       </div>
     </div>
