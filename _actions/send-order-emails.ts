@@ -33,10 +33,10 @@ export async function sendOrderEmailStaff(
         };
       }
     }
-    const firstName = formData.get("given-name") as string;
-    const lastName = formData.get("family-name") as string;
+    const firstName = formData.get("firstName") as string;
+    const lastName = formData.get("lastName") as string;
     const email = formData.get("email") as string;
-    const phone = formData.get("tel") as string;
+    const phone = formData.get("phone") as string;
     const addressLine1 = formData.get("address-line1") as string;
     const addressLine2 = formData.get("address-line2")
       ? (formData.get("address-line2") as string)
@@ -138,10 +138,10 @@ export async function sendOrderEmailCustomer(
         };
       }
     }
-    const firstName = formData.get("given-name") as string;
-    const lastName = formData.get("family-name") as string;
+    const firstName = formData.get("firstName") as string;
+    const lastName = formData.get("lastName") as string;
     const email = formData.get("email") as string;
-    const phone = formData.get("tel") as string;
+    const phone = formData.get("phone") as string;
     const addressLine1 = formData.get("address-line1") as string;
     const addressLine2 = formData.get("address-line2")
       ? (formData.get("address-line2") as string)

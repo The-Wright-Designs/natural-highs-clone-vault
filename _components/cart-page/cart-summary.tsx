@@ -11,9 +11,14 @@ import {
   sendOrderEmailCustomer,
 } from "@/_actions/send-order-emails";
 import { generateOrderNumber } from "@/_lib/utils/generate-order-number";
+import { validateCartStock } from "@/_actions/validate-cart-stock";
 import Link from "next/link";
 
-export default function CartSummary() {
+interface CartSummaryProps {
+  hasOutOfStockItems?: boolean;
+}
+
+export default function CartSummary({ hasOutOfStockItems = false }: CartSummaryProps) {
   const { executeRecaptcha } = useGoogleReCaptcha();
   const {
     getTotalPrice,
@@ -47,10 +52,10 @@ export default function CartSummary() {
   const [termsAcknowledged, setTermsAcknowledged] = useState(false);
   const [isDetailsOpen, setIsDetailsOpen] = useState(false);
   const [formData, setFormData] = useState({
-    "given-name": "",
-    "family-name": "",
+    firstName: "",
+    lastName: "",
     email: "",
-    tel: "",
+    phone: "",
     "address-line1": "",
     "address-line2": "",
     "address-level2": "",
@@ -81,6 +86,14 @@ export default function CartSummary() {
 
       const recaptchaToken = await executeRecaptcha("order_form");
       formDataObj.append("recaptchaToken", recaptchaToken);
+
+      const stockCheck = await validateCartStock(items.map((i) => i.id));
+      if (!stockCheck.valid) {
+        setError(
+          `The following strains are now out of stock: ${stockCheck.outOfStockItems.join(", ")}. Please remove them from your cart and try again.`,
+        );
+        return;
+      }
 
       const orderNumber = generateOrderNumber();
 
@@ -115,10 +128,10 @@ export default function CartSummary() {
         setShowEmailSubmitted(true);
         clearCart();
         setFormData({
-          "given-name": "",
-          "family-name": "",
+          firstName: "",
+          lastName: "",
           email: "",
-          tel: "",
+          phone: "",
           "address-line1": "",
           "address-line2": "",
           "address-level2": "",
@@ -234,10 +247,10 @@ export default function CartSummary() {
               <input
                 type="text"
                 id="given-name"
-                name="given-name"
+                name="firstName"
                 autoComplete="given-name"
                 required
-                value={formData["given-name"]}
+                value={formData.firstName}
                 onChange={handleInputChange}
                 className="w-full bg-black/50 border border-white/25 rounded-md px-4 py-3 text-white focus:outline-none focus:border-green transition-colors"
               />
@@ -253,10 +266,10 @@ export default function CartSummary() {
               <input
                 type="text"
                 id="family-name"
-                name="family-name"
+                name="lastName"
                 autoComplete="family-name"
                 required
-                value={formData["family-name"]}
+                value={formData.lastName}
                 onChange={handleInputChange}
                 className="w-full bg-black/50 border border-white/25 rounded-md px-4 py-3 text-white focus:outline-none focus:border-green transition-colors"
               />
@@ -291,10 +304,10 @@ export default function CartSummary() {
               <input
                 type="tel"
                 id="tel"
-                name="tel"
+                name="phone"
                 autoComplete="tel"
                 required
-                value={formData.tel}
+                value={formData.phone}
                 onChange={handleInputChange}
                 className="w-full bg-black/50 border border-white/25 rounded-md px-4 py-3 text-white focus:outline-none focus:border-green transition-colors"
               />
@@ -545,17 +558,25 @@ export default function CartSummary() {
         <ButtonType
           type="submit"
           cssClasses="w-full"
-          disabled={totalItems < 4 || !termsAcknowledged}
+          disabled={totalItems < 4 || !termsAcknowledged || hasOutOfStockItems}
           title={
-            totalItems < 4
-              ? "You must have a minimum of 4 clones in your cart to submit an order"
-              : !termsAcknowledged
-                ? "You must acknowledge the payment and delivery terms to submit an order"
-                : "Submit Order"
+            hasOutOfStockItems
+              ? "Please remove out-of-stock items from your cart before submitting"
+              : totalItems < 4
+                ? "You must have a minimum of 4 clones in your cart to submit an order"
+                : !termsAcknowledged
+                  ? "You must acknowledge the payment and delivery terms to submit an order"
+                  : "Submit Order"
           }
         >
           Submit Order
         </ButtonType>
+        {hasOutOfStockItems && (
+          <p className="text-red text-[14px] mt-3 italic">
+            *Your cart contains one or more out-of-stock strains. Please remove
+            them before submitting your order.
+          </p>
+        )}
       </form>
       <p className="text-[14px] text-white/60 mt-4">
         By placing your order, you agree that we'll use your details only to

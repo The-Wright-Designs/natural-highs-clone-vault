@@ -9,9 +9,10 @@ import Link from "next/link";
 
 interface CartItemComponentProps {
   item: CartItem;
+  isOutOfStock?: boolean;
 }
 
-export default function CartItemComponent({ item }: CartItemComponentProps) {
+export default function CartItemComponent({ item, isOutOfStock = false }: CartItemComponentProps) {
   const { updateQuantity, removeFromCart } = useCart();
   const [quantity, setQuantity] = useState<number | string>(item.quantity);
   const [showConfirm, setShowConfirm] = useState(false);
@@ -117,13 +118,13 @@ export default function CartItemComponent({ item }: CartItemComponentProps) {
               <div className="grid items-center w-[46px] tablet:grid-cols-2 tablet:w-auto">
                 <button
                   onClick={increaseQuantity}
-                  disabled={item.quantity >= 50}
+                  disabled={item.quantity >= 50 || isOutOfStock}
                   className={classNames(
                     "bg-green w-full h-6 rounded-t-md flex items-center justify-center tablet:w-[22px] tablet:rounded-t-none tablet:rounded-tr-md",
                     {
-                      "cursor-not-allowed opacity-50": item.quantity >= 50,
+                      "cursor-not-allowed opacity-50": item.quantity >= 50 || isOutOfStock,
                       "tablet:hover:cursor-pointer tablet:hover:opacity-90 ease-in-out duration-300":
-                        item.quantity < 50,
+                        item.quantity < 50 && !isOutOfStock,
                     },
                   )}
                 >
@@ -140,19 +141,23 @@ export default function CartItemComponent({ item }: CartItemComponentProps) {
                     value={item.quantity}
                     onChange={handleQuantityChange}
                     onBlur={handleQuantityBlur}
-                    className="bg-transparent text-white text-[20px] text-center w-full focus:outline-none [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
+                    disabled={isOutOfStock}
+                    className={classNames(
+                      "bg-transparent text-white text-[20px] text-center w-full focus:outline-none [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none",
+                      { "opacity-50 cursor-not-allowed": isOutOfStock },
+                    )}
                   />
                 </div>
 
                 <button
                   onClick={decreaseQuantity}
-                  disabled={item.quantity === 1}
+                  disabled={item.quantity === 1 || isOutOfStock}
                   className={classNames(
                     "bg-green w-full h-6 rounded-b-md flex items-center justify-center border-t border-white tablet:w-[22px] tablet:rounded-b-none tablet:rounded-br-md",
                     {
-                      "opacity-50 cursor-not-allowed": item.quantity === 1,
+                      "opacity-50 cursor-not-allowed": item.quantity === 1 || isOutOfStock,
                       "tablet:hover:cursor-pointer tablet:hover:opacity-90 ease-in-out duration-300":
-                        item.quantity > 1,
+                        item.quantity > 1 && !isOutOfStock,
                     },
                   )}
                 >
@@ -172,6 +177,13 @@ export default function CartItemComponent({ item }: CartItemComponentProps) {
           </div>
         </div>
       </div>
+
+      {isOutOfStock && (
+        <p className="text-red italic">
+          *This strain is currently out of stock. Please remove it from your
+          cart to continue.
+        </p>
+      )}
 
       {typeof quantity === "number" && quantity >= 50 && (
         <p className="text-green italic">
