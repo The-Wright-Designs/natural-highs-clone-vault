@@ -126,6 +126,7 @@ const LatestStrainsSlider = ({ cssClasses, data }: SlideDataProps) => {
         </div>
       </div>
       <button
+        aria-label="Previous slide"
         className={classNames(
           "hidden swiper-button-prev-custom absolute -left-12 top-1/2 -translate-y-[200%] z-10 w-8 h-8 desktop:flex items-center justify-center desktop:hover:cursor-pointer desktop:hover:scale-[110%] ease-in-out duration-300",
           { "opacity-50 pointer-events-none": isBeginning },
@@ -163,6 +164,7 @@ const LatestStrainsSlider = ({ cssClasses, data }: SlideDataProps) => {
       </button>
 
       <button
+        aria-label="Next slide"
         className={classNames(
           "hidden swiper-button-next-custom absolute -right-12 top-1/2 -translate-y-[200%] z-10 w-8 h-8 desktop:flex items-center justify-center desktop:hover:cursor-pointer desktop:hover:scale-[110%] ease-in-out duration-300",
           { "opacity-50 pointer-events-none": isEnd },

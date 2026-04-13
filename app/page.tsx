@@ -1,5 +1,9 @@
 import { Metadata } from "next";
 import { createPageMetadata } from "@/_lib/metadata";
+import {
+  generateOrganizationSchema,
+  generateWebsiteSchema,
+} from "@/_lib/seo-utils";
 import AboutComponent from "@/_components/home-page/about-component";
 import ContactComponent from "@/_components/home-page/contact/contact-component";
 import HeroComponent from "@/_components/home-page/hero/hero-component";
@@ -28,18 +32,32 @@ export const metadata: Metadata = createPageMetadata({
     "terpene profiles",
     "home cultivation",
   ],
+  canonical: "/",
 });
 
 export default function Home() {
+  const organizationSchema = generateOrganizationSchema();
+  const websiteSchema = generateWebsiteSchema();
+
   return (
-    <div className="flex flex-col gap-10 mb-15 desktop:gap-15">
-      <HeroComponent />
-      <AboutComponent id="about" cssClasses="scroll-mt-16" />
-      <LatestStrainsSection />
-      <ContactComponent
-        id="contact"
-        cssClasses="scroll-mt-24 desktop:scroll-mt-32"
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
       />
-    </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
+      <div className="flex flex-col gap-10 mb-15 desktop:gap-15">
+        <HeroComponent />
+        <AboutComponent id="about" cssClasses="scroll-mt-16" />
+        <LatestStrainsSection />
+        <ContactComponent
+          id="contact"
+          cssClasses="scroll-mt-24 desktop:scroll-mt-32"
+        />
+      </div>
+    </>
   );
 }
