@@ -1,11 +1,11 @@
 import { MetadataRoute } from "next";
 import strainData from "@/_data/strains-data.json";
 import { createStrainSlug } from "@/_lib/utils/slug-utils";
+import { siteConfig } from "@/_lib/metadata";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://www.naturalhighs.co.za";
+  const baseUrl = siteConfig.url;
 
-  // Static pages
   const staticPages = [
     {
       url: baseUrl,
@@ -27,10 +27,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  // Dynamic strain pages
   const strainPages = strainData.map((strain) => ({
     url: `${baseUrl}/strains/${createStrainSlug(strain.title)}`,
-    lastModified: new Date(),
+    lastModified: strain.dateCreated ? new Date(strain.dateCreated) : new Date(),
     changeFrequency: "monthly" as const,
     priority: 0.8,
   }));

@@ -9,7 +9,11 @@ import StrainDetails from "@/_components/strains-page/strain-details";
 import StrainDescription from "@/_components/strain-page/strain-description";
 import { createStrainMetadata } from "@/_lib/metadata";
 import { createStrainSlug } from "@/_lib/utils/slug-utils";
-import { generateProductSchema } from "@/_lib/seo-utils";
+import {
+  generateProductSchema,
+  generateBreadcrumbSchema,
+} from "@/_lib/seo-utils";
+import { siteConfig } from "@/_lib/metadata";
 
 import strainData from "@/_data/strains-data.json";
 import Link from "next/link";
@@ -80,11 +84,24 @@ const StrainPage = async ({ params, searchParams }: StrainPageProps) => {
     type: strain.type ?? "",
   });
 
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: siteConfig.url },
+    { name: "Strains", url: `${siteConfig.url}/strains` },
+    {
+      name: strain.title,
+      url: `${siteConfig.url}/strains/${strainSlug}`,
+    },
+  ]);
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <div className="max-w-[1280px] desktop:mx-auto px-5 desktop:px-10 py-15">
         <div className="mb-10">
