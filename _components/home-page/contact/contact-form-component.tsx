@@ -93,8 +93,12 @@ const ContactFormComponent = () => {
             }
           }}
         >
+          <label htmlFor="_honey" className="visually-hidden">
+            Leave blank
+          </label>
           <input
             type="text"
+            id="_honey"
             name="_honey"
             className="visually-hidden"
             tabIndex={-1}
