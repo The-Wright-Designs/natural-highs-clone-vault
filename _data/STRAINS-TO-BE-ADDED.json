@@ -1,0 +1,85 @@
+[
+  {
+    "title": "Cherry Punch",
+    "images": [
+      "/images/strains/cherry-punch/cherry-punch-1.jpg",
+      "/images/strains/cherry-punch/cherry-punch-2.jpg"
+    ],
+    "description": [
+      "Cherry Punch is a cross between Cherry AK-47 and Purple Punch, blending the best traits of both parent strains to deliver a flavorful and potent experience.",
+      "A balanced hybrid strain celebrated for its delightful fruity flavor and powerful, mood-lifting effects. With its unique combination of sweet cherry and earthy notes, Cherry Punch has become a favorite among cannabis enthusiasts. This strain is known for providing a happy, relaxed high that can be enjoyed both during the day and at night.",
+      "It thrives in both indoor and outdoor environments. It prefers a warm, sunny climate when grown outdoors, and regular pruning is recommended to help air circulation and light penetration.",
+      "Cherry Punch is a delightful hybrid strain that offers a balanced combination of mental uplift and physical relaxation. Its sweet cherry flavor and potent effects make it a popular choice for those seeking a versatile strain that can be enjoyed in various situations. Whether you’re looking to enhance your mood, relieve stress, or simply enjoy a flavorful smoke, Cherry Punch is a strain that delivers on all fronts."
+    ],
+    "price": 150,
+    "inStock": true,
+    "type": "Balanced Hybrid (50% Indica / 50% Sativa)",
+    "tac": "18-24%",
+    "length": "",
+    "yield": "",
+    "floweringTime": "Typically flowers in 8-10 weeks when grown indoors. Outdoor harvests are usually ready by late September to early October.",
+    "terpeneProfile": "Sweet Cherry, Berry, Fruity (Earthy, Herbal, Spicy)",
+    "effects": "Euphoric, relaxed, uplifted, boosting mood and reducing stress",
+    "supplier": "Symbiotic Genetics"
+  },
+  {
+    "title": "Peanut Butter and Jelly",
+    "images": [
+      "/images/strains/peanut-butter-and-jelly-from-rockets-seeds/peanut-butter-and-jelly-from-rockets-seeds-1.jpg"
+    ],
+    "description": [
+      "Explore the delightful Peanut Butter and Jelly Strain a balanced hybrid that combines the best of its parent strains Peanut Butter Breath and Jelly Breath. Known for its harmonious effects and distinct flavor profile, this strain offers a THC content ranging from 19% to 23% with minimal CBD.",
+      "Peanut Butter Breath contributes to the strain's relaxing and euphoric effects, while Jelly Breath brings fruity undertones and a balanced high. Together, these genetics create a hybrid strain that offers a blend of happiness, euphoria, and relaxation, making it suitable for daytime or evening use."
+    ],
+    "price": 150,
+    "inStock": true,
+    "type": "Sativa hybrid",
+    "tac": "19-23%",
+    "length": "Indoor: 3-5 feet, Outdoor: up to 8 feet",
+    "yield": "Indoor: up to 400 g/m², Outdoor: up to 550 g per plant",
+    "floweringTime": "8-9 weeks",
+    "terpeneProfile": "nutty and earthy aroma with fruity undertones",
+    "effects": "happiness, euphoria, and relaxation",
+    "supplier": "Rockets Seeds"
+  },
+  {
+    "title": "Marionberry Kush",
+    "images": ["/images/strains/marionberry-kush/marionberry-kush-1.jpeg"],
+    "description": [
+      "Marionberry Kush is an mostly indica fromSubCool's The Dank and can be cultivated indoors and outdoors (Where the plants will need a flowering time of ±60 days) SubCool's The Dank's Marionberry Kush is/was never available as feminized seeds. Marionberry is a kush hybrid. Most phenotypes will grow as a typical short to medium kush, with a large broad leaf structure. Berries are the first thing that come to mind when describing the aroma of her. It is a true blend of a fruit salad aroma with a bit of musky funkiness that comes through, resembling her sister, Cinderella 99. The taste is smooth and fruity, with a clean, crisp, earthy exhale. Marionberry's high comes on quick, first feeling it behind the eyes, moving into the forehead. You can almost feel it tightening your eyebrows. Once the initial high has set in, it's a steady mild high great for day time activities with a true functionable experience.Phenotypes: There are six main phenotypes. All have similar fruit smells, some heavier than others with a range from passionfruit, raspberry, and a romulan earth under tone. Almost every phenotype will have some variation of purple, pink, and light green with drips of sugars."
+    ],
+    "price": 150,
+    "inStock": false,
+    "type": "Hybrid (Raspberry Kush x Space Queen)",
+    "tac": "",
+    "length": "Short to Medium",
+    "yield": "Medium to Heavy",
+    "floweringTime": "",
+    "terpeneProfile": "Phenotypes range from mango, passionfruit, to a raspberry lemonade and an earthy fruit smell. Very smooth, clear smoke with variations of berry after tastes to a musky kush sweetness.",
+    "effects": "",
+    "supplier": "SubCool's The Dank",
+    "dateCreated": "2025-10-02T14:18:45"
+  },
+  {
+    "title": "Cinderella 99",
+    "images": [
+      "/images/strains/cinderella-99/cinderella-99-1.jpg",
+      "/images/strains/cinderella-99/cinderella-99-2.jpeg",
+      "/images/strains/cinderella-99/cinderella-99-3.jpg"
+    ],
+    "description": [
+      "Cinderella 99, also known as \"C99,\" \"Cindy,\" and \"Cindy 99,\" is a Sativa-dominant hybrid cannabis strain bred by Mr. Soul of Brothers Grimm. This strain is best known for her potent cerebral high, sweet fruity flavours, and epic yields. According to Mr Soul, C99 was created using seeds found in a Sensi-branded 2-gram package of Jack Herer purchased at an Amsterdam coffee shop. Cinderella 99 is very popular with indoor growers because of its short, bushy stature, high yields, short flowering time, and high TAC content. Cindy's effects are usually described as dreamy, euphoric, and uplifting. Medical marijuana patients use the effects of this strain to relieve symptoms associated with fatigue and stress. She is a mostly Sativa plant which easily triples its size during the stretch period. It needs 55-65 days to fully ripe, and loves light and nutrients, especially some extra calcium according to Brothers Grimm. Suitable for both the SOG and SCROG techniques, yields are average, although compensated by their excellent quality. The fleshy and frosty buds have a tropical fruit scent, simply delicious, while the effect is clear and cerebral, motivating and creative."
+    ],
+    "price": 125,
+    "inStock": false,
+    "type": "Sativa Dominant Hybrid | 80% Sativa 20% Indica",
+    "tac": "19–23%",
+    "length": "Medium",
+    "yield": "Medium",
+    "floweringTime": "9 – 10 Weeks",
+    "terpeneProfile": "Citrus, Tropical and Grapefruit",
+    "effects": "Anxiety, Stress and Depression",
+    "supplier": "Brothers Grim",
+    "dateCreated": "2023-11-09T09:14:37"
+  }
+]
