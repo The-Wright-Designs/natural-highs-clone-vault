@@ -3,16 +3,26 @@ import Image from "next/image";
 import HeroSlider from "./hero-slider";
 
 import sliderData from "@/_data/general-data.json";
+import ButtonLink from "@/_components/ui/buttons/button-link";
 
 const { heroSlider } = sliderData;
 
 export default function HeroComponent() {
   return (
     <div className="max-w-[1280px] desktop:mx-auto desktop:-mb-15">
-      <HeroSlider
-        data={heroSlider}
-        cssClasses="h-[650px] mb-5 desktop:h-[600px]"
-      />
+      <div className="relative">
+        <HeroSlider
+          data={heroSlider}
+          cssClasses="h-[650px] mb-5 desktop:h-[600px]"
+        />
+        <ButtonLink
+          href="/strains"
+          ariaLabel="View our strains"
+          cssClasses="absolute bottom-17 right-10 z-10"
+        >
+          View strains
+        </ButtonLink>
+      </div>
       <section className="flex flex-col items-center justify-center desktop:flex-row-reverse desktop:justify-between desktop:mx-10">
         <Image
           src="/logo/natural-highs-clone-vault-logo.png"
