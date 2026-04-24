@@ -47,7 +47,7 @@
       "Gas Face is a very potent hybrid strain that produces around 25% THC and as high as 33%. Its dense, resinous flowers also contain a rich mix of terpenes, the most dominant being caryophyllene, limonene, and pinene."
     ],
     "price": 150,
-    "inStock": true,
+    "inStock": false,
     "type": "Hybrid",
     "tac": "25-33%",
     "length": "",
@@ -70,7 +70,7 @@
       "As a cross between Gold member and Monkey Spunk, the former brings Indica-dominant genetics and pungent aromas to the table, and the latter offers skunky, berry flavors and energizing effects. A few puffs will quickly elevate your spirits and give you an energy boost."
     ],
     "price": 150,
-    "inStock": true,
+    "inStock": false,
     "type": "Hybrid (Gold member x Monkey Spunk)",
     "tac": "30-38%",
     "length": "",
