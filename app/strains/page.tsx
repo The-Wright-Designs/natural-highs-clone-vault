@@ -224,45 +224,17 @@ const StrainsContent = () => {
   useEffect(() => {
     if (!isInitialized) return;
 
-    const returnStrain = searchParams.get("returnStrain");
+    const returnStrain = sessionStorage.getItem("returnStrain");
     if (returnStrain) {
-      console.log("Return strain found:", returnStrain);
-      console.log("Current page:", currentPage);
-      console.log("Current filter:", filter);
-      console.log("Current search:", searchTerm);
-      console.log(
-        "Strains on current page:",
-        currentStrains.map((s) => s.title),
-      );
-
       setTimeout(() => {
         const element = document.getElementById(`strain-${returnStrain}`);
-        console.log("Looking for element:", `strain-${returnStrain}`);
-        console.log("Element found:", !!element);
-
         if (element) {
           element.scrollIntoView({ behavior: "smooth", block: "center" });
-          const newUrl = new URL(window.location.href);
-          newUrl.searchParams.delete("returnStrain");
-          window.history.replaceState({}, "", newUrl.toString());
-        } else {
-          console.log(
-            "Element not found, available strains:",
-            Array.from(document.querySelectorAll('[id^="strain-"]')).map(
-              (el) => el.id,
-            ),
-          );
+          sessionStorage.removeItem("returnStrain");
         }
       }, 500);
     }
-  }, [
-    searchParams,
-    currentPage,
-    filter,
-    searchTerm,
-    isInitialized,
-    currentStrains,
-  ]);
+  }, [isInitialized, currentStrains]);
 
   return (
     <div className="max-w-[1280px] grid gap-15 py-15 mx-auto px-5 desktop:px-10">
