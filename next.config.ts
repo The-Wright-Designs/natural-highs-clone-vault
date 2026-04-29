@@ -70,6 +70,11 @@ const nextConfig: NextConfig = {
         destination: "/",
         permanent: true,
       },
+      {
+        source: "/jungle-boys/:path*",
+        destination: "/strains",
+        permanent: true,
+      },
     ];
   },
 };

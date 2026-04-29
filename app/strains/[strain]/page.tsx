@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import StrainSlider from "@/_components/strain-page/strain-slider";
 import StrainCartComponent from "@/_lib/utils/strain-cart-component";
 import StockAvailabilityBadges from "@/_components/ui/badges/stock-availability-badges";
-import ButtonLink from "@/_components/ui/buttons/button-link";
+import BackButton from "@/_components/strain-page/back-button";
 import StrainDetails from "@/_components/strains-page/strain-details";
 import StrainDescription from "@/_components/strain-page/strain-description";
 import { createStrainMetadata } from "@/_lib/metadata";
@@ -73,8 +73,6 @@ const StrainPage = async ({ params, searchParams }: StrainPageProps) => {
       params.set("search", searchParam.search as string);
     }
 
-    params.set("returnStrain", strainSlug);
-
     const queryString = params.toString();
     return queryString ? `/strains?${queryString}` : "/strains";
   };
@@ -105,9 +103,7 @@ const StrainPage = async ({ params, searchParams }: StrainPageProps) => {
       />
       <div className="max-w-[1280px] desktop:mx-auto px-5 desktop:px-10 py-15">
         <div className="mb-10">
-          <ButtonLink href={buildBackUrl()} cssClasses="place-self-start">
-            Back to Strains
-          </ButtonLink>
+          <BackButton strainSlug={strainSlug} backUrl={buildBackUrl()} />
         </div>
         <div className="flex flex-col gap-5 desktop:grid desktop:grid-cols-[480px_1fr] desktop:gap-x-10 desktop:gap-y-5">
           <div className="flex w-full flex-col pb-5 border-b-4 border-green desktop:place-self-start">
