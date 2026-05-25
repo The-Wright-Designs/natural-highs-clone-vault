@@ -609,7 +609,7 @@
     "images": ["/images/strains/banana-buttercups/banana-buttercups-1.jpeg"],
     "description": ["Banana Punch-Loki Gro Cut x PB & Jealous (REGS)"],
     "price": 150,
-    "inStock": true,
+    "inStock": false,
     "type": "",
     "tac": "",
     "length": "",
