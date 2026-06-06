@@ -421,7 +421,7 @@
     ],
     "description": ["Lineage:  Tropicana Cherry x BBC"],
     "price": 150,
-    "inStock": true,
+    "inStock": false,
     "type": "Hybrid",
     "tac": "",
     "length": "",
@@ -911,7 +911,7 @@
       "G-Rolls lineage: RUNTZ X GRAPE ROCK CANDY X BANANA BUTTER CUPS"
     ],
     "price": 150,
-    "inStock": true,
+    "inStock": false,
     "yield": "Medium",
     "floweringTime": "8 – 9 Weeks",
     "terpeneProfile": "Grape, Candy, Sweet, Hint of gas",
