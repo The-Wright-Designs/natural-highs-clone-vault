@@ -458,7 +458,7 @@
       "Extremely frosty buds with a gassy funk and good yield."
     ],
     "price": 150,
-    "inStock": true,
+    "inStock": false,
     "type": "",
     "tac": "",
     "length": "Medium – Tall",
@@ -1756,7 +1756,7 @@
       "Slurricane is an indica cannabis strain made by crossing Do-Si-Dos with Purple Punch. Slurricane produces relaxing effects that come on slowly. This strain has a sweet flavour profile, with subtle grapes and sugary berries. Slurricane is the ideal strain for relaxing after a long day and will likely leave you locked to your sofa. Medical cannabis patients choose this strain to help relieve symptoms associated with insomnia. Smoking Slurricane can be especially useful when you’re down with a common cold or flu."
     ],
     "price": 125,
-    "inStock": true,
+    "inStock": false,
     "type": "Indica Dominant Hybrid | 40% Sativa 60% Indica",
     "tac": "21–25%",
     "length": "Medium – Tall",
