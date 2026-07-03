@@ -1,5 +1,48 @@
 [
   {
+    "title": "Cherry Punch",
+    "images": [
+      "/images/strains/cherry-punch/cherry-punch-1.jpg",
+      "/images/strains/cherry-punch/cherry-punch-2.jpg"
+    ],
+    "description": [
+      "Cherry Punch is a cross between Cherry AK-47 and Purple Punch, blending the best traits of both parent strains to deliver a flavorful and potent experience.",
+      "A balanced hybrid strain celebrated for its delightful fruity flavor and powerful, mood-lifting effects. With its unique combination of sweet cherry and earthy notes, Cherry Punch has become a favorite among cannabis enthusiasts. This strain is known for providing a happy, relaxed high that can be enjoyed both during the day and at night.",
+      "It thrives in both indoor and outdoor environments. It prefers a warm, sunny climate when grown outdoors, and regular pruning is recommended to help air circulation and light penetration.",
+      "Cherry Punch is a delightful hybrid strain that offers a balanced combination of mental uplift and physical relaxation. Its sweet cherry flavor and potent effects make it a popular choice for those seeking a versatile strain that can be enjoyed in various situations. Whether you’re looking to enhance your mood, relieve stress, or simply enjoy a flavorful smoke, Cherry Punch is a strain that delivers on all fronts."
+    ],
+    "price": 150,
+    "inStock": false,
+    "type": "Balanced Hybrid (50% Indica / 50% Sativa)",
+    "tac": "18-24%",
+    "length": "",
+    "yield": "",
+    "floweringTime": "Typically flowers in 8-10 weeks when grown indoors. Outdoor harvests are usually ready by late September to early October.",
+    "terpeneProfile": "Sweet Cherry, Berry, Fruity (Earthy, Herbal, Spicy)",
+    "effects": "Euphoric, relaxed, uplifted, boosting mood and reducing stress",
+    "supplier": "Symbiotic Genetics"
+  },
+  {
+    "title": "Peanut Butter and Jelly",
+    "images": [
+      "/images/strains/peanut-butter-and-jelly-from-rockets-seeds/peanut-butter-and-jelly-from-rockets-seeds-1.jpg"
+    ],
+    "description": [
+      "Explore the delightful Peanut Butter and Jelly Strain a balanced hybrid that combines the best of its parent strains Peanut Butter Breath and Jelly Breath. Known for its harmonious effects and distinct flavor profile, this strain offers a THC content ranging from 19% to 23% with minimal CBD.",
+      "Peanut Butter Breath contributes to the strain's relaxing and euphoric effects, while Jelly Breath brings fruity undertones and a balanced high. Together, these genetics create a hybrid strain that offers a blend of happiness, euphoria, and relaxation, making it suitable for daytime or evening use."
+    ],
+    "price": 150,
+    "inStock": false,
+    "type": "Sativa hybrid",
+    "tac": "19-23%",
+    "length": "Indoor: 3-5 feet, Outdoor: up to 8 feet",
+    "yield": "Indoor: up to 400 g/m², Outdoor: up to 550 g per plant",
+    "floweringTime": "8-9 weeks",
+    "terpeneProfile": "nutty and earthy aroma with fruity undertones",
+    "effects": "happiness, euphoria, and relaxation",
+    "supplier": "Rockets Seeds"
+  },
+  {
     "title": "Money Ball x Permanent Marker",
     "images": [
       "/images/strains/money-ball-permanent-marker/money-ball-permanent-marker-1.jpeg",
@@ -294,7 +337,7 @@
       "Elvis is a prime selection from Seedism Seedbank in Amsterdam, leveraging insights from the Cannabis College. This AK47 hybrid is known for its potent effects and swift flowering period of 8-9 weeks. The genetic stability of AK47, combined with a quick flowering cycle, makes it a cornerstone in cannabis breeding efforts. Elvis combines the intense Sativa high of AK47 with the sweet, skunky notes of Skunk#1, resulting in a complex flavor akin to sweet and spicy mango chutney. This crossbreeding results in a plant that flowers quicker, exhibits a stout appearance, and promises high yields for knowledgeable growers."
     ],
     "price": 150,
-    "inStock": false,
+    "inStock": true,
     "type": "Sativa dominant plant with Indica growth patterns",
     "tac": "21-24%",
     "length": "Medium length",
@@ -952,7 +995,7 @@
       "Fat Banana is a rare, top-shelf strain bred by RQS for cannabis lovers who want something special. A mix of OG Kush and Chiquita Banana, this potent indica-dominant hybrid packs a serious punch—with THC levels that can exceed 25% in the right hands! Growing Fat Banana Indoor Yield: 350-400g/m² under a 600W light. Flowering Time: 8-10 weeks indoors. Outdoors: In warm climates, it grows into a huge, heavy bush (ready by mid-September). Plant Structure: Despite being indica-dominant, it stretches more than usual, forming one massive main cola if left untrained. Support may be needed! Reward: Dense, resinous buds with a sweet banana aroma and extreme potency. High & Flavor Effects: It starts with a happy, euphoric buzz, but don’t be fooled—it soon turns into a deep, couch-locking stone. Perfect for relaxation (and serious munchies!). Taste & Smell: Sweet, fruity banana with a hint of citrus. The smell is so delicious that you’ll want to keep sniffing the jar! Images From Royal Queen Seeds."
     ],
     "price": 125,
-    "inStock": true,
+    "inStock": false,
     "type": "Hybrid | 70% Indica 30% Sativa",
     "tac": "25%",
     "length": "Medium – Tall",
