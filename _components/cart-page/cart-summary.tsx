@@ -18,7 +18,9 @@ interface CartSummaryProps {
   hasOutOfStockItems?: boolean;
 }
 
-export default function CartSummary({ hasOutOfStockItems = false }: CartSummaryProps) {
+export default function CartSummary({
+  hasOutOfStockItems = false,
+}: CartSummaryProps) {
   const { executeRecaptcha } = useGoogleReCaptcha();
   const {
     getTotalPrice,
