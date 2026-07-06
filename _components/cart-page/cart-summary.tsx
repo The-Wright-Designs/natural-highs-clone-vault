@@ -31,8 +31,8 @@ export default function CartSummary({
   } = useCart();
 
   const calculateDeliveryFee = (totalClones: number): number => {
-    if (totalClones >= 4 && totalClones <= 12) return 180;
-    if (totalClones >= 13 && totalClones <= 30) return 280;
+    if (totalClones >= 4 && totalClones <= 12) return 220;
+    if (totalClones >= 13 && totalClones <= 30) return 300;
     if (totalClones >= 31) return 520;
     return 280; // Default for edge cases (quantities < 4)
   };
