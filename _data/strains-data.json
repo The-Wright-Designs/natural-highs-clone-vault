@@ -151,7 +151,7 @@
       "The presence of Sativa genetics in Sugar Cake's lineage suggests that it may also offer some uplifting and energizing effects, which can help to balance out its relaxing qualities and provide a more well-rounded experience for users."
     ],
     "price": 150,
-    "inStock": true,
+    "inStock": false,
     "type": "60% Indica 40% Sativa (Divorce Cake x Jungle Cake)",
     "tac": "22-26%",
     "length": "90-130cm",
@@ -798,7 +798,7 @@
     ],
     "description": ["FROZEN BLUEBERRIES lineage: BLUEBERRY X BBC"],
     "price": 150,
-    "inStock": true,
+    "inStock": false,
     "yield": "Medium",
     "floweringTime": "8 – 9 Weeks",
     "terpeneProfile": "Blueberry, Funk",
