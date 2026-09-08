@@ -9,11 +9,6 @@ const nextConfig: NextConfig = {
     return [
       // ── Removed strain slugs ──────────────────────────────────────────────
       {
-        source: "/strains/cinderella-99",
-        destination: "/strains",
-        permanent: true,
-      },
-      {
         source: "/strains/apex-r1",
         destination: "/strains",
         permanent: true,
