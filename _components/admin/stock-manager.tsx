@@ -165,7 +165,7 @@ const StockManager = ({ strains }: StockManagerProps) => {
         )}
 
         <div className="sticky bottom-0 z-10 bg-black grid gap-3 py-5 border-t border-white/20">
-          <div className="flex items-center gap-5">
+          <div className="grid gap-3 justify-items-start tablet:flex tablet:items-center tablet:gap-5">
             <button
               type="button"
               onClick={handleSaveClick}
