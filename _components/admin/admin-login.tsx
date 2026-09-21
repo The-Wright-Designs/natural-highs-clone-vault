@@ -2,13 +2,28 @@
 
 import { useActionState } from "react";
 import { useRouter } from "next/navigation";
+import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
 import { adminLogin } from "@/_actions/admin-stock-actions";
 
 const AdminLogin = () => {
   const router = useRouter();
+  const { executeRecaptcha } = useGoogleReCaptcha();
 
   const [state, formAction, isPending] = useActionState(
     async (prevState: unknown, formData: FormData) => {
+      if (!executeRecaptcha) {
+        await new Promise((resolve) => setTimeout(resolve, 1000));
+        if (!executeRecaptcha) {
+          return {
+            error:
+              "Security verification unavailable. Please refresh the page and try again.",
+          };
+        }
+      }
+
+      const recaptchaToken = await executeRecaptcha("admin_login");
+      formData.append("recaptchaToken", recaptchaToken);
+
       const result = await adminLogin(prevState, formData);
       if (!result.error) {
         router.refresh();

@@ -14,5 +14,9 @@
   {
     "title": "Contact",
     "url": "/#contact"
+  },
+  {
+    "title": "Admin",
+    "url": "/admin"
   }
 ]

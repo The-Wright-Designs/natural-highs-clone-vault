@@ -7,6 +7,7 @@ import { useRouter } from "next/navigation";
 import navData from "@/_data/nav-data.json";
 import { CartButton } from "@/_components/ui/buttons/cart-button";
 import { useCart } from "@/_contexts/cart-context";
+import classNames from "classnames";
 
 export function DesktopHeader() {
   const router = useRouter();
@@ -33,14 +34,21 @@ export function DesktopHeader() {
         </h1>
       </Link>
       <nav className="translate-y-[7px]">
-        <ul className="flex gap-5 items-center">
+        <ul className="flex gap-4 items-center">
           {navData.map(({ title, url }, id) => {
             return (
               <li key={id}>
                 <Link
                   href={url}
                   onClick={() => setShowEmailSubmitted(false)}
-                  className="text-white text-paragraph ease-in-out duration-300 hover:text-green"
+                  className={classNames(
+                    " text-paragraph ease-in-out duration-300",
+                    {
+                      "bg-white text-black px-2.5 py-[3px] rounded-lg hover:bg-green":
+                        title === "Admin",
+                      "text-white hover:text-green": title !== "Admin",
+                    },
+                  )}
                 >
                   {title}
                 </Link>

@@ -115,7 +115,11 @@ export function MobileHeader() {
                       setIsOpen(false);
                       setShowEmailSubmitted(false);
                     }}
-                    className="text-[18px] text-white font-normal p-3 -m-3"
+                    className={classNames("text-[18px] font-normal", {
+                      "bg-white text-black px-2.5 py-[3px] -my-[3px] rounded-lg":
+                        title === "Admin",
+                      "text-white p-3 -m-3": title !== "Admin",
+                    })}
                   >
                     {title}
                   </Link>

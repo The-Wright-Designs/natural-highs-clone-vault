@@ -1,6 +1,8 @@
 import { Metadata } from "next";
-import { checkAdminAuth } from "@/_actions/admin-stock-actions";
+import { checkAdminAuth, getStrains } from "@/_actions/admin-stock-actions";
 import AdminLogin from "@/_components/admin/admin-login";
+import AdminLogoutButton from "@/_components/admin/admin-logout-button";
+import ChangePasswordForm from "@/_components/admin/change-password-form";
 import StockManager from "@/_components/admin/stock-manager";
 
 import strainsData from "@/_data/strains-data.json";
@@ -15,14 +17,21 @@ export const metadata: Metadata = {
 const AdminPage = async () => {
   const isAuthenticated = await checkAdminAuth();
 
-  const strains = strainsData
-    .filter((strain) => strain.title !== "")
-    .map(({ title, inStock }) => ({ title, inStock }))
-    .sort((a, b) => a.title.localeCompare(b.title));
+  const liveStrains = isAuthenticated ? await getStrains() : null;
+
+  const strains =
+    liveStrains ??
+    strainsData
+      .filter((strain) => strain.title !== "")
+      .map(({ title, inStock }) => ({ title, inStock }))
+      .sort((a, b) => a.title.localeCompare(b.title));
 
   return (
     <div className="max-w-[800px] grid gap-10 py-15 mx-auto px-5 desktop:px-10">
-      <h2>Stock Admin</h2>
+      <div className="flex flex-wrap items-center justify-between gap-5">
+        <h2>Stock Admin</h2>
+        {isAuthenticated && <AdminLogoutButton />}
+      </div>
       {isAuthenticated ? (
         <>
           <p>
@@ -30,6 +39,7 @@ const AdminPage = async () => {
             stock, then save your changes.
           </p>
           <StockManager strains={strains} />
+          <ChangePasswordForm />
         </>
       ) : (
         <AdminLogin />
