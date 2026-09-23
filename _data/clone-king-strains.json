@@ -1,5 +1,44 @@
 [
   {
+    "title": "Fat Banana",
+    "images": [
+      "/images/strains/fat-banana/fat-banana-1.jpg",
+      "/images/strains/fat-banana/fat-banana-2.jpg",
+      "/images/strains/fat-banana/fat-banana-3.jpg"
+    ],
+    "description": [
+      "Fat Banana Lineage: BANANA X OG KUSH",
+      "Fat Banana is a rare, top-shelf strain bred by RQS for cannabis lovers who want something special. A mix of OG Kush and Chiquita Banana, this potent indica-dominant hybrid packs a serious punch—with THC levels that can exceed 25% in the right hands! Growing Fat Banana Indoor Yield: 350-400g/m² under a 600W light. Flowering Time: 8-10 weeks indoors. Outdoors: In warm climates, it grows into a huge, heavy bush (ready by mid-September). Plant Structure: Despite being indica-dominant, it stretches more than usual, forming one massive main cola if left untrained. Support may be needed! Reward: Dense, resinous buds with a sweet banana aroma and extreme potency. High & Flavor Effects: It starts with a happy, euphoric buzz, but don’t be fooled—it soon turns into a deep, couch-locking stone. Perfect for relaxation (and serious munchies!). Taste & Smell: Sweet, fruity banana with a hint of citrus. The smell is so delicious that you’ll want to keep sniffing the jar! Images From Royal Queen Seeds."
+    ],
+    "price": 125,
+    "inStock": true,
+    "type": "Hybrid | 70% Indica 30% Sativa",
+    "tac": "25%",
+    "length": "Medium – Tall",
+    "yield": "High",
+    "floweringTime": "8 -10 Weeks",
+    "terpeneProfile": "Banana, Citrus, Earthy, Skunk",
+    "effects": "Pain & Stress",
+    "supplier": "Indica",
+    "dateCreated": "2025-03-27T07:30:40"
+  },
+  {
+    "title": "Platinum Float",
+    "images": [
+      "/images/strains/platinum-float/platinum-float-1.jpg",
+      "/images/strains/platinum-float/platinum-float-2.jpg"
+    ],
+    "description": [
+      "Platinum Float de Inhouse Genetics are feminized clones as a result of crossing (GMO Rootbeer BX1) x (Platinum Kush) With both combined effects of the GMO Rootbeer BX1 and the Platinum Kush, In-House Genetics has given us an Indica dominant Hybrid."
+    ],
+    "price": 125,
+    "inStock": false,
+    "type": "Indica Dominant Hybrid | 25% Sativa 75% Indica",
+    "floweringTime": "9 – 10 Weeks",
+    "supplier": "In-House-Genetics",
+    "dateCreated": "2023-06-24T06:38:46"
+  },
+  {
     "title": "UK Cheese",
     "images": [
       "/images/strains/uk-cheese/uk-cheese-2.webp",
