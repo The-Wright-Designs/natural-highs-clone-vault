@@ -4,14 +4,14 @@ import strainsData from "@/_data/strains-data.json";
 import { createStrainSlug } from "@/_lib/utils/slug-utils";
 
 export async function validateCartStock(cartItemIds: string[]) {
-  const outOfStockSlugs = new Set(
+  const inStockSlugs = new Set(
     strainsData
-      .filter((s) => !s.inStock)
+      .filter((s) => s.inStock)
       .map((s) => createStrainSlug(s.title)),
   );
 
   const outOfStockItems = cartItemIds
-    .filter((id) => outOfStockSlugs.has(id))
+    .filter((id) => !inStockSlugs.has(id))
     .map((id) => {
       const strain = strainsData.find((s) => createStrainSlug(s.title) === id);
       return strain?.title ?? id;

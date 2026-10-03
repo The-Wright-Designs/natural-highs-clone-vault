@@ -4,6 +4,7 @@ import nodemailer from "nodemailer";
 import { orderEmailTemplate } from "@/_lib/order-email-template";
 import { CartItem } from "@/_types/cart-types";
 import { verifyRecaptchaToken } from "@/_lib/verify-recaptcha";
+import { validateCartStock } from "@/_actions/validate-cart-stock";
 
 interface MailOptions {
   from: string;
@@ -65,6 +66,14 @@ export async function sendOrderEmailStaff(
     const deliveryFee = parseFloat(rawDeliveryFee as string);
     const totalWithDelivery = parseFloat(rawTotalWithDelivery as string);
     const orderNumber = rawOrderNumber as string;
+
+    const stockCheck = await validateCartStock(cartItems.map((i) => i.id));
+    if (!stockCheck.valid) {
+      return {
+        success: false,
+        error: `Out of stock: ${stockCheck.outOfStockItems.join(", ")}`,
+      };
+    }
 
     const sanitizedItems = cartItems.map((item) => ({
       ...item,
@@ -170,6 +179,14 @@ export async function sendOrderEmailCustomer(
     const deliveryFee = parseFloat(rawDeliveryFee as string);
     const totalWithDelivery = parseFloat(rawTotalWithDelivery as string);
     const orderNumber = rawOrderNumber as string;
+
+    const stockCheck = await validateCartStock(cartItems.map((i) => i.id));
+    if (!stockCheck.valid) {
+      return {
+        success: false,
+        error: `Out of stock: ${stockCheck.outOfStockItems.join(", ")}`,
+      };
+    }
 
     const sanitizedItems = cartItems.map((item) => ({
       ...item,
